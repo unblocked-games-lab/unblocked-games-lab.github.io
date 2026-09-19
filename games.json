@@ -1,0 +1,289 @@
+[
+  {
+    "slug": "funny-shooter-2",
+    "name": "Funny Shooter 2",
+    "isHero": true,
+    "category": "Shooting",
+    "tagline": "Battle bizarre enemies with wacky weapons in 3D WebGL",
+    "seoTitle": "Funny Shooter 2 Unblocked - Play Free Online on GitHub | Unblocked Games Lab",
+    "seoDescription": "Play Funny Shooter 2 unblocked for free in your browser. Fight waves of funny enemies with 10+ hilarious weapons. Fast 60FPS WebGL on school Chromebooks.",
+    "h1": "Funny Shooter 2 Unblocked",
+    "rating": 4.9,
+    "plays": "142,500+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/funnyshooter2/game.html",
+    "icon": "🎯",
+    "gradient": "from-amber-500 to-rose-600",
+    "controls": [
+      { "key": "W, A, S, D", "action": "Move Character" },
+      { "key": "Mouse", "action": "Look & Aim" },
+      { "key": "Left Click", "action": "Shoot / Attack" },
+      { "key": "Right Click", "action": "Aim Down Sights (Zoom)" },
+      { "key": "Space", "action": "Jump" },
+      { "key": "Shift", "action": "Run / Sprint" },
+      { "key": "1 - 7 / Mouse Wheel", "action": "Switch Weapons" },
+      { "key": "R", "action": "Reload Weapon" },
+      { "key": "G", "action": "Throw Grenade" }
+    ],
+    "overview": "Funny Shooter 2 is a fast-paced, colorful 3D first-person shooter (FPS) game where players face off against hordes of wacky, bizarre redmen, giant clowns, and strange creatures. Featuring an absurd arsenal ranging from customized rifles to grenade launchers and laser blasters, the game delivers high-octane shooting action with smooth physics right in your web browser. Designed with lightweight WebGL optimization, it runs flawlessly at 60 FPS even on low-spec school Chromebooks without any installations or downloads.",
+    "howToPlay": "Your objective in Funny Shooter 2 is straightforward: survive enemy onslaughts across increasingly challenging arena levels. Move through the 3D maps using WASD, aim with your mouse, and eliminate enemies before they overwhelm you. Defeating enemies rewards you with in-game gold coins, which you can spend in the shop between waves to purchase deadlier weapons, upgrade damage, increase movement speed, and unlock unique cosmetics.",
+    "tips": [
+      "Keep moving continuously: Enemies will crowd your position quickly if you stand still.",
+      "Headshots deal critical damage: Aim for the upper torso and head to conserve ammo and clear waves faster.",
+      "Upgrade fire rate early: Rapid-fire weapons clear close-range swarms much more effectively.",
+      "Use grenades against clumped crowds: When 4-5 enemies group together, a single grenade eliminates them all instantly.",
+      "Switch weapons instead of waiting for reload during intense swarms to maintain continuous DPS."
+    ],
+    "faq": [
+      {
+        "q": "Can I play Funny Shooter 2 Unblocked on a school Chromebook?",
+        "a": "Yes! Unblocked Games Lab is hosted on GitHub Pages and runs completely inside your browser via lightweight HTML5/WebGL. It bypasses school network restrictions and does not require Flash, extensions, or admin permissions."
+      },
+      {
+        "q": "Is Funny Shooter 2 completely free to play?",
+        "a": "100% free! All levels, weapons, and features are unlocked through in-game gameplay and coins without any real-money paywalls."
+      },
+      {
+        "q": "How do I make Funny Shooter 2 full screen?",
+        "a": "Click the 'Fullscreen' button located right below the game player to enter true immersive full-screen mode."
+      },
+      {
+        "q": "Does the game save my progress?",
+        "a": "Yes, your coins, unlocked weapons, and completed stage levels are automatically saved to your browser's local storage."
+      }
+    ]
+  },
+  {
+    "slug": "retro-bowl",
+    "name": "Retro Bowl",
+    "isHero": false,
+    "category": "Sports",
+    "tagline": "The legendary 8-bit American football simulation game",
+    "seoTitle": "Retro Bowl Unblocked - Play Free Online on GitHub | Unblocked Games Lab",
+    "seoDescription": "Play Retro Bowl unblocked on GitHub. Manage your NFL roster, call plays, throw touchdown passes, and win the championship in authentic 8-bit retro style.",
+    "h1": "Retro Bowl Unblocked",
+    "rating": 4.95,
+    "plays": "289,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/retro-bowl/game.html",
+    "icon": "🏈",
+    "gradient": "from-emerald-500 to-teal-700",
+    "controls": [
+      { "key": "Mouse / Touch", "action": "Aim Pass & Control Quarterback" },
+      { "key": "Left Click (Drag & Release)", "action": "Throw Ball / Pass" },
+      { "key": "W / S or Up / Down", "action": "Dodge Tackles / Juke" },
+      { "key": "Space", "action": "Dive / Slide for Extra Yardage" }
+    ],
+    "overview": "Retro Bowl is the ultimate 8-bit American football simulation game created by New Star Games. Combining addictive retro arcade-style passing mechanics with in-depth team management, Retro Bowl lets you take control of an NFL franchise. Draft rookie superstars, manage salary caps and team morale, upgrade training facilities, and call plays on the field to lead your team to the Retro Bowl championship trophy.",
+    "howToPlay": "As the head coach and quarterback, you balance front-office management with on-field execution. Drag backward with your mouse to set the pass trajectory, anticipating wide receiver routes. Release to fire bullet passes into open coverage. On defense, manage clock time and make critical fourth-down conversion decisions.",
+    "tips": [
+      "Prioritize drafting a 5-star Quarterback and Wide Receiver early for consistent passing offense.",
+      "Upgrade your Rehab Center to prevent star players from suffering long-term fatigue and injuries.",
+      "Learn the bullet pass: Tap the screen while throwing to throw lower, faster passes past defenders.",
+      "Manage timeouts wisely in the 2-minute drill before halftime and at the end of the 4th quarter."
+    ],
+    "faq": [
+      {
+        "q": "Why is Retro Bowl so popular on school computers?",
+        "a": "Retro Bowl features simple pixel graphics that load instantly and run at 60 FPS on any basic laptop while offering deep strategic sports gameplay."
+      },
+      {
+        "q": "Can I play a full 17-game season and playoffs?",
+        "a": "Yes! The full career mode is supported with season progression, playoffs, and Retro Bowl championship games."
+      }
+    ]
+  },
+  {
+    "slug": "tag",
+    "name": "Tag Unblocked",
+    "isHero": false,
+    "category": "2 Player",
+    "tagline": "Fast-paced local 2-4 player tag multiplayer game",
+    "seoTitle": "Tag Unblocked Game - Play 2-4 Players Free Online | Unblocked Games Lab",
+    "seoDescription": "Play Tag unblocked 2-4 player party game. Run, jump, and dodge your friends in thrilling local multiplayer platform arenas on school Chromebooks.",
+    "h1": "Tag Unblocked Game",
+    "rating": 4.85,
+    "plays": "98,400+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/tag/game.html",
+    "icon": "🏃",
+    "gradient": "from-sky-500 to-indigo-600",
+    "controls": [
+      { "key": "Player 1 (WASD)", "action": "Move & Jump" },
+      { "key": "Player 2 (Arrow Keys)", "action": "Move & Jump" },
+      { "key": "Player 3 (IJKL)", "action": "Move & Jump" },
+      { "key": "Player 4 (Numpad 8456)", "action": "Move & Jump" }
+    ],
+    "overview": "Tag is a hilarious local multiplayer platformer where up to 4 players compete on the same keyboard in classic playground tag. One player starts as 'IT' and must chase others across jumping pads, teleporters, bounce pads, and changing level obstacles before time runs out. Smooth physics and instant keyboard inputs make it one of the top 2-player games for school breaks.",
+    "howToPlay": "Select the number of players (2, 3, or 4). When the round begins, the tagged player has a timer ticking down. Run into another player to transfer the tag. Utilize map shortcuts, wall-jumps, and bounce pads to outmaneuver your opponents.",
+    "tips": [
+      "Master wall-jumping: You can bounce off vertical walls to reach high platforms quickly.",
+      "Use teleporters to trick pursuers: Step in just as the chaser gets close to escape across the map.",
+      "Fake directions: Change jump trajectory in mid-air to dodge incoming chasers."
+    ],
+    "faq": [
+      {
+        "q": "Can two people play on the same keyboard?",
+        "a": "Yes! Tag supports up to 4 simultaneous players sharing a single computer keyboard without any controllers needed."
+      }
+    ]
+  },
+  {
+    "slug": "slope",
+    "name": "Slope 3D",
+    "isHero": false,
+    "category": "Action",
+    "tagline": "Endless high-speed rolling ball runner through neon cityscapes",
+    "seoTitle": "Slope Unblocked - Play Free Online 3D Ball Game | Unblocked Games Lab",
+    "seoDescription": "Play Slope unblocked 3D ball runner game on GitHub. Test your reflexes on high-speed neon slopes with responsive keyboard steering. Free at school.",
+    "h1": "Slope Unblocked 3D",
+    "rating": 4.9,
+    "plays": "310,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/slope/game.html",
+    "icon": "⚡",
+    "gradient": "from-cyan-400 to-blue-600",
+    "controls": [
+      { "key": "A / D or Left / Right Arrows", "action": "Steer Ball Left / Right" },
+      { "key": "Q / E", "action": "Alternative Steering" }
+    ],
+    "overview": "Slope is a legendary 3D endless runner game where players guide a rolling neon ball down a steep, obstacle-filled futuristic course. As your speed accelerates, you must dodge red obstacles, jump across perilous gaps, and navigate narrow ramps without falling into the void. Simple controls combined with intense adrenaline make Slope a global school favorite.",
+    "howToPlay": "Control the ball's balance using the A/D or Arrow keys. Keep your ball centered on the tracks, anticipate sharp elevation changes, and avoid colliding with any red blocks or falling off the edges. The further you survive, the higher your score multiplier climbs.",
+    "tips": [
+      "Make gentle, slight adjustments rather than hard turns at extreme speeds.",
+      "Look ahead down the track, not directly at the ball, to anticipate upcoming obstacles.",
+      "Stay in the middle lane whenever possible to give yourself maximum room to react."
+    ],
+    "faq": [
+      {
+        "q": "Does Slope require high-end graphics?",
+        "a": "No, Slope runs on optimized WebGL 3D rendering that delivers stable 60 FPS on any Chromebook or browser."
+      }
+    ]
+  },
+  {
+    "slug": "1v1-lol",
+    "name": "1v1.LOL",
+    "isHero": false,
+    "category": "Shooting",
+    "tagline": "Competitive 3D third-person building and shooting duel simulator",
+    "seoTitle": "1v1.LOL Unblocked - Play Building & Shooting Duel Game | Unblocked Games Lab",
+    "seoDescription": "Play 1v1.LOL unblocked third person shooter and battle royale building simulator. Practice box fights, ramp rushes, and shotgun aim free in browser.",
+    "h1": "1v1.LOL Unblocked",
+    "rating": 4.88,
+    "plays": "220,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/1v1lol/game.html",
+    "icon": "⚔️",
+    "gradient": "from-purple-500 to-pink-600",
+    "controls": [
+      { "key": "W, A, S, D", "action": "Movement" },
+      { "key": "Space", "action": "Jump" },
+      { "key": "Left Click", "action": "Shoot / Build" },
+      { "key": "Right Click", "action": "Aim Down Sights" },
+      { "key": "Z, X, C, V", "action": "Wall, Floor, Ramp, Roof Builds" },
+      { "key": "F, 1, 2", "action": "Pickaxe & Weapons" },
+      { "key": "R", "action": "Reload / Rotate Build" }
+    ],
+    "overview": "1v1.LOL is an online third-person shooter and fast-paced building simulator inspired by battle royale mechanics. Players can duel in 1v1 arena mode, practice box fights, edit walls, and master tactical shooting without downloading heavy software.",
+    "howToPlay": "Spawn into the arena, quickly construct protective ramps and walls to gain high-ground advantage, and eliminate opponents using shotguns, assault rifles, or sniper rifles.",
+    "tips": [
+      "Master the ramp rush: Place a ramp and wall combo to approach opponents safely.",
+      "Keep high ground: Shooting down from above offers better headshot angles.",
+      "Customize your keybinds in settings for faster building speed."
+    ],
+    "faq": [
+      {
+        "q": "Can I practice building alone?",
+        "a": "Yes, 1v1.LOL features a dedicated JustBuild free practice mode with infinite materials."
+      }
+    ]
+  },
+  {
+    "slug": "geometry-dash-lite",
+    "name": "Geometry Dash Lite",
+    "isHero": false,
+    "category": "Rhythm",
+    "tagline": "Rhythm-based neon jumping and flying platformer",
+    "seoTitle": "Geometry Dash Lite Unblocked - Play Free Online | Unblocked Games Lab",
+    "seoDescription": "Play Geometry Dash Lite unblocked on GitHub. Jump, fly, and flip your way through dangerous geometric spike tracks synced to energetic music beats.",
+    "h1": "Geometry Dash Lite Unblocked",
+    "rating": 4.92,
+    "plays": "340,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/geometry-dash/game.html",
+    "icon": "🔷",
+    "gradient": "from-emerald-400 to-cyan-600",
+    "controls": [
+      { "key": "Space / Up Arrow / Left Click", "action": "Jump / Fly Upward" }
+    ],
+    "overview": "Geometry Dash Lite is a rhythm-based platformer where one misstep means instant restart. Navigate your geometric cube through spike hazards, gravity portals, and rocket-ship flying sequences synchronized to heart-pumping electronic soundtracks.",
+    "howToPlay": "Press Space or Left Click with precise timing to jump over spikes and obstacles. In rocket sections, hold down to ascend and release to dive.",
+    "tips": [
+      "Play with sound/headphones on: Jumps are perfectly synchronized to the musical beat.",
+      "Use Practice Mode to place checkpoints and master difficult obstacle segments."
+    ],
+    "faq": [
+      {
+        "q": "Are all official Lite soundtrack levels playable?",
+        "a": "Yes, levels like Stereo Madness, Back On Track, and Polargeist are included."
+      }
+    ]
+  },
+  {
+    "slug": "2048",
+    "name": "2048 Unblocked",
+    "isHero": false,
+    "category": "Puzzle",
+    "tagline": "The timeless sliding tile number strategy puzzle",
+    "seoTitle": "2048 Unblocked - Play Free Online Math Puzzle Game | Unblocked Games Lab",
+    "seoDescription": "Play 2048 unblocked sliding tile math puzzle game. Merge matching numbers to reach the elusive 2048 tile in this clean, ad-light classic.",
+    "h1": "2048 Unblocked Game",
+    "rating": 4.96,
+    "plays": "180,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/2048/game.html",
+    "icon": "🔢",
+    "gradient": "from-yellow-400 to-orange-500",
+    "controls": [
+      { "key": "Arrow Keys / W A S D / Swipe", "action": "Slide All Tiles Up, Down, Left, Right" }
+    ],
+    "overview": "2048 is an addictive sliding tile puzzle game created by Gabriele Cirulli. Played on a 4x4 grid, you slide numbered tiles in four directions. When two tiles with the same number collide, they merge into one with double the value. Your goal is to create the 2048 tile.",
+    "howToPlay": "Slide tiles to combine identical numbers (2+2=4, 4+4=8, 8+8=16... 1024+1024=2048). Plan every move to keep your highest value tile in one corner of the grid.",
+    "tips": [
+      "Corner Strategy: Keep your highest tile permanently parked in the bottom-right (or bottom-left) corner.",
+      "Never swipe Up if your highest tile is parked on the bottom row.",
+      "Build chains in descending numerical order along the edge."
+    ],
+    "faq": [
+      {
+        "q": "Can I continue playing after reaching 2048?",
+        "a": "Yes! You can continue past 2048 to reach 4096, 8192, and higher scores."
+      }
+    ]
+  },
+  {
+    "slug": "bitlife",
+    "name": "BitLife Unblocked",
+    "isHero": false,
+    "category": "Simulation",
+    "tagline": "Text-based interactive sandbox life simulator",
+    "seoTitle": "BitLife Unblocked - Play Text Life Simulator Online | Unblocked Games Lab",
+    "seoDescription": "Play BitLife unblocked in your browser. Make career, relationship, financial, and life choices from birth to retirement in this sandbox life simulator.",
+    "h1": "BitLife Unblocked",
+    "rating": 4.87,
+    "plays": "195,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/bitlife/game.html",
+    "icon": "🧬",
+    "gradient": "from-rose-500 to-red-600",
+    "controls": [
+      { "key": "Mouse / Touch", "action": "Select Life Choices & Age Up Button" }
+    ],
+    "overview": "BitLife is an interactive text simulation game where you guide a randomized character through every stage of life. From early childhood to school, college, career, dating, marriage, crime, and investments, every choice impacts your character's Happiness, Health, Smarts, and Looks stats.",
+    "howToPlay": "Tap the Age button each year. Choose your study habits, career paths, medical treatments, real estate investments, and relationships.",
+    "tips": [
+      "Study hard in school and visit the library regularly to boost your Smarts stat to 100%.",
+      "Go to the gym and take walks every year to maintain 100% Health.",
+      "High smarts unlocks high-paying medical and law careers."
+    ],
+    "faq": [
+      {
+        "q": "Can I play multiple generations of lives?",
+        "a": "Yes, you can write wills and pass down your accumulated wealth to your children."
+      }
+    ]
+  }
+]

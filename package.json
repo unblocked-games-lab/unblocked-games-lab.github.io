@@ -1,0 +1,11 @@
+{
+  "name": "unblocked-games-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unblocked Games Lab - Fast, lightweight, pure static unblocked web games for school Chromebooks and desktops",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node dev-server.mjs"
+  }
+}
