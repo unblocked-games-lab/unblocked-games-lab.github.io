@@ -805,10 +805,19 @@ Sitemap: ${SITE_URL}/sitemap.xml
   fs.writeFileSync(path.join(DIST_DIR, 'robots.txt'), robotsTxt);
   console.log('✓ Generated dist/robots.txt');
 
-  // 7. Copy CSS & JS Assets
+  // 7. Copy CSS, JS Assets & Verification files
   fs.copyFileSync(path.join(SRC_DIR, 'style.css'), path.join(DIST_DIR, 'style.css'));
   fs.copyFileSync(path.join(SRC_DIR, 'app.js'), path.join(DIST_DIR, 'app.js'));
   fs.writeFileSync(path.join(DIST_DIR, '.nojekyll'), '');
+
+  // Copy any verification html files
+  for (const f of fs.readdirSync(SRC_DIR)) {
+    if (f.startsWith('google') && f.endsWith('.html')) {
+      fs.copyFileSync(path.join(SRC_DIR, f), path.join(DIST_DIR, f));
+      console.log(`✓ Copied verification file dist/${f}`);
+    }
+  }
+
   console.log('✓ Copied assets to dist/style.css, dist/app.js, and created .nojekyll');
 
   console.log('🎉 Static site build completed successfully!');
