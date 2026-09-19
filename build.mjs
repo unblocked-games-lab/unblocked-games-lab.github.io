@@ -543,9 +543,9 @@ async function buildSite() {
     shooting: { name: 'Shooting Games', icon: '🎯', desc: 'Fast 3D FPS and multiplayer shooting games unblocked on school Chromebooks.' },
     sports: { name: 'Sports Games', icon: '🏈', desc: 'Play football, basketball, and competitive sports games unblocked online.' },
     skill: { name: 'Skill & Reflex Games', icon: '⚡', desc: 'Test your agility, reflexes, and timing with high-speed arcade games.' },
-    '2-player': { name: '2 Player Unblocked Games', icon: '👥', desc: 'Play head-to-head local and online multiplayer games with friends on one keyboard.' },
+    '2-player': { name: '2 Player Games', icon: '👥', desc: 'Play head-to-head local multiplayer games with friends on one keyboard.' },
     action: { name: 'Action Games', icon: '⚔️', desc: 'High-octane action, fighting, and survival battle games.' },
-    puzzle: { name: 'Puzzle & Brain Games', icon: '🧩', desc: 'Sharpen your mind with strategy and logic puzzle games.' },
+    puzzle: { name: 'Puzzle Games', icon: '🧩', desc: 'Sharpen your mind with strategy and logic puzzle games.' },
     simulation: { name: 'Simulation Games', icon: '🧬', desc: 'Immersive life simulation and management simulator games.' }
   };
 
@@ -566,11 +566,38 @@ async function buildSite() {
     );
 
     const catPageHtml = renderPage({
-      title: `${catMeta.name} Unblocked - Play Free Online | Unblocked Games Lab`,
+      title: `${catMeta.name} Unblocked - Play Free | Unblocked Games Lab`,
       description: `Play free ${catMeta.name.toLowerCase()} unblocked on GitHub Pages. ${catMeta.desc} No download or login required.`,
       canonicalUrl: `${SITE_URL}/category/${catSlug}/`,
       h1: `${catMeta.name} Unblocked`,
       activeNav: catSlug,
+      schemaJsonLd: [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            {
+              '@type': 'ListItem',
+              position: 1,
+              name: 'Home',
+              item: `${SITE_URL}/`
+            },
+            {
+              '@type': 'ListItem',
+              position: 2,
+              name: catMeta.name,
+              item: `${SITE_URL}/category/${catSlug}/`
+            }
+          ]
+        },
+        {
+          '@context': 'https://schema.org',
+          '@type': 'CollectionPage',
+          name: `${catMeta.name} Unblocked`,
+          url: `${SITE_URL}/category/${catSlug}/`,
+          description: catMeta.desc
+        }
+      ],
       contentHtml: `
         <div class="category-header-banner">
           <div class="cat-banner-icon">${catMeta.icon}</div>
@@ -603,7 +630,7 @@ async function buildSite() {
       slug: 'about',
       title: 'About Us | Unblocked Games Lab',
       h1: 'About Unblocked Games Lab',
-      desc: 'Learn about our mission to provide lightning-fast, ad-clean, lightweight web games for students and casual gamers.',
+      desc: 'Learn about our open-source mission to provide lightning-fast, ad-clean, lightweight web games for students and casual gamers on school Chromebooks.',
       content: `
         <article class="prose-block">
           <h2>Our Mission</h2>
@@ -621,7 +648,7 @@ async function buildSite() {
       slug: 'privacy',
       title: 'Privacy Policy | Unblocked Games Lab',
       h1: 'Privacy Policy',
-      desc: 'Our commitment to protecting your privacy while playing free games on Unblocked Games Lab.',
+      desc: 'Read the official Unblocked Games Lab privacy policy. Learn about our strict zero personal data tracking and local storage save architecture.',
       content: `
         <article class="prose-block">
           <h2>1. Introduction</h2>
@@ -644,7 +671,7 @@ async function buildSite() {
       slug: 'terms',
       title: 'Terms of Service | Unblocked Games Lab',
       h1: 'Terms of Service',
-      desc: 'Terms and conditions for accessing and enjoying games on Unblocked Games Lab.',
+      desc: 'Terms of Service and acceptable use conditions for accessing and playing free unblocked games on the Unblocked Games Lab platform.',
       content: `
         <article class="prose-block">
           <h2>1. Acceptance of Terms</h2>
@@ -661,7 +688,7 @@ async function buildSite() {
       slug: 'dmca',
       title: 'DMCA Copyright Notice | Unblocked Games Lab',
       h1: 'DMCA Copyright Notice',
-      desc: 'Copyright infringement notice and takedown request procedures for Unblocked Games Lab.',
+      desc: 'DMCA copyright infringement policies, intellectual property protections, and content takedown submission procedures for Unblocked Games Lab.',
       content: `
         <article class="prose-block">
           <h2>Copyright & Intellectual Property Notice</h2>
@@ -683,7 +710,7 @@ async function buildSite() {
       slug: 'contact',
       title: 'Contact Us & Game Requests | Unblocked Games Lab',
       h1: 'Contact & Feedback',
-      desc: 'Submit game requests, report broken links, or contact the Unblocked Games Lab developer team.',
+      desc: 'Get in touch with the Unblocked Games Lab team to submit new game requests, report broken links, or ask technical questions.',
       content: `
         <article class="prose-block">
           <h2>Get in Touch</h2>
@@ -709,6 +736,33 @@ async function buildSite() {
       canonicalUrl: `${SITE_URL}/${page.slug}/`,
       h1: page.h1,
       activeNav: page.slug,
+      schemaJsonLd: [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            {
+              '@type': 'ListItem',
+              position: 1,
+              name: 'Home',
+              item: `${SITE_URL}/`
+            },
+            {
+              '@type': 'ListItem',
+              position: 2,
+              name: page.h1,
+              item: `${SITE_URL}/${page.slug}/`
+            }
+          ]
+        },
+        {
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          name: page.title,
+          url: `${SITE_URL}/${page.slug}/`,
+          description: page.desc
+        }
+      ],
       contentHtml: `
         <div class="legal-page-container">
           <h1 class="legal-hero-title">${page.h1}</h1>
