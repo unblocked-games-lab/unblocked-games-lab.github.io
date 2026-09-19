@@ -26,134 +26,182 @@ function cleanDist() {
   ensureDir(DIST_DIR);
 }
 
-// Generate Header Component
+// Generate Modern Tailwind Header Component
 function renderHeader(activeNav = '') {
   return `
-  <header class="header">
-    <div class="header-container">
-      <a href="${SITE_URL}/" class="brand" title="Unblocked Games Lab Homepage">
-        <div class="brand-icon">🎮</div>
-        <span>Unblocked Games <span class="brand-badge">LAB</span></span>
-      </a>
-      
-      <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="search-input" placeholder="Search unblocked games (Slope, 1v1 LOL, Retro Bowl)..." aria-label="Search unblocked games">
-      </div>
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-slate-950/85 border-b border-slate-800/80 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 gap-4">
+        
+        <!-- Brand Logo -->
+        <a href="${SITE_URL}/" class="flex items-center gap-3 group shrink-0" title="Unblocked Games Lab Homepage">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center text-xl shadow-lg shadow-cyan-500/25 group-hover:scale-105 group-hover:shadow-cyan-400/40 transition-all duration-300">
+            🎮
+          </div>
+          <div class="flex flex-col">
+            <span class="font-extrabold text-lg sm:text-xl tracking-tight text-white flex items-center gap-1.5">
+              Unblocked Games
+              <span class="px-1.5 py-0.5 text-[10px] font-bold bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 rounded-md">LAB</span>
+            </span>
+            <span class="text-[11px] text-slate-400 hidden sm:block">Fast 60FPS WebGL Games for School</span>
+          </div>
+        </a>
+        
+        <!-- Search Bar -->
+        <div class="flex-1 max-w-md mx-2 sm:mx-4">
+          <div class="relative group">
+            <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400 group-focus-within:text-cyan-400 transition-colors">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+            <input 
+              type="text" 
+              id="search-input" 
+              placeholder="Search 26+ games (Slope, 1v1 LOL, Retro Bowl, 1942)..." 
+              class="w-full pl-10 pr-4 py-2 bg-slate-900/90 border border-slate-800 text-slate-100 placeholder-slate-500 text-sm rounded-xl focus:outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-all"
+              aria-label="Search unblocked games">
+          </div>
+        </div>
 
-      <nav class="nav-links">
-        <a href="${SITE_URL}/" class="nav-link ${activeNav === 'home' ? 'active' : ''}">🔥 Featured</a>
-        <a href="${SITE_URL}/category/shooting/" class="nav-link ${activeNav === 'shooting' ? 'active' : ''}">Shooting</a>
-        <a href="${SITE_URL}/category/sports/" class="nav-link ${activeNav === 'sports' ? 'active' : ''}">Sports</a>
-        <a href="${SITE_URL}/category/skill/" class="nav-link ${activeNav === 'skill' ? 'active' : ''}">Skill</a>
-        <a href="${SITE_URL}/category/2-player/" class="nav-link ${activeNav === '2-player' ? 'active' : ''}">2 Player</a>
-        <a href="${SITE_URL}/about/" class="nav-link ${activeNav === 'about' ? 'active' : ''}">About</a>
-      </nav>
+        <!-- Navigation Links -->
+        <nav class="hidden md:flex items-center gap-1.5 text-sm font-medium">
+          <a href="${SITE_URL}/" class="px-3 py-1.5 rounded-lg transition-all ${activeNav === 'home' ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30' : 'text-slate-300 hover:text-white hover:bg-slate-900'}">🔥 Featured</a>
+          <a href="${SITE_URL}/category/shooting/" class="px-3 py-1.5 rounded-lg transition-all ${activeNav === 'shooting' ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30' : 'text-slate-300 hover:text-white hover:bg-slate-900'}">Shooting</a>
+          <a href="${SITE_URL}/category/sports/" class="px-3 py-1.5 rounded-lg transition-all ${activeNav === 'sports' ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30' : 'text-slate-300 hover:text-white hover:bg-slate-900'}">Sports</a>
+          <a href="${SITE_URL}/category/skill/" class="px-3 py-1.5 rounded-lg transition-all ${activeNav === 'skill' ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30' : 'text-slate-300 hover:text-white hover:bg-slate-900'}">Skill</a>
+          <a href="${SITE_URL}/category/2-player/" class="px-3 py-1.5 rounded-lg transition-all ${activeNav === '2-player' ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30' : 'text-slate-300 hover:text-white hover:bg-slate-900'}">2 Player</a>
+          <a href="${SITE_URL}/about/" class="px-3 py-1.5 rounded-lg transition-all ${activeNav === 'about' ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30' : 'text-slate-300 hover:text-white hover:bg-slate-900'}">About</a>
+        </nav>
+      </div>
     </div>
   </header>`;
 }
 
-// Generate Footer Component
+// Generate Modern Tailwind Footer Component
 function renderFooter() {
   return `
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-grid">
-        <div class="footer-brand-col">
-          <div class="brand" style="margin-bottom: 0.75rem;">
-            <div class="brand-icon">🎮</div>
-            <span>Unblocked Games <span class="brand-badge">LAB</span></span>
+  <footer class="bg-slate-950 border-t border-slate-850 text-slate-400 text-sm mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        
+        <!-- Brand Info -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center text-base shadow-md shadow-cyan-500/20">
+              🎮
+            </div>
+            <span class="font-extrabold text-lg text-white">Unblocked Games <span class="text-cyan-400 font-bold">LAB</span></span>
           </div>
-          <p class="footer-desc">
-            Ultra-fast, zero-overhead unblocked web games hosted on high-availability cloud infrastructure. Optimized for 60 FPS gameplay on school Chromebooks and workstations.
+          <p class="text-slate-400 text-sm leading-relaxed max-w-sm">
+            Ultra-fast, zero-overhead unblocked web games hosted on high-availability GitHub CDN. Built specifically for 60 FPS gameplay on school Chromebooks and restricted networks.
           </p>
-          <div class="footer-status">
-            <span class="status-dot"></span>
-            <span>All Game Servers Online & Whitelisted</span>
+          <div class="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs rounded-full font-medium">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            All 26 Game Servers Whitelisted & Online
           </div>
         </div>
 
-        <div class="footer-col">
-          <h4 class="footer-title">Popular Games</h4>
-          <ul class="footer-list">
-            <li><a href="${SITE_URL}/games/funny-shooter-2/">Funny Shooter 2 Unblocked</a></li>
-            <li><a href="${SITE_URL}/games/retro-bowl/">Retro Bowl Unblocked</a></li>
-            <li><a href="${SITE_URL}/games/slope/">Slope Unblocked Game</a></li>
-            <li><a href="${SITE_URL}/games/tag/">Tag Multiplayer Unblocked</a></li>
-            <li><a href="${SITE_URL}/games/1v1-lol/">1v1.LOL Unblocked</a></li>
-            <li><a href="${SITE_URL}/games/geometry-dash-lite/">Geometry Dash Lite</a></li>
+        <!-- Top Games -->
+        <div>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Popular Games</h4>
+          <ul class="space-y-2.5">
+            <li><a href="${SITE_URL}/games/funny-shooter-2/" class="hover:text-cyan-400 transition-colors">Funny Shooter 2</a></li>
+            <li><a href="${SITE_URL}/games/retro-bowl/" class="hover:text-cyan-400 transition-colors">Retro Bowl Unblocked</a></li>
+            <li><a href="${SITE_URL}/games/drift-hunters/" class="hover:text-cyan-400 transition-colors">Drift Hunters 3D</a></li>
+            <li><a href="${SITE_URL}/games/subway-surfers/" class="hover:text-cyan-400 transition-colors">Subway Surfers</a></li>
+            <li><a href="${SITE_URL}/games/slope/" class="hover:text-cyan-400 transition-colors">Slope 3D Runner</a></li>
+            <li><a href="${SITE_URL}/games/1942-arcade/" class="hover:text-cyan-400 transition-colors">1942 Air Combat</a></li>
           </ul>
         </div>
 
-        <div class="footer-col">
-          <h4 class="footer-title">Game Categories</h4>
-          <ul class="footer-list">
-            <li><a href="${SITE_URL}/category/shooting/">Shooting Games (FPS)</a></li>
-            <li><a href="${SITE_URL}/category/sports/">Sports & Football Games</a></li>
-            <li><a href="${SITE_URL}/category/skill/">Skill & Reflex Arcade</a></li>
-            <li><a href="${SITE_URL}/category/2-player/">2 Player Unblocked</a></li>
-            <li><a href="${SITE_URL}/category/action/">Action & Battle Royale</a></li>
-            <li><a href="${SITE_URL}/category/puzzle/">Puzzle & Brain Teasers</a></li>
+        <!-- Categories -->
+        <div>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Categories</h4>
+          <ul class="space-y-2.5">
+            <li><a href="${SITE_URL}/category/shooting/" class="hover:text-cyan-400 transition-colors">Shooting (FPS)</a></li>
+            <li><a href="${SITE_URL}/category/sports/" class="hover:text-cyan-400 transition-colors">Sports & Football</a></li>
+            <li><a href="${SITE_URL}/category/skill/" class="hover:text-cyan-400 transition-colors">Skill & Reflex</a></li>
+            <li><a href="${SITE_URL}/category/2-player/" class="hover:text-cyan-400 transition-colors">2 Player Local</a></li>
+            <li><a href="${SITE_URL}/category/action/" class="hover:text-cyan-400 transition-colors">Action & Battle</a></li>
+            <li><a href="${SITE_URL}/category/puzzle/" class="hover:text-cyan-400 transition-colors">Puzzle & Strategy</a></li>
           </ul>
         </div>
 
-        <div class="footer-col">
-          <h4 class="footer-title">Legal & Support</h4>
-          <ul class="footer-list">
-            <li><a href="${SITE_URL}/about/">About Our Mission</a></li>
-            <li><a href="${SITE_URL}/privacy/">Privacy Policy</a></li>
-            <li><a href="${SITE_URL}/terms/">Terms of Service</a></li>
-            <li><a href="${SITE_URL}/dmca/">DMCA Copyright Policy</a></li>
-            <li><a href="${SITE_URL}/contact/">Contact & Feedback</a></li>
+        <!-- Legal & Info -->
+        <div>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Information</h4>
+          <ul class="space-y-2.5">
+            <li><a href="${SITE_URL}/about/" class="hover:text-cyan-400 transition-colors">About Our Mission</a></li>
+            <li><a href="${SITE_URL}/privacy/" class="hover:text-cyan-400 transition-colors">Privacy Policy</a></li>
+            <li><a href="${SITE_URL}/terms/" class="hover:text-cyan-400 transition-colors">Terms of Service</a></li>
+            <li><a href="${SITE_URL}/dmca/" class="hover:text-cyan-400 transition-colors">DMCA Notice</a></li>
+            <li><a href="${SITE_URL}/contact/" class="hover:text-cyan-400 transition-colors">Contact & Requests</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="footer-bottom">
-        <p>© ${new Date().getFullYear()} Unblocked Games Lab (unblocked-games-lab.github.io). All rights reserved. Free educational gaming repository.</p>
+      <div class="border-t border-slate-850 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <p>© ${new Date().getFullYear()} Unblocked Games Lab (unblocked-games-lab.github.io). All rights reserved.</p>
+        <p>Zero tracking • Open-source gaming repository • Built for Chromebooks</p>
       </div>
     </div>
   </footer>`;
 }
 
-// Generate Game Cards Grid
+// Generate Modern Tailwind Game Cards Grid
 function renderGameGrid(gameList, currentSlug = '') {
   return `
-  <div class="games-grid">
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-5" id="games-grid">
     ${gameList
       .map((g) => {
         const isCurrent = g.slug === currentSlug;
         return `
-        <article class="game-card ${isCurrent ? 'active-playing' : ''}" data-name="${g.name}" data-category="${g.category}" data-tags="${g.tagline}">
-          <a href="${SITE_URL}/games/${g.slug}/" class="game-card-link" title="Play ${g.name} Unblocked">
-            <div class="game-thumbnail">
-              <div class="thumb-badge">${g.category}</div>
-              <div class="thumb-icon">${g.icon}</div>
-              ${isCurrent ? '<div class="playing-indicator">NOW PLAYING</div>' : ''}
+        <article class="game-card group relative bg-slate-900/80 hover:bg-slate-850 border ${isCurrent ? 'border-cyan-500 ring-1 ring-cyan-500/50' : 'border-slate-800 hover:border-cyan-500/60'} rounded-2xl p-3.5 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:shadow-cyan-950/40 flex flex-col justify-between" data-name="${g.name}" data-category="${g.category}" data-tags="${g.tagline}">
+          <a href="${SITE_URL}/games/${g.slug}/" class="block" title="Play ${g.name} Unblocked">
+            
+            <!-- Thumbnail Visual Card -->
+            <div class="aspect-[4/3] rounded-xl bg-gradient-to-br ${g.gradient || 'from-slate-800 to-slate-950'} flex flex-col items-center justify-center relative overflow-hidden border border-slate-750/50 mb-3 group-hover:scale-[1.02] transition-transform duration-300">
+              <span class="text-4xl sm:text-5xl filter drop-shadow-md group-hover:scale-110 transition-transform duration-300 select-none">${g.icon}</span>
+              <div class="absolute top-2 left-2 px-2 py-0.5 bg-black/60 backdrop-blur-md rounded-md text-[10px] font-semibold text-slate-300 border border-white/10 uppercase tracking-wider">
+                ${g.category}
+              </div>
+              ${
+                isCurrent
+                  ? `<div class="absolute inset-0 bg-cyan-950/70 backdrop-blur-sm flex items-center justify-center">
+                      <span class="px-2.5 py-1 bg-cyan-500 text-slate-950 font-bold text-xs rounded-lg shadow-lg animate-pulse">NOW PLAYING</span>
+                    </div>`
+                  : ''
+              }
             </div>
-            <div class="game-card-body">
-              <div class="game-card-header">
-                <h3 class="game-card-title">${g.name}</h3>
-                <span class="game-rating">★ ${g.rating}</span>
+
+            <!-- Content -->
+            <div>
+              <div class="flex items-center justify-between gap-1 mb-1">
+                <h3 class="font-bold text-sm sm:text-base text-white group-hover:text-cyan-400 transition-colors truncate">${g.name}</h3>
+                <span class="text-amber-400 font-semibold text-xs shrink-0 flex items-center gap-0.5">★ ${g.rating}</span>
               </div>
-              <p class="game-card-tagline">${g.tagline}</p>
-              <div class="game-card-footer">
-                <span class="game-plays">👥 ${g.plays}</span>
-                <span class="btn-play-mini">${isCurrent ? 'Playing' : 'Play Now →'}</span>
-              </div>
+              <p class="text-slate-400 text-xs line-clamp-2 leading-relaxed mb-3">${g.tagline}</p>
             </div>
           </a>
+
+          <!-- Footer Button -->
+          <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
+            <span>👥 ${g.plays}</span>
+            <a href="${SITE_URL}/games/${g.slug}/" class="font-medium ${isCurrent ? 'text-cyan-400' : 'text-slate-300 group-hover:text-cyan-400'} flex items-center gap-1 transition-colors">
+              ${isCurrent ? 'Playing' : 'Play →'}
+            </a>
+          </div>
         </article>`;
       })
       .join('\n')}
   </div>
-  <div id="empty-search-state" class="empty-state" style="display: none;">
-    <p class="empty-title">No games found matching your search.</p>
-    <p class="empty-sub">Try searching for "FPS", "Slope", "Football", or browse categories above.</p>
+  <div id="empty-search-state" class="hidden text-center py-16 px-4 bg-slate-900/40 rounded-2xl border border-slate-800 my-8">
+    <div class="text-4xl mb-3">🔍</div>
+    <h3 class="text-lg font-bold text-white mb-1">No unblocked games found</h3>
+    <p class="text-slate-400 text-sm max-w-md mx-auto">Try searching for popular terms like "Slope", "1v1 LOL", "Retro Bowl", "Drift", or browse the categories above.</p>
   </div>`;
 }
 
-// Generate Category Tabs Component
+// Generate Modern Tailwind Category Pills
 function renderCategoryPills(activeCat = 'all') {
   const categories = [
     { name: '🔥 All Games', slug: 'all', url: `${SITE_URL}/` },
@@ -167,11 +215,15 @@ function renderCategoryPills(activeCat = 'all') {
   ];
 
   return `
-  <div class="category-pills">
+  <div class="flex items-center gap-2 overflow-x-auto py-2 no-scrollbar">
     ${categories
       .map(
         (c) =>
-          `<a href="${c.url}" class="cat-pill ${activeCat === c.slug ? 'active' : ''}">${c.name}</a>`
+          `<a href="${c.url}" class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition-all duration-200 ${
+            activeCat === c.slug
+              ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/25 scale-105'
+              : 'bg-slate-900 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800'
+          }">${c.name}</a>`
       )
       .join('\n')}
   </div>`;
@@ -188,7 +240,7 @@ function renderPage({
   schemaJsonLd = []
 }) {
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -209,8 +261,34 @@ function renderPage({
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${description}">
   
-  <link rel="stylesheet" href="${SITE_URL}/style.css">
-  
+  <!-- Tailwind CSS CDN (High-Speed Play CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            slate: {
+              750: '#293548',
+              850: '#151f32',
+              950: '#070b14'
+            },
+            cyan: {
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            mono: ['JetBrains Mono', 'ui-monospace', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4NC85924WR"></script>
   <script>
@@ -229,6 +307,15 @@ function renderPage({
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ykz3c9wq1r");
   </script>
+
+  <!-- Inline Style Enhancements & Reset -->
+  <style>
+    body { background-color: #070b14; color: #f8fafc; }
+    .theater-mode { max-width: 100% !important; padding-left: 0 !important; padding-right: 0 !important; }
+    .theater-mode .aspect-video { height: 82vh !important; max-height: 850px; border-radius: 0; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
   
   <!-- Structured Data JSON-LD -->
   ${schemaJsonLd
@@ -238,9 +325,9 @@ function renderPage({
     )
     .join('\n')}
 </head>
-<body>
+<body class="min-h-screen flex flex-col bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-slate-950">
   ${renderHeader(activeNav)}
-  <main class="main-content">
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
     ${contentHtml}
   </main>
   ${renderFooter()}
@@ -255,23 +342,41 @@ function renderGameStage(game) {
     ? game.controls
         .map(
           (c) =>
-            `<tr><td class="key-badge"><code>${c.key}</code></td><td class="action-desc">${c.action}</td></tr>`
+            `<tr class="border-b border-slate-800/60 last:border-0 hover:bg-slate-800/30 transition-colors">
+              <td class="py-2.5 px-3">
+                <kbd class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-md font-mono text-cyan-400 text-xs font-semibold shadow-inner inline-block">${c.key}</kbd>
+              </td>
+              <td class="py-2.5 px-3 text-slate-300 text-xs sm:text-sm">${c.action}</td>
+            </tr>`
         )
         .join('\n')
     : '';
 
   const tipsList = game.tips
-    ? game.tips.map((t) => `<li>${t}</li>`).join('\n')
+    ? game.tips
+        .map(
+          (t) =>
+            `<li class="flex items-start gap-2.5 text-slate-300 text-sm sm:text-base leading-relaxed">
+              <span class="text-cyan-400 font-bold shrink-0 mt-0.5">✦</span>
+              <span>${t}</span>
+            </li>`
+        )
+        .join('\n')
     : '';
 
   const faqItems = game.faq
     ? game.faq
         .map(
           (f, idx) => `
-      <div class="faq-item">
-        <details ${idx === 0 ? 'open' : ''}>
-          <summary class="faq-question"><span>${f.q}</span><span class="faq-chevron">▼</span></summary>
-          <div class="faq-answer"><p>${f.a}</p></div>
+      <div class="border border-slate-800 bg-slate-900/70 rounded-xl overflow-hidden transition-all duration-200">
+        <details class="group" ${idx === 0 ? 'open' : ''}>
+          <summary class="flex items-center justify-between p-4 font-semibold text-white cursor-pointer select-none hover:text-cyan-400 transition-colors">
+            <span class="text-sm sm:text-base">${f.q}</span>
+            <span class="ml-4 text-cyan-400 group-open:rotate-180 transition-transform duration-200 shrink-0">▼</span>
+          </summary>
+          <div class="p-4 pt-0 text-slate-300 text-sm leading-relaxed border-t border-slate-800/40">
+            <p>${f.a}</p>
+          </div>
         </details>
       </div>`
         )
@@ -279,31 +384,40 @@ function renderGameStage(game) {
     : '';
 
   return `
-  <section class="game-stage-container" id="main-game-stage">
-    <div class="game-stage-header">
+  <!-- Main Game Stage Section -->
+  <section class="game-stage-container mb-12 transition-all duration-300" id="main-game-stage">
+    
+    <!-- Stage Header -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
       <div>
-        <div class="game-meta-badge">${game.category} • Free Browser WebGL</div>
-        <h1 class="game-hero-title">${game.h1 || game.name}</h1>
+        <div class="flex items-center gap-2 mb-1.5">
+          <span class="px-2.5 py-0.5 bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 rounded-md text-xs font-semibold uppercase tracking-wider">${game.category}</span>
+          <span class="text-xs text-slate-400">WebGL • 60 FPS Verified</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">${game.h1 || game.name}</h1>
       </div>
-      <div class="game-stage-actions">
-        <button id="btn-theater" class="action-btn" title="Toggle Theater Mode" aria-label="Toggle Theater Mode">
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-2 shrink-0">
+        <button id="btn-theater" class="px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-200 hover:text-white hover:bg-slate-800 text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-all" title="Toggle Theater Mode" aria-label="Toggle Theater Mode">
           <span>⛶</span> Theater
         </button>
-        <button id="btn-reload" class="action-btn" title="Reload Game" aria-label="Reload Game">
+        <button id="btn-reload" class="px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-200 hover:text-white hover:bg-slate-800 text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-all" title="Reload Game" aria-label="Reload Game">
           <span>↻</span> Reload
         </button>
-        <button id="btn-fullscreen" class="action-btn primary-btn" title="Play Fullscreen" aria-label="Play Fullscreen">
+        <button id="btn-fullscreen" class="px-4 py-2 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 text-xs sm:text-sm font-bold flex items-center gap-1.5 shadow-lg shadow-cyan-500/20 transition-all hover:scale-105" title="Play Fullscreen" aria-label="Play Fullscreen">
           <span>🖵</span> Fullscreen
         </button>
       </div>
     </div>
 
     <!-- 16:9 Responsive Game Frame -->
-    <div class="game-frame-wrapper" id="game-frame-wrapper">
+    <div class="relative aspect-video w-full rounded-2xl overflow-hidden border-2 border-slate-800 bg-black shadow-2xl shadow-cyan-950/20" id="game-frame-wrapper">
       <iframe 
         id="game-iframe"
         src="${game.iframeUrl}" 
         title="${game.name} Unblocked Game Player"
+        class="w-full h-full border-0"
         allow="autoplay; fullscreen; keyboard; focus-without-user-activation *" 
         allowfullscreen
         loading="eager">
@@ -311,85 +425,113 @@ function renderGameStage(game) {
     </div>
 
     <!-- Quick Info Bar -->
-    <div class="game-info-bar">
-      <div class="info-item">
-        <span class="info-label">Rating</span>
-        <span class="info-val rating-val">★ ${game.rating} / 5.0</span>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-slate-900/70 border border-slate-800 rounded-xl p-3.5 mt-4 text-xs sm:text-sm">
+      <div>
+        <span class="text-slate-400 block text-[11px]">Rating</span>
+        <span class="text-amber-400 font-bold flex items-center gap-1 mt-0.5">★ ${game.rating} / 5.0</span>
       </div>
-      <div class="info-item">
-        <span class="info-label">Plays</span>
-        <span class="info-val">👥 ${game.plays}</span>
+      <div>
+        <span class="text-slate-400 block text-[11px]">Plays</span>
+        <span class="text-slate-200 font-bold mt-0.5">👥 ${game.plays}</span>
       </div>
-      <div class="info-item">
-        <span class="info-label">Platform</span>
-        <span class="info-val">Chromebook / PC / Mobile</span>
+      <div>
+        <span class="text-slate-400 block text-[11px]">Device Support</span>
+        <span class="text-slate-200 font-bold mt-0.5">Chromebook / PC / Mac</span>
       </div>
-      <div class="info-item">
-        <span class="info-label">Network Status</span>
-        <span class="info-val status-online">● Unblocked (GitHub Pages)</span>
+      <div>
+        <span class="text-slate-400 block text-[11px]">Status</span>
+        <span class="text-emerald-400 font-bold flex items-center gap-1 mt-0.5">● Whitelisted & Unblocked</span>
       </div>
     </div>
   </section>
 
   <!-- Detailed Game Guide & SEO Content -->
-  <section class="content-section">
-    <div class="content-grid">
-      <div class="content-main">
-        <article class="prose-block">
-          <h2>About ${game.name} Unblocked</h2>
-          <p>${game.overview}</p>
+  <section class="mt-12 border-t border-slate-800/80 pt-10">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      
+      <!-- Main Content Column -->
+      <div class="lg:col-span-2 space-y-8">
+        
+        <!-- Overview -->
+        <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6 sm:p-8">
+          <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 flex items-center gap-2">
+            <span class="text-cyan-400">🎮</span> About ${game.name} Unblocked
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">${game.overview}</p>
 
-          <h2>How to Play ${game.name}</h2>
-          <p>${game.howToPlay}</p>
+          <h2 class="text-xl sm:text-2xl font-bold text-white mt-8 mb-4 flex items-center gap-2">
+            <span class="text-cyan-400">📖</span> How to Play & Master ${game.name}
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">${game.howToPlay}</p>
+        </div>
 
-          ${
-            game.tips && game.tips.length > 0
-              ? `
-          <h2>Pro Strategies & High-Score Tips</h2>
-          <ul class="tips-list">
-            ${tipsList}
-          </ul>`
-              : ''
-          }
-
-          ${
-            game.faq && game.faq.length > 0
-              ? `
-          <h2>Frequently Asked Questions (FAQ)</h2>
-          <div class="faq-accordion">
-            ${faqItems}
-          </div>`
-              : ''
-          }
-        </article>
-      </div>
-
-      <aside class="content-sidebar">
+        <!-- Pro Tips -->
         ${
-          game.controls && game.controls.length > 0
+          game.tips && game.tips.length > 0
             ? `
-        <div class="sidebar-card">
-          <h3 class="sidebar-title">⌨️ Controls & Keybinds</h3>
-          <table class="controls-table">
-            <tbody>
-              ${controlsRows}
-            </tbody>
-          </table>
+        <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6 sm:p-8">
+          <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 flex items-center gap-2">
+            <span class="text-cyan-400">💡</span> Pro Strategies & High-Score Tips
+          </h2>
+          <ul class="space-y-3">
+            ${tipsList}
+          </ul>
         </div>`
             : ''
         }
 
-        <div class="sidebar-card">
-          <h3 class="sidebar-title">⚡ Why Unblocked Games Lab?</h3>
-          <ul class="feature-checklist">
-            <li>✓ 100% Free - No login or download</li>
-            <li>✓ Bypasses School & Library Filters</li>
-            <li>✓ 60 FPS WebGL on School Chromebooks</li>
-            <li>✓ Fullscreen & Theater Modes</li>
-            <li>✓ Auto Cloud-Saving Storage</li>
+        <!-- FAQ Accordion -->
+        ${
+          game.faq && game.faq.length > 0
+            ? `
+        <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6 sm:p-8">
+          <h2 class="text-xl sm:text-2xl font-bold text-white mb-6 flex items-center gap-2">
+            <span class="text-cyan-400">❓</span> Frequently Asked Questions (FAQ)
+          </h2>
+          <div class="space-y-3">
+            ${faqItems}
+          </div>
+        </div>`
+            : ''
+        }
+      </div>
+
+      <!-- Sidebar Column -->
+      <div class="space-y-6">
+        
+        <!-- Controls Card -->
+        ${
+          game.controls && game.controls.length > 0
+            ? `
+        <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 sm:p-6 shadow-lg">
+          <h3 class="text-base sm:text-lg font-bold text-white mb-4 flex items-center gap-2">
+            <span>⌨️</span> Controls & Keybinds
+          </h3>
+          <div class="overflow-hidden rounded-xl border border-slate-800/80 bg-slate-950/40">
+            <table class="w-full text-left">
+              <tbody>
+                ${controlsRows}
+              </tbody>
+            </table>
+          </div>
+        </div>`
+            : ''
+        }
+
+        <!-- Why Unblocked Lab -->
+        <div class="bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-2xl p-5 sm:p-6 shadow-lg">
+          <h3 class="text-base sm:text-lg font-bold text-white mb-4 flex items-center gap-2">
+            <span>⚡</span> Why Unblocked Games Lab?
+          </h3>
+          <ul class="space-y-2.5 text-xs sm:text-sm text-slate-300">
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> 100% Free - No install or sign-up</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Bypasses School & Library Filters</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> 60 FPS WebGL on School Chromebooks</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Theater & Fullscreen Modes</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Automatic Browser Local Storage</li>
           </ul>
         </div>
-      </aside>
+      </div>
     </div>
   </section>`;
 }
@@ -399,7 +541,7 @@ function renderGameStage(game) {
 // -------------------------------------------------------------
 
 async function buildSite() {
-  console.log('🚀 Starting Unblocked Games Lab static site build...');
+  console.log('🚀 Starting Unblocked Games Lab Tailwind static site build...');
   cleanDist();
 
   const heroGame = games.find((g) => g.isHero) || games[0];
@@ -453,11 +595,12 @@ async function buildSite() {
     contentHtml: `
       ${renderGameStage(heroGame)}
       
-      <section class="section-container">
-        <div class="section-header">
+      <!-- Games Library Section -->
+      <section class="mt-12">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
           <div>
-            <h2 class="section-title">Explore More Unblocked Games</h2>
-            <p class="section-sub">Browse top-rated unblocked games for school Chromebooks and browser play</p>
+            <h2 class="text-xl sm:text-2xl font-bold text-white tracking-tight">Explore More Unblocked Games</h2>
+            <p class="text-slate-400 text-xs sm:text-sm">Browse all 26+ top-rated unblocked games for school Chromebooks</p>
           </div>
           ${renderCategoryPills('all')}
         </div>
@@ -535,11 +678,12 @@ async function buildSite() {
       contentHtml: `
         ${renderGameStage(game)}
         
-        <section class="section-container">
-          <div class="section-header">
+        <!-- Similar Games Grid -->
+        <section class="mt-12">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
             <div>
-              <h2 class="section-title">Similar & Popular Unblocked Games</h2>
-              <p class="section-sub">More exciting unblocked games to play during breaks</p>
+              <h2 class="text-xl sm:text-2xl font-bold text-white tracking-tight">Similar & Popular Unblocked Games</h2>
+              <p class="text-slate-400 text-xs sm:text-sm">More exciting unblocked games to play during breaks</p>
             </div>
             ${renderCategoryPills('all')}
           </div>
@@ -618,15 +762,15 @@ async function buildSite() {
         }
       ],
       contentHtml: `
-        <div class="category-header-banner">
-          <div class="cat-banner-icon">${catMeta.icon}</div>
-          <h1 class="cat-banner-title">${catMeta.name} Unblocked</h1>
-          <p class="cat-banner-desc">${catMeta.desc}</p>
+        <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border border-slate-800 rounded-3xl p-8 mb-10 text-center relative overflow-hidden">
+          <div class="text-5xl mb-3">${catMeta.icon}</div>
+          <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-2">${catMeta.name} Unblocked</h1>
+          <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto">${catMeta.desc}</p>
         </div>
 
-        <section class="section-container">
-          <div class="section-header">
-            <h2 class="section-title">Available ${catMeta.name} (${filteredGames.length})</h2>
+        <section>
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+            <h2 class="text-xl font-bold text-white">Available ${catMeta.name} (${filteredGames.length})</h2>
             ${renderCategoryPills(catSlug)}
           </div>
           ${renderGameGrid(filteredGames.length > 0 ? filteredGames : games)}
@@ -651,17 +795,17 @@ async function buildSite() {
       h1: 'About Unblocked Games Lab',
       desc: 'Learn about our open-source mission to provide lightning-fast, ad-clean, lightweight web games for students and casual gamers on school Chromebooks.',
       content: `
-        <article class="prose-block">
-          <h2>Our Mission</h2>
-          <p>Welcome to <strong>Unblocked Games Lab</strong>. We are a passionate open-source developer initiative dedicated to providing instant, lightweight, and unrestricted access to educational, skill-building, and entertaining HTML5/WebGL browser games.</p>
+        <div class="space-y-6 text-slate-300 leading-relaxed text-sm sm:text-base">
+          <h2 class="text-2xl font-bold text-white">Our Mission</h2>
+          <p>Welcome to <strong>Unblocked Games Lab</strong>. We are an open-source developer initiative dedicated to providing instant, lightweight, and unrestricted access to educational, skill-building, and entertaining HTML5/WebGL browser games.</p>
           
-          <h2>Designed for Low-Spec Hardware</h2>
-          <p>Many students and educators face hardware limitations with school-issued Chromebooks (such as dual-core Celeron chips and 4GB RAM) or strict firewall restrictions. Traditional gaming portals are bloated with heavy JavaScript frameworks, tracking scripts, and intrusive video popups that cause lag and browser crashes.</p>
-          <p>Unblocked Games Lab is built with <strong>zero runtime framework dependencies</strong> (pure HTML5 and optimized CSS), ensuring instantaneous first-contentful paint (FCP < 0.05s) and steady 60 FPS gameplay.</p>
+          <h2 class="text-2xl font-bold text-white pt-4">Designed for Low-Spec School Hardware</h2>
+          <p>Many students and educators face hardware limitations with school-issued Chromebooks (such as dual-core Celeron chips and 4GB RAM) or strict network restrictions. Traditional gaming portals are bloated with heavy JavaScript frameworks, tracking scripts, and intrusive video popups that cause lag and browser crashes.</p>
+          <p>Unblocked Games Lab is built with <strong>zero runtime framework dependencies</strong> and lightweight CSS, ensuring instantaneous first-contentful paint (FCP < 0.05s) and steady 60 FPS gameplay.</p>
 
-          <h2>Safe, Whitelisted & Free</h2>
+          <h2 class="text-2xl font-bold text-white pt-4">Safe, Whitelisted & 100% Free</h2>
           <p>All our games are hosted via GitHub Pages high-availability content delivery network (CDN). We do not collect personal data, require user registration, or charge microtransactions. Everything is 100% free and open for personal entertainment during breaks.</p>
-        </article>`
+        </div>`
     },
     {
       slug: 'privacy',
@@ -669,22 +813,19 @@ async function buildSite() {
       h1: 'Privacy Policy',
       desc: 'Read the official Unblocked Games Lab privacy policy. Learn about our strict zero personal data tracking and local storage save architecture.',
       content: `
-        <article class="prose-block">
-          <h2>1. Introduction</h2>
+        <div class="space-y-6 text-slate-300 leading-relaxed text-sm sm:text-base">
+          <h2 class="text-xl font-bold text-white">1. Introduction</h2>
           <p>Unblocked Games Lab ("we", "our", or "us") operates the website <code>https://unblocked-games-lab.github.io</code>. We respect your privacy and are committed to maintaining a zero-tracking, safe gaming environment.</p>
 
-          <h2>2. Information We Collect</h2>
+          <h2 class="text-xl font-bold text-white">2. Information We Collect</h2>
           <p>We do <strong>not</strong> collect personally identifiable information (PII) such as your name, email address, physical location, or phone number. When you play games on our site, your game progress and high scores are stored locally in your own browser's <code>localStorage</code>.</p>
 
-          <h2>3. Cookies and Analytics</h2>
-          <p>We may use minimal anonymous web analytics (such as Cloudflare Web Analytics or GitHub Traffic Insights) to monitor server health, traffic volume, and bandwidth. These services do not track individual users across the web.</p>
+          <h2 class="text-xl font-bold text-white">3. Cookies and Analytics</h2>
+          <p>We use minimal anonymous web analytics (such as Google Analytics and Microsoft Clarity) to monitor server health, traffic volume, and bandwidth. These services do not collect personal identities.</p>
 
-          <h2>4. Third-Party Game Content</h2>
-          <p>Certain games embedded via iframes may have their own independent privacy practices. We encourage you to review their respective policies.</p>
-
-          <h2>5. Contact Us</h2>
-          <p>If you have any questions regarding our Privacy Policy, please reach out via our <a href="${SITE_URL}/contact/">Contact Page</a>.</p>
-        </article>`
+          <h2 class="text-xl font-bold text-white">4. Contact Us</h2>
+          <p>If you have any questions regarding our Privacy Policy, please reach out via our <a href="${SITE_URL}/contact/" class="text-cyan-400 underline hover:text-cyan-300">Contact Page</a>.</p>
+        </div>`
     },
     {
       slug: 'terms',
@@ -692,16 +833,16 @@ async function buildSite() {
       h1: 'Terms of Service',
       desc: 'Terms of Service and acceptable use conditions for accessing and playing free unblocked games on the Unblocked Games Lab platform.',
       content: `
-        <article class="prose-block">
-          <h2>1. Acceptance of Terms</h2>
+        <div class="space-y-6 text-slate-300 leading-relaxed text-sm sm:text-base">
+          <h2 class="text-xl font-bold text-white">1. Acceptance of Terms</h2>
           <p>By accessing and using Unblocked Games Lab (<code>unblocked-games-lab.github.io</code>), you agree to comply with and be bound by these Terms of Service. If you do not agree, please discontinue use immediately.</p>
 
-          <h2>2. Permitted Use</h2>
+          <h2 class="text-xl font-bold text-white">2. Permitted Use</h2>
           <p>Our website and games are intended for personal, non-commercial entertainment and educational purposes. You agree not to attempt denial-of-service attacks, reverse engineering, or unauthorized scraping of our site infrastructure.</p>
 
-          <h2>3. Disclaimer of Warranties</h2>
+          <h2 class="text-xl font-bold text-white">3. Disclaimer of Warranties</h2>
           <p>All games and materials are provided "as is" without warranty of any kind. We do not guarantee uninterrupted uptime or compatibility with all browser configurations.</p>
-        </article>`
+        </div>`
     },
     {
       slug: 'dmca',
@@ -709,21 +850,21 @@ async function buildSite() {
       h1: 'DMCA Copyright Notice',
       desc: 'DMCA copyright infringement policies, intellectual property protections, and content takedown submission procedures for Unblocked Games Lab.',
       content: `
-        <article class="prose-block">
-          <h2>Copyright & Intellectual Property Notice</h2>
+        <div class="space-y-6 text-slate-300 leading-relaxed text-sm sm:text-base">
+          <h2 class="text-xl font-bold text-white">Copyright & Intellectual Property Notice</h2>
           <p>Unblocked Games Lab respects the intellectual property rights of game creators and developers. All game trademarks, character likenesses, and code remain the property of their respective copyright owners.</p>
 
-          <h2>Filing a Takedown Request</h2>
+          <h2 class="text-xl font-bold text-white">Filing a Takedown Request</h2>
           <p>If you believe that your copyrighted work is hosted on our platform without authorization, please submit a formal DMCA takedown notice containing:</p>
-          <ul class="tips-list">
+          <ul class="list-disc pl-6 space-y-2">
             <li>Identification of the copyrighted work claimed to have been infringed.</li>
             <li>Direct URL link(s) on our site where the material is located.</li>
             <li>Your contact information (name, email address, telephone).</li>
             <li>A statement of good faith belief that the disputed use is unauthorized.</li>
             <li>An electronic signature of the copyright owner or authorized representative.</li>
           </ul>
-          <p>Send your notice via a GitHub Issue or email us directly at: <code>copyright@unblocked-games-lab.org</code> or through our <a href="${SITE_URL}/contact/">Contact Form</a>. We process verified notices within 24-48 business hours.</p>
-        </article>`
+          <p>Send your notice via a GitHub Issue or email us directly at: <code>copyright@unblocked-games-lab.org</code> or through our <a href="${SITE_URL}/contact/" class="text-cyan-400 underline hover:text-cyan-300">Contact Form</a>. We process verified notices within 24-48 business hours.</p>
+        </div>`
     },
     {
       slug: 'contact',
@@ -731,17 +872,17 @@ async function buildSite() {
       h1: 'Contact & Feedback',
       desc: 'Get in touch with the Unblocked Games Lab team to submit new game requests, report broken links, or ask technical questions.',
       content: `
-        <article class="prose-block">
-          <h2>Get in Touch</h2>
+        <div class="space-y-6 text-slate-300 leading-relaxed text-sm sm:text-base">
+          <h2 class="text-xl font-bold text-white">Get in Touch</h2>
           <p>Have a favorite game you'd like to see unblocked on our platform? Found a bug or broken iframe? We welcome all player feedback!</p>
           
-          <div class="sidebar-card" style="margin-top: 1.5rem;">
-            <h3 class="sidebar-title">📫 Contact Channels</h3>
-            <p><strong>GitHub Issues:</strong> <a href="https://github.com/unblocked-games-lab/unblocked-games-lab.github.io/issues" target="_blank" rel="noopener">Submit an Issue / Request Game</a></p>
+          <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-3">
+            <h3 class="font-bold text-white text-lg">📫 Contact Channels</h3>
+            <p><strong>GitHub Issues:</strong> <a href="https://github.com/unblocked-games-lab/unblocked-games-lab.github.io/issues" target="_blank" rel="noopener" class="text-cyan-400 underline hover:text-cyan-300">Submit an Issue / Request Game</a></p>
             <p><strong>Official Email:</strong> <code>support@unblocked-games-lab.org</code></p>
             <p><strong>Response Time:</strong> Typically under 24 hours.</p>
           </div>
-        </article>`
+        </div>`
     }
   ];
 
@@ -783,9 +924,11 @@ async function buildSite() {
         }
       ],
       contentHtml: `
-        <div class="legal-page-container">
-          <h1 class="legal-hero-title">${page.h1}</h1>
-          ${page.content}
+        <div class="max-w-4xl mx-auto py-8">
+          <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-8 pb-4 border-b border-slate-800">${page.h1}</h1>
+          <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 sm:p-10">
+            ${page.content}
+          </div>
         </div>
       `
     });
@@ -825,7 +968,9 @@ Sitemap: ${SITE_URL}/sitemap.xml
   console.log('✓ Generated dist/robots.txt');
 
   // 7. Copy CSS, JS Assets & Verification files
-  fs.copyFileSync(path.join(SRC_DIR, 'style.css'), path.join(DIST_DIR, 'style.css'));
+  if (fs.existsSync(path.join(SRC_DIR, 'style.css'))) {
+    fs.copyFileSync(path.join(SRC_DIR, 'style.css'), path.join(DIST_DIR, 'style.css'));
+  }
   fs.copyFileSync(path.join(SRC_DIR, 'app.js'), path.join(DIST_DIR, 'app.js'));
   fs.writeFileSync(path.join(DIST_DIR, '.nojekyll'), '');
 
@@ -854,9 +999,9 @@ Sitemap: ${SITE_URL}/sitemap.xml
     console.log('✓ Copied self-hosted games to dist/hosted-games/');
   }
 
-  console.log('✓ Copied assets to dist/style.css, dist/app.js, and created .nojekyll');
+  console.log('✓ Copied assets and created .nojekyll');
 
-  console.log('🎉 Static site build completed successfully!');
+  console.log('🎉 Tailwind static site build completed successfully!');
 }
 
 buildSite().catch((err) => {
