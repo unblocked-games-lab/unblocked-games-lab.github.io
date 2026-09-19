@@ -14,15 +14,42 @@
     "icon": "🎯",
     "gradient": "from-amber-500 to-rose-600",
     "controls": [
-      { "key": "W, A, S, D", "action": "Move Character" },
-      { "key": "Mouse", "action": "Look & Aim" },
-      { "key": "Left Click", "action": "Shoot / Attack" },
-      { "key": "Right Click", "action": "Aim Down Sights (Zoom)" },
-      { "key": "Space", "action": "Jump" },
-      { "key": "Shift", "action": "Run / Sprint" },
-      { "key": "1 - 7 / Mouse Wheel", "action": "Switch Weapons" },
-      { "key": "R", "action": "Reload Weapon" },
-      { "key": "G", "action": "Throw Grenade" }
+      {
+        "key": "W, A, S, D",
+        "action": "Move Character"
+      },
+      {
+        "key": "Mouse",
+        "action": "Look & Aim"
+      },
+      {
+        "key": "Left Click",
+        "action": "Shoot / Attack"
+      },
+      {
+        "key": "Right Click",
+        "action": "Aim Down Sights (Zoom)"
+      },
+      {
+        "key": "Space",
+        "action": "Jump"
+      },
+      {
+        "key": "Shift",
+        "action": "Run / Sprint"
+      },
+      {
+        "key": "1 - 7 / Mouse Wheel",
+        "action": "Switch Weapons"
+      },
+      {
+        "key": "R",
+        "action": "Reload Weapon"
+      },
+      {
+        "key": "G",
+        "action": "Throw Grenade"
+      }
     ],
     "overview": "Funny Shooter 2 is a fast-paced, colorful 3D first-person shooter (FPS) game where players face off against hordes of wacky, bizarre redmen, giant clowns, and strange creatures. Featuring an absurd arsenal ranging from customized rifles to grenade launchers and laser blasters, the game delivers high-octane shooting action with smooth physics right in your web browser. Designed with lightweight WebGL optimization, it runs flawlessly at 60 FPS even on low-spec school Chromebooks without any installations or downloads.",
     "howToPlay": "Your objective in Funny Shooter 2 is straightforward: survive enemy onslaughts across increasingly challenging arena levels. Move through the 3D maps using WASD, aim with your mouse, and eliminate enemies before they overwhelm you. Defeating enemies rewards you with in-game gold coins, which you can spend in the shop between waves to purchase deadlier weapons, upgrade damage, increase movement speed, and unlock unique cosmetics.",
@@ -67,10 +94,22 @@
     "icon": "🏈",
     "gradient": "from-emerald-500 to-teal-700",
     "controls": [
-      { "key": "Mouse / Touch", "action": "Aim Pass & Control Quarterback" },
-      { "key": "Left Click (Drag & Release)", "action": "Throw Ball / Pass" },
-      { "key": "W / S or Up / Down", "action": "Dodge Tackles / Juke" },
-      { "key": "Space", "action": "Dive / Slide for Extra Yardage" }
+      {
+        "key": "Mouse / Touch",
+        "action": "Aim Pass & Control Quarterback"
+      },
+      {
+        "key": "Left Click (Drag & Release)",
+        "action": "Throw Ball / Pass"
+      },
+      {
+        "key": "W / S or Up / Down",
+        "action": "Dodge Tackles / Juke"
+      },
+      {
+        "key": "Space",
+        "action": "Dive / Slide for Extra Yardage"
+      }
     ],
     "overview": "Retro Bowl is the ultimate 8-bit American football simulation game created by New Star Games. Combining addictive retro arcade-style passing mechanics with in-depth team management, Retro Bowl lets you take control of an NFL franchise. Draft rookie superstars, manage salary caps and team morale, upgrade training facilities, and call plays on the field to lead your team to the Retro Bowl championship trophy.",
     "howToPlay": "As the head coach and quarterback, you balance front-office management with on-field execution. Drag backward with your mouse to set the pass trajectory, anticipating wide receiver routes. Release to fire bullet passes into open coverage. On defense, manage clock time and make critical fourth-down conversion decisions.",
@@ -106,13 +145,34 @@
     "icon": "🏎️",
     "gradient": "from-red-500 to-amber-600",
     "controls": [
-      { "key": "W / Up Arrow", "action": "Accelerate / Gas" },
-      { "key": "S / Down Arrow", "action": "Brake / Reverse" },
-      { "key": "A / D or Left / Right", "action": "Steer Car Left / Right" },
-      { "key": "Space", "action": "Handbrake (Initiate Drift)" },
-      { "key": "C", "action": "Change Camera View" },
-      { "key": "Shift", "action": "Shift Up Gear (Manual Mode)" },
-      { "key": "Ctrl", "action": "Shift Down Gear (Manual Mode)" }
+      {
+        "key": "W / Up Arrow",
+        "action": "Accelerate / Gas"
+      },
+      {
+        "key": "S / Down Arrow",
+        "action": "Brake / Reverse"
+      },
+      {
+        "key": "A / D or Left / Right",
+        "action": "Steer Car Left / Right"
+      },
+      {
+        "key": "Space",
+        "action": "Handbrake (Initiate Drift)"
+      },
+      {
+        "key": "C",
+        "action": "Change Camera View"
+      },
+      {
+        "key": "Shift",
+        "action": "Shift Up Gear (Manual Mode)"
+      },
+      {
+        "key": "Ctrl",
+        "action": "Shift Down Gear (Manual Mode)"
+      }
     ],
     "overview": "Drift Hunters is the premier 3D browser-based car drifting simulation game powered by Unity WebGL. Choose from an elite roster of 26 tuner drift cars, including legendary Japanese icons like the Toyota AE86, Nissan Silvia S15, and Supra, as well as European exotics. Customize turbochargers, brake balance, front camber, suspension stiffness, and paint jobs before shredding tires across 10 diverse tracks including touge mountain passes and city docks.",
     "howToPlay": "Accelerate towards corners, tap the Handbrake (Space) while turning sharply to break rear traction, and feather the throttle to sustain long drift angles. The longer and steeper your drift angle, the higher your point multiplier climbs. Accumulated drift points convert directly into cash to buy new cars and performance upgrades.",
@@ -148,10 +208,22 @@
     "icon": "🏃",
     "gradient": "from-teal-400 to-emerald-600",
     "controls": [
-      { "key": "Left / Right Arrow (or A / D)", "action": "Switch Rail Tracks" },
-      { "key": "Up Arrow (or W)", "action": "Jump Over Obstacles" },
-      { "key": "Down Arrow (or S)", "action": "Roll Under Barriers" },
-      { "key": "Space", "action": "Activate Hoverboard (Crash Protection)" }
+      {
+        "key": "Left / Right Arrow (or A / D)",
+        "action": "Switch Rail Tracks"
+      },
+      {
+        "key": "Up Arrow (or W)",
+        "action": "Jump Over Obstacles"
+      },
+      {
+        "key": "Down Arrow (or S)",
+        "action": "Roll Under Barriers"
+      },
+      {
+        "key": "Space",
+        "action": "Activate Hoverboard (Crash Protection)"
+      }
     ],
     "overview": "Subway Surfers is the legendary endless runner created by Kiloo and SYBO Games. Sprint down colorful railway tracks, dodging oncoming trains, construction barricades, and tunnels while escaping the grumpy Inspector and his dog. Collect gold coins, power-ups like Super Sneakers, Coin Magnets, and Jetpacks, and unlock dozens of unique surfers and custom hoverboards right inside your browser.",
     "howToPlay": "Use arrow keys to swiftly dodge obstacles. Jump over signal barriers and roll underneath high blockades. Double tap Space to deploy your hoverboard for temporary crash immunity. Collect power-ups along the tracks to multiply your score and haul massive coin piles.",
@@ -182,10 +254,22 @@
     "icon": "🏃",
     "gradient": "from-sky-500 to-indigo-600",
     "controls": [
-      { "key": "Player 1 (WASD)", "action": "Move & Jump" },
-      { "key": "Player 2 (Arrow Keys)", "action": "Move & Jump" },
-      { "key": "Player 3 (IJKL)", "action": "Move & Jump" },
-      { "key": "Player 4 (Numpad 8456)", "action": "Move & Jump" }
+      {
+        "key": "Player 1 (WASD)",
+        "action": "Move & Jump"
+      },
+      {
+        "key": "Player 2 (Arrow Keys)",
+        "action": "Move & Jump"
+      },
+      {
+        "key": "Player 3 (IJKL)",
+        "action": "Move & Jump"
+      },
+      {
+        "key": "Player 4 (Numpad 8456)",
+        "action": "Move & Jump"
+      }
     ],
     "overview": "Tag is a hilarious local multiplayer platformer where up to 4 players compete on the same keyboard in classic playground tag. One player starts as 'IT' and must chase others across jumping pads, teleporters, bounce pads, and changing level obstacles before time runs out. Smooth physics and instant keyboard inputs make it one of the top 2-player games for school breaks.",
     "howToPlay": "Select the number of players (2, 3, or 4). When the round begins, the tagged player has a timer ticking down. Run into another player to transfer the tag. Utilize map shortcuts, wall-jumps, and bounce pads to outmaneuver your opponents.",
@@ -216,8 +300,14 @@
     "icon": "⚡",
     "gradient": "from-cyan-400 to-blue-600",
     "controls": [
-      { "key": "A / D or Left / Right Arrows", "action": "Steer Ball Left / Right" },
-      { "key": "Q / E", "action": "Alternative Steering" }
+      {
+        "key": "A / D or Left / Right Arrows",
+        "action": "Steer Ball Left / Right"
+      },
+      {
+        "key": "Q / E",
+        "action": "Alternative Steering"
+      }
     ],
     "overview": "Slope is a legendary 3D endless runner game where players guide a rolling neon ball down a steep, obstacle-filled futuristic course. As your speed accelerates, you must dodge red obstacles, jump across perilous gaps, and navigate narrow ramps without falling into the void. Simple controls combined with intense adrenaline make Slope a global school favorite.",
     "howToPlay": "Control the ball's balance using the A/D or Arrow keys. Keep your ball centered on the tracks, anticipate sharp elevation changes, and avoid colliding with any red blocks or falling off the edges. The further you survive, the higher your score multiplier climbs.",
@@ -248,13 +338,34 @@
     "icon": "⚔️",
     "gradient": "from-purple-500 to-pink-600",
     "controls": [
-      { "key": "W, A, S, D", "action": "Movement" },
-      { "key": "Space", "action": "Jump" },
-      { "key": "Left Click", "action": "Shoot / Build" },
-      { "key": "Right Click", "action": "Aim Down Sights" },
-      { "key": "Z, X, C, V", "action": "Wall, Floor, Ramp, Roof Builds" },
-      { "key": "F, 1, 2", "action": "Pickaxe & Weapons" },
-      { "key": "R", "action": "Reload / Rotate Build" }
+      {
+        "key": "W, A, S, D",
+        "action": "Movement"
+      },
+      {
+        "key": "Space",
+        "action": "Jump"
+      },
+      {
+        "key": "Left Click",
+        "action": "Shoot / Build"
+      },
+      {
+        "key": "Right Click",
+        "action": "Aim Down Sights"
+      },
+      {
+        "key": "Z, X, C, V",
+        "action": "Wall, Floor, Ramp, Roof Builds"
+      },
+      {
+        "key": "F, 1, 2",
+        "action": "Pickaxe & Weapons"
+      },
+      {
+        "key": "R",
+        "action": "Reload / Rotate Build"
+      }
     ],
     "overview": "1v1.LOL is an online third-person shooter and fast-paced building simulator inspired by battle royale mechanics. Players can duel in 1v1 arena mode, practice box fights, edit walls, and master tactical shooting without downloading heavy software.",
     "howToPlay": "Spawn into the arena, quickly construct protective ramps and walls to gain high-ground advantage, and eliminate opponents using shotguns, assault rifles, or sniper rifles.",
@@ -285,8 +396,14 @@
     "icon": "🏂",
     "gradient": "from-cyan-500 to-blue-700",
     "controls": [
-      { "key": "Up Arrow / W", "action": "Jump Over Chasm / Snowman" },
-      { "key": "Left / Right Arrow (or A / D)", "action": "Steer Sleigh Left / Right" }
+      {
+        "key": "Up Arrow / W",
+        "action": "Jump Over Chasm / Snowman"
+      },
+      {
+        "key": "Left / Right Arrow (or A / D)",
+        "action": "Steer Sleigh Left / Right"
+      }
     ],
     "overview": "Snow Rider 3D puts you at the helm of a fast-moving wooden bobsleigh hurtling down a steep snowy mountain. Navigate through pine forests, dodge giant rolling snowballs, avoid falling boulders, and jump across yawning ravines. Along the slope, gather holiday gift boxes to purchase upgrade sleighs like the Santa Sleigh, Evil Sled, and Metal Bobsled.",
     "howToPlay": "Steer left and right to avoid collisions. Time your jumps precisely when approaching deep cliff gaps or stationary snowmen. The mountain speed progressively increases, testing your reflexes and situational awareness.",
@@ -317,9 +434,18 @@
     "icon": "🏀",
     "gradient": "from-amber-500 to-orange-600",
     "controls": [
-      { "key": "Player 1", "action": "W (Jump, Dunk & Shoot)" },
-      { "key": "Player 2", "action": "Up Arrow (Jump, Dunk & Shoot)" },
-      { "key": "Mobile / Touch", "action": "Tap Screen Buttons" }
+      {
+        "key": "Player 1",
+        "action": "W (Jump, Dunk & Shoot)"
+      },
+      {
+        "key": "Player 2",
+        "action": "Up Arrow (Jump, Dunk & Shoot)"
+      },
+      {
+        "key": "Mobile / Touch",
+        "action": "Tap Screen Buttons"
+      }
     ],
     "overview": "Basket Random is an uproarious 2-player arcade basketball game from the creators of Soccer Random. Featuring chaotic ragdoll physics, each point takes place in completely randomized court settings — from icy courts with slippery shoes to bouncy beach courts, long-armed players, and heavy bowling balls. First team to reach 5 points takes the victory.",
     "howToPlay": "Press your jump button to make both your offensive and defensive ragdoll players leap, grab the ball, and launch shots towards the basket. React swiftly to changing gravity and player weights on every reset.",
@@ -350,7 +476,10 @@
     "icon": "🗺️",
     "gradient": "from-indigo-500 to-purple-700",
     "controls": [
-      { "key": "Mouse / Arrow Keys / WASD", "action": "Steer Color Marker" }
+      {
+        "key": "Mouse / Arrow Keys / WASD",
+        "action": "Steer Color Marker"
+      }
     ],
     "overview": "Paper.io 2 is a massively popular arena territory conquering game. Control a colorful paper block that paints a trail as it moves. Close a loop back into your own territory to conquer the enclosed map space. Watch out for enemy players — if someone touches your exposed tail before you seal your boundary, you are instantly eliminated.",
     "howToPlay": "Leave your base to carve out loops and expand your dominion. Target 100% map dominance while defending your perimeter and cutting enemy lines whenever they overextend.",
@@ -381,7 +510,10 @@
     "icon": "🎣",
     "gradient": "from-sky-400 to-teal-600",
     "controls": [
-      { "key": "Mouse Click & Drag / Touch", "action": "Cast Hook & Steer Line" }
+      {
+        "key": "Mouse Click & Drag / Touch",
+        "action": "Cast Hook & Steer Line"
+      }
     ],
     "overview": "Tiny Fishing is a beloved relaxing casual simulator where players cast their hook into the deep blue sea. Cast your line, drag your mouse to hook the most valuable and legendary fish on the way up, and reinvest your cash rewards into four core upgrades: Max Depth, Number of Fish, and Offline Passive Earnings.",
     "howToPlay": "Click to cast the hook. As the line reels back to the surface, drag left and right to snag colorful fish. Reach deeper depths to discover golden and legendary aquarium species that yield massive cash payouts.",
@@ -412,10 +544,22 @@
     "icon": "🏍️",
     "gradient": "from-orange-500 to-red-600",
     "controls": [
-      { "key": "Up Arrow / W", "action": "Accelerate / Drive Forward" },
-      { "key": "Down Arrow / S", "action": "Brake / Reverse" },
-      { "key": "Left / Right Arrow (or A / D)", "action": "Tilt Bike Back / Forward (Flips)" },
-      { "key": "Space", "action": "Respawn at Last Checkpoint" }
+      {
+        "key": "Up Arrow / W",
+        "action": "Accelerate / Drive Forward"
+      },
+      {
+        "key": "Down Arrow / S",
+        "action": "Brake / Reverse"
+      },
+      {
+        "key": "Left / Right Arrow (or A / D)",
+        "action": "Tilt Bike Back / Forward (Flips)"
+      },
+      {
+        "key": "Space",
+        "action": "Respawn at Last Checkpoint"
+      }
     ],
     "overview": "Moto X3M is the undisputed king of online 2D dirt bike racing games created by MadPuffers. Race your motorcycle through 25 handcrafted obstacle courses packed with giant loop-de-loops, catapults, spike pits, and rotating buzzsaws. Execute front and back flips in mid-air to subtract 0.5 seconds from your final time and achieve the coveted 3-star rating.",
     "howToPlay": "Accelerate across checkpoints, keeping your bike balanced on rough terrain. Land cleanly on both wheels after jumps to maintain full speed. Perform continuous flips in the air to shave valuable seconds off your timer.",
@@ -446,7 +590,10 @@
     "icon": "🍪",
     "gradient": "from-yellow-600 to-amber-800",
     "controls": [
-      { "key": "Left Mouse Click", "action": "Click Big Cookie / Purchase Buildings" }
+      {
+        "key": "Left Mouse Click",
+        "action": "Click Big Cookie / Purchase Buildings"
+      }
     ],
     "overview": "Cookie Clicker is the definitive incremental idle game created by Orteil in 2013 that spawned an entire gaming genre. Start by clicking a giant cookie to bake cookies one by one. Reinvest your sweet fortune into purchasing cursors, grandmas, farms, mines, factories, alchemy labs, and antimatter condensers that bake millions of cookies per second automatically.",
     "howToPlay": "Click the big cookie on the left. As your cookie bank grows, buy automated production buildings from the store on the right. Unlock hundreds of upgrades and achievements, click Golden Cookies for massive temporary multipliers, and prestige to ascend with heavenly chips.",
@@ -477,7 +624,10 @@
     "icon": "🔷",
     "gradient": "from-emerald-400 to-cyan-600",
     "controls": [
-      { "key": "Space / Up Arrow / Left Click", "action": "Jump / Fly Upward" }
+      {
+        "key": "Space / Up Arrow / Left Click",
+        "action": "Jump / Fly Upward"
+      }
     ],
     "overview": "Geometry Dash Lite is a rhythm-based platformer where one misstep means instant restart. Navigate your geometric cube through spike hazards, gravity portals, and rocket-ship flying sequences synchronized to heart-pumping electronic soundtracks.",
     "howToPlay": "Press Space or Left Click with precise timing to jump over spikes and obstacles. In rocket sections, hold down to ascend and release to dive.",
@@ -507,7 +657,10 @@
     "icon": "🔢",
     "gradient": "from-yellow-400 to-orange-500",
     "controls": [
-      { "key": "Arrow Keys / W A S D / Swipe", "action": "Slide All Tiles Up, Down, Left, Right" }
+      {
+        "key": "Arrow Keys / W A S D / Swipe",
+        "action": "Slide All Tiles Up, Down, Left, Right"
+      }
     ],
     "overview": "2048 is an addictive sliding tile puzzle game created by Gabriele Cirulli. Played on a 4x4 grid, you slide numbered tiles in four directions. When two tiles with the same number collide, they merge into one with double the value. Your goal is to create the 2048 tile.",
     "howToPlay": "Slide tiles to combine identical numbers (2+2=4, 4+4=8, 8+8=16... 1024+1024=2048). Plan every move to keep your highest value tile in one corner of the grid.",
@@ -538,8 +691,14 @@
     "icon": "🏎️",
     "gradient": "from-rose-500 to-purple-600",
     "controls": [
-      { "key": "W, A, S, D / Arrow Keys", "action": "Drive & Steer Kart" },
-      { "key": "Space", "action": "Fire Weapon / Use Power-Up" }
+      {
+        "key": "W, A, S, D / Arrow Keys",
+        "action": "Drive & Steer Kart"
+      },
+      {
+        "key": "Space",
+        "action": "Fire Weapon / Use Power-Up"
+      }
     ],
     "overview": "Smash Karts is a fast-paced 3D multiplayer kart combat game. Drop into a vibrant battle arena with players worldwide, drift around sharp turns, and smash through mystery item boxes. Arm yourself with guided rockets, invincibility stars, landmines, machine guns, and spiky balls to blow up rival karts and climb the round leaderboard.",
     "howToPlay": "Drive over mystery question boxes to grab a random weapon. Aim towards opponents and press Space to fire. Score the highest number of knockouts within the 3-minute round time limit to earn XP, level up, and unlock wacky character hats and custom karts.",
@@ -570,8 +729,14 @@
     "icon": "🐔",
     "gradient": "from-green-400 to-emerald-600",
     "controls": [
-      { "key": "Arrow Keys / W A S D", "action": "Hop Forward, Backward, Left, Right" },
-      { "key": "Space", "action": "Hop Forward" }
+      {
+        "key": "Arrow Keys / W A S D",
+        "action": "Hop Forward, Backward, Left, Right"
+      },
+      {
+        "key": "Space",
+        "action": "Hop Forward"
+      }
     ],
     "overview": "Crossy Road by Hipster Whale reimagined classic Frogger into an endless, charming 3D voxel arcade world. Guide a quirky chicken (and dozens of other unlockable animals and pop-culture characters) across high-speed multilane highways, high-velocity railway tracks, and fast-flowing rivers with floating logs and lily pads.",
     "howToPlay": "Tap forward to hop across each lane. Look both ways to time gaps between speeding cars, freight trains, and floating tree trunks. Don't linger too long in one spot — the predatory eagle will swoop down if you hesitate.",
@@ -602,7 +767,10 @@
     "icon": "🧬",
     "gradient": "from-rose-500 to-red-600",
     "controls": [
-      { "key": "Mouse / Touch", "action": "Select Life Choices & Age Up Button" }
+      {
+        "key": "Mouse / Touch",
+        "action": "Select Life Choices & Age Up Button"
+      }
     ],
     "overview": "BitLife is an interactive text simulation game where you guide a randomized character through every stage of life. From early childhood to school, college, career, dating, marriage, crime, and investments, every choice impacts your character's Happiness, Health, Smarts, and Looks stats.",
     "howToPlay": "Tap the Age button each year. Choose your study habits, career paths, medical treatments, real estate investments, and relationships.",
@@ -615,6 +783,322 @@
       {
         "q": "Can I play multiple generations of lives?",
         "a": "Yes, you can write wills and pass down your accumulated wealth to your children."
+      }
+    ]
+  },
+  {
+    "slug": "1942-arcade",
+    "name": "1942 Classic Arcade",
+    "isHero": false,
+    "category": "Shooting",
+    "tagline": "Legendary WWII vertical scrolling fighter plane combat",
+    "seoTitle": "1942 Unblocked - Play WWII Air Combat | Unblocked Games Lab",
+    "seoDescription": "Play 1942 arcade unblocked in your browser. Pilot your P-38 Lightning fighter, dodge enemy fire, and take down enemy fleets in 60 FPS.",
+    "h1": "1942 Classic Arcade Unblocked",
+    "rating": 4.93,
+    "plays": "165,000+",
+    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/1942/index.html",
+    "icon": "✈️",
+    "gradient": "from-sky-600 to-slate-800",
+    "controls": [
+      {
+        "key": "Arrow Keys / WASD / Mouse",
+        "action": "Steer Fighter Plane"
+      },
+      {
+        "key": "Space / Left Click",
+        "action": "Fire Machine Guns"
+      },
+      {
+        "key": "B / Right Click",
+        "action": "Loop-the-Loop Special Evasion"
+      }
+    ],
+    "overview": "1942 is the legendary vertical scrolling shooter arcade game set in the Pacific theater of World War II. Pilot a Lockheed P-38 Lightning fighter plane, dogfight squadrons of enemy aircraft, sink naval battleships, and execute tactical aerial loop-the-loops to evade dense bullet storms.",
+    "howToPlay": "Steer your plane across the screen, shooting down formations of enemy bombers and fighters. Collect power-up icons to gain twin companion wingmen and heavier firepower.",
+    "tips": [
+      "Save your special evasive loops for when you are completely trapped by bullet patterns.",
+      "Defeat full red enemy plane formations to spawn special score and weapon power-ups.",
+      "Stay near the lower third of the screen to give yourself maximum reaction time."
+    ],
+    "faq": [
+      {
+        "q": "Is this the full classic 1942 arcade game?",
+        "a": "Yes, running on our zero-lag self-hosted HTML5 emulator engine directly on GitHub Pages."
+      }
+    ]
+  },
+  {
+    "slug": "3d-boxing",
+    "name": "3D Boxing Ring",
+    "isHero": false,
+    "category": "Action",
+    "tagline": "Immersive first-person 3D knockout boxing brawl",
+    "seoTitle": "3D Boxing Unblocked - Play Fighting Game | Unblocked Games Lab",
+    "seoDescription": "Play 3D Boxing unblocked in your browser. Throw jabs, hooks, and uppercuts to KO championship contenders in full 3D WebGL.",
+    "h1": "3D Boxing Unblocked",
+    "rating": 4.88,
+    "plays": "140,000+",
+    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/3dboxing/index.html",
+    "icon": "🥊",
+    "gradient": "from-red-600 to-rose-800",
+    "controls": [
+      {
+        "key": "A / D or Left / Right",
+        "action": "Dodge Left / Right & Weave"
+      },
+      {
+        "key": "J / K / L",
+        "action": "Left Jab, Right Cross, Heavy Uppercut"
+      },
+      {
+        "key": "Space",
+        "action": "Guard / Block Incoming Punches"
+      }
+    ],
+    "overview": "Step inside the championship squared circle in 3D Boxing. Face off against aggressive heavyweight boxers, read your opponent stance, weave past heavy blows, and unleash devastating counter-punch combos to score decisive knockouts.",
+    "howToPlay": "Watch your opponent wind-up animations. Dodge when they swing, then retaliate with fast multi-hit combinations while their guard is broken.",
+    "tips": [
+      "Never punch continuously while your stamina meter is low.",
+      "Counter-punching immediately after a successful dodge deals 2x critical damage.",
+      "Keep your guard raised when trapped against the ropes."
+    ],
+    "faq": [
+      {
+        "q": "Does 3D Boxing support keyboard controls on Chromebooks?",
+        "a": "Yes, full responsive WASD and Arrow key mappings are supported."
+      }
+    ]
+  },
+  {
+    "slug": "blackjack-21",
+    "name": "Blackjack 21 Master",
+    "isHero": false,
+    "category": "Puzzle",
+    "tagline": "Casino style classic 21 card strategy and dealer duels",
+    "seoTitle": "Blackjack Unblocked - Play 21 Card Game | Unblocked Games Lab",
+    "seoDescription": "Play classic Blackjack 21 unblocked online. Practice hit, stand, double down, and split strategy against the dealer with free chips.",
+    "h1": "Blackjack 21 Unblocked",
+    "rating": 4.91,
+    "plays": "175,000+",
+    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/blackjack/index.html",
+    "icon": "🃏",
+    "gradient": "from-emerald-700 to-slate-900",
+    "controls": [
+      {
+        "key": "Hit Button / H",
+        "action": "Draw Another Card"
+      },
+      {
+        "key": "Stand Button / S",
+        "action": "Hold Total and End Turn"
+      },
+      {
+        "key": "Double / Split Buttons",
+        "action": "Double Bet or Split Matching Pair"
+      }
+    ],
+    "overview": "Blackjack 21 is the authentic browser simulation of the world-famous casino table game. Test your probability and mental math skills against the virtual dealer. Aim for a hand total of 21 without busting, and master optimal strategy charts completely risk-free.",
+    "howToPlay": "Place your chip bet, receive two cards, and decide whether to Hit for additional cards or Stand with your current hand score. Beat the dealer score or let them bust to win 1:1 or 3:2 on natural Blackjacks.",
+    "tips": [
+      "Always Double Down on a hard 11 when the dealer shows a 2 through 10.",
+      "Always split Aces and 8s, but never split 10s or 5s.",
+      "Stand on 12-16 if the dealer up-card is 4, 5, or 6."
+    ],
+    "faq": [
+      {
+        "q": "Is real money required to play?",
+        "a": "No, Blackjack 21 uses 100% free virtual chips with instant free refills."
+      }
+    ]
+  },
+  {
+    "slug": "classic-block-puzzle",
+    "name": "Classic Block Puzzle",
+    "isHero": false,
+    "category": "Puzzle",
+    "tagline": "Falling tetromino block clearing and line stacking classic",
+    "seoTitle": "Block Puzzle Unblocked - Play Free Online | Unblocked Games Lab",
+    "seoDescription": "Play Classic Block Puzzle unblocked. Rotate falling tetromino blocks, clear horizontal lines, and chase endless high-score marathons.",
+    "h1": "Classic Block Puzzle Unblocked",
+    "rating": 4.95,
+    "plays": "290,000+",
+    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/blockgame/index.html",
+    "icon": "🧱",
+    "gradient": "from-indigo-600 to-blue-800",
+    "controls": [
+      {
+        "key": "Left / Right Arrow",
+        "action": "Move Falling Block"
+      },
+      {
+        "key": "Up Arrow / Space",
+        "action": "Rotate Block"
+      },
+      {
+        "key": "Down Arrow",
+        "action": "Soft Drop (Speed Up)"
+      }
+    ],
+    "overview": "Classic Block Puzzle delivers timeless geometric line-clearing arcade gameplay. Manipulate falling multi-colored tetromino pieces into solid horizontal rows to clear lines and prevent the stack from reaching the ceiling.",
+    "howToPlay": "Guide each falling piece into the matrix grid. Complete horizontal lines to clear blocks and score points. Set up multi-line clears (Tetris) for exponential point multipliers.",
+    "tips": [
+      "Keep the surface of your block stack as flat and even as possible.",
+      "Reserve an open lane on the far right column to execute 4-line Tetris clears with long straight bars.",
+      "Do not panic as speed increases — look at the upcoming Next Piece preview window."
+    ],
+    "faq": [
+      {
+        "q": "Does it save high scores?",
+        "a": "Yes, your all-time high score and level records save locally in browser storage."
+      }
+    ]
+  },
+  {
+    "slug": "core-ball",
+    "name": "Core Ball Arcade",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "Hyper-precise needle pin shooting into rotating central cores",
+    "seoTitle": "Core Ball Unblocked - Play Free Online | Unblocked Games Lab",
+    "seoDescription": "Play Core Ball unblocked reflex skill game. Launch numbered needle pins into the rotating core sphere without colliding with other pins.",
+    "h1": "Core Ball Unblocked",
+    "rating": 4.89,
+    "plays": "185,000+",
+    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/coreball/index.html",
+    "icon": "🎯",
+    "gradient": "from-amber-600 to-rose-700",
+    "controls": [
+      {
+        "key": "Left Mouse Click / Space / Touch",
+        "action": "Launch Pin into Core"
+      }
+    ],
+    "overview": "Core Ball (inspired by the viral hit aa) is a minimalist, hyper-addictive reflex arcade game. A central sphere rotates at varying speeds and directions in the center. Your mission is to launch all available needle pins into the rotating sphere without hitting existing pins.",
+    "howToPlay": "Tap the screen or press Space to shoot pins into open gaps on the rotating core. Advance across 60+ increasingly tricky stages with reversing rotation and obstacle barriers.",
+    "tips": [
+      "Find the rhythmic cadence of the core rotation before firing consecutive pins.",
+      "Watch for sudden direction reversals that occur every few seconds on higher levels.",
+      "Fire in quick double-taps when you spot wide open gaps on the core."
+    ],
+    "faq": [
+      {
+        "q": "How many stages are in Core Ball?",
+        "a": "Over 60 challenging stages with unique rotation physics and obstacle speeds."
+      }
+    ]
+  },
+  {
+    "slug": "fruit-slicer",
+    "name": "Fruit Slicer Classic",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "Juicy blade swiping and explosive fruit combo slashing",
+    "seoTitle": "Fruit Slicer Unblocked - Play Ninja Slash | Unblocked Games Lab",
+    "seoDescription": "Play Fruit Slicer unblocked (Fruit Ninja style). Slice flying watermelons, bananas, and pineapples while dodging explosive bombs.",
+    "h1": "Fruit Slicer Unblocked",
+    "rating": 4.92,
+    "plays": "240,000+",
+    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/cutfruit/index.html",
+    "icon": "🍉",
+    "gradient": "from-emerald-500 to-green-700",
+    "controls": [
+      {
+        "key": "Mouse Click & Drag / Touch Swipe",
+        "action": "Slash Blade Across Screen"
+      }
+    ],
+    "overview": "Fruit Slicer brings classic fruit-slashing arcade action directly to your browser. Swipe your blade across flying watermelons, oranges, coconuts, and strawberries to create juicy multi-fruit combo slices while avoiding dangerous explosive bombs.",
+    "howToPlay": "Drag your mouse cursor rapidly across airborne fruits before they fall off-screen. Chain 3 or more fruits in a single slice for combo score multipliers. Avoid slicing any black bombs.",
+    "tips": [
+      "Wait for multiple fruits to cluster at the peak of their arc before slicing through them all in one stroke.",
+      "Do not swipe frantically — calm, precise slices prevent accidental bomb hits.",
+      "Slice special glowing fruit to activate frenzy and slow-motion time power-ups."
+    ],
+    "faq": [
+      {
+        "q": "Does it work smoothly with Chromebook trackpads?",
+        "a": "Yes, ultra-responsive mouse and trackpad swipe physics are fully supported."
+      }
+    ]
+  },
+  {
+    "slug": "golf-blast",
+    "name": "Golf Blast 3D",
+    "isHero": false,
+    "category": "Sports",
+    "tagline": "Casual mini-golf trajectory aiming and hole-in-one puzzles",
+    "seoTitle": "Golf Blast Unblocked - Play Mini Golf Game | Unblocked Games Lab",
+    "seoDescription": "Play Golf Blast unblocked mini golf game. Aim trajectory, calculate bank shots, and sink hole-in-one putts across 30+ creative green courses.",
+    "h1": "Golf Blast Unblocked",
+    "rating": 4.9,
+    "plays": "150,000+",
+    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/golfblast/index.html",
+    "icon": "⛳",
+    "gradient": "from-lime-500 to-emerald-700",
+    "controls": [
+      {
+        "key": "Mouse Click & Drag",
+        "action": "Aim Shot Power & Direction"
+      },
+      {
+        "key": "Release Click",
+        "action": "Putt Ball Towards Hole"
+      }
+    ],
+    "overview": "Golf Blast is a polished physics-based mini-golf puzzle game. Navigate undulating greens, bounce off wooden walls, jump over sand traps, and sink the ball into the cup with the fewest strokes possible.",
+    "howToPlay": "Click and drag backwards from your golf ball to set shot trajectory and power. Release to launch the ball. Score an albatross or hole-in-one to earn 3 gold stars on each level.",
+    "tips": [
+      "Use bank shots off side cushions to navigate around difficult sand traps.",
+      "Do not always use max power — gentle putts prevent your ball from rolling off the green.",
+      "Collect bonus gems scattered on the fairway before sinking the final putt."
+    ],
+    "faq": [
+      {
+        "q": "How many golf courses are available?",
+        "a": "Over 30 handcrafted levels with increasing terrain complexity and obstacles."
+      }
+    ]
+  },
+  {
+    "slug": "classic-minesweeper",
+    "name": "Classic Minesweeper",
+    "isHero": false,
+    "category": "Puzzle",
+    "tagline": "The iconic retro grid logic and mine-defusing challenge",
+    "seoTitle": "Minesweeper Unblocked - Play Free Online | Unblocked Games Lab",
+    "seoDescription": "Play Classic Minesweeper unblocked in your browser. Uncover safe tiles, flag hidden mines, and solve Easy, Medium, and Expert grids.",
+    "h1": "Classic Minesweeper Unblocked",
+    "rating": 4.96,
+    "plays": "310,000+",
+    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/saolei/index.html",
+    "icon": "💣",
+    "gradient": "from-slate-600 to-zinc-800",
+    "controls": [
+      {
+        "key": "Left Click",
+        "action": "Uncover Safe Square"
+      },
+      {
+        "key": "Right Click / Long Press",
+        "action": "Place Flag on Suspected Mine"
+      },
+      {
+        "key": "Smiley Face Icon",
+        "action": "Restart Game Board"
+      }
+    ],
+    "overview": "Classic Minesweeper is the timeless single-player logic puzzle created for Windows. Clear a rectangular minefield grid without detonating any hidden naval mines, using number clues on revealed tiles that indicate how many adjacent mines touch each square.",
+    "howToPlay": "Left click any square to reveal the board. Numbers (1 to 8) tell you exactly how many mines surround that square. Right click to plant red warning flags on confirmed mine locations.",
+    "tips": [
+      "Master the basic 1-1 and 1-2 patterns along outer corners to identify safe squares instantly.",
+      "Your very first click is always 100% safe and guaranteed to open an expanse of tiles.",
+      "Flag all known mines before attempting risky guesses in dense corners."
+    ],
+    "faq": [
+      {
+        "q": "Does it support Easy, Medium, and Expert difficulty levels?",
+        "a": "Yes, full 9x9 (Easy), 16x16 (Medium), and 30x16 (Expert) board sizes with timer tracking are included."
       }
     ]
   }

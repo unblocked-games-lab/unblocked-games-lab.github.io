@@ -837,6 +837,23 @@ Sitemap: ${SITE_URL}/sitemap.xml
     }
   }
 
+  // Copy hosted games directory recursively if present
+  const hostedGamesSrc = path.join(SRC_DIR, 'hosted-games');
+  const hostedGamesDist = path.join(DIST_DIR, 'hosted-games');
+  if (fs.existsSync(hostedGamesSrc)) {
+    function copyDir(src, dest) {
+      if (!fs.existsSync(dest)) fs.mkdirSync(dest, { recursive: true });
+      for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+        const sPath = path.join(src, entry.name);
+        const dPath = path.join(dest, entry.name);
+        if (entry.isDirectory()) copyDir(sPath, dPath);
+        else fs.copyFileSync(sPath, dPath);
+      }
+    }
+    copyDir(hostedGamesSrc, hostedGamesDist);
+    console.log('✓ Copied self-hosted games to dist/hosted-games/');
+  }
+
   console.log('✓ Copied assets to dist/style.css, dist/app.js, and created .nojekyll');
 
   console.log('🎉 Static site build completed successfully!');
