@@ -92,6 +92,82 @@
     ]
   },
   {
+    "slug": "drift-hunters",
+    "name": "Drift Hunters",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "Realistic 3D car drifting simulator with 26 customizable vehicles",
+    "seoTitle": "Drift Hunters Unblocked - Play 3D Car Game | Unblocked Games Lab",
+    "seoDescription": "Play Drift Hunters unblocked 3D car drifting simulator. Tune engines, customize body kits, and drift across 10 racetracks in smooth 60 FPS WebGL.",
+    "h1": "Drift Hunters Unblocked",
+    "rating": 4.93,
+    "plays": "415,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/drifthunters/game.html",
+    "icon": "🏎️",
+    "gradient": "from-red-500 to-amber-600",
+    "controls": [
+      { "key": "W / Up Arrow", "action": "Accelerate / Gas" },
+      { "key": "S / Down Arrow", "action": "Brake / Reverse" },
+      { "key": "A / D or Left / Right", "action": "Steer Car Left / Right" },
+      { "key": "Space", "action": "Handbrake (Initiate Drift)" },
+      { "key": "C", "action": "Change Camera View" },
+      { "key": "Shift", "action": "Shift Up Gear (Manual Mode)" },
+      { "key": "Ctrl", "action": "Shift Down Gear (Manual Mode)" }
+    ],
+    "overview": "Drift Hunters is the premier 3D browser-based car drifting simulation game powered by Unity WebGL. Choose from an elite roster of 26 tuner drift cars, including legendary Japanese icons like the Toyota AE86, Nissan Silvia S15, and Supra, as well as European exotics. Customize turbochargers, brake balance, front camber, suspension stiffness, and paint jobs before shredding tires across 10 diverse tracks including touge mountain passes and city docks.",
+    "howToPlay": "Accelerate towards corners, tap the Handbrake (Space) while turning sharply to break rear traction, and feather the throttle to sustain long drift angles. The longer and steeper your drift angle, the higher your point multiplier climbs. Accumulated drift points convert directly into cash to buy new cars and performance upgrades.",
+    "tips": [
+      "Upgrade your Turbo and Weight Reduction first to sustain high-speed slides effortlessly.",
+      "Adjust front camber to negative angles in the Tuning menu to increase turn-in grip.",
+      "The 'Docks' and 'Nishisu' tracks offer wide corners that are easiest for stringing together mega combos.",
+      "Feather the throttle instead of holding it down constantly to prevent spinning out."
+    ],
+    "faq": [
+      {
+        "q": "Can I save my tuned cars and earned cash in Drift Hunters?",
+        "a": "Yes, your garage, vehicle modifications, and bank balance save automatically to your browser local storage."
+      },
+      {
+        "q": "Does Drift Hunters run on school Chromebooks without lagging?",
+        "a": "Yes, you can adjust the graphics quality from High to Low in the options menu to ensure a locked 60 FPS even on basic Intel Celeron processors."
+      }
+    ]
+  },
+  {
+    "slug": "subway-surfers",
+    "name": "Subway Surfers",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "World-famous 3D endless railway runner and hoverboard dodging",
+    "seoTitle": "Subway Surfers Unblocked - Play Free Online | Unblocked Games Lab",
+    "seoDescription": "Play Subway Surfers unblocked in your browser. Dash, jump, roll, and hoverboard dodge trains across world tour tracks. Free 60 FPS on Chromebooks.",
+    "h1": "Subway Surfers Unblocked",
+    "rating": 4.96,
+    "plays": "580,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/subwaysurfers/game.html",
+    "icon": "🏃",
+    "gradient": "from-teal-400 to-emerald-600",
+    "controls": [
+      { "key": "Left / Right Arrow (or A / D)", "action": "Switch Rail Tracks" },
+      { "key": "Up Arrow (or W)", "action": "Jump Over Obstacles" },
+      { "key": "Down Arrow (or S)", "action": "Roll Under Barriers" },
+      { "key": "Space", "action": "Activate Hoverboard (Crash Protection)" }
+    ],
+    "overview": "Subway Surfers is the legendary endless runner created by Kiloo and SYBO Games. Sprint down colorful railway tracks, dodging oncoming trains, construction barricades, and tunnels while escaping the grumpy Inspector and his dog. Collect gold coins, power-ups like Super Sneakers, Coin Magnets, and Jetpacks, and unlock dozens of unique surfers and custom hoverboards right inside your browser.",
+    "howToPlay": "Use arrow keys to swiftly dodge obstacles. Jump over signal barriers and roll underneath high blockades. Double tap Space to deploy your hoverboard for temporary crash immunity. Collect power-ups along the tracks to multiply your score and haul massive coin piles.",
+    "tips": [
+      "Upgrade the Coin Magnet and 2x Multiplier in the shop early for rapid score progression.",
+      "Hoverboards save your run: Activate a board when entering crowded triple-train sections.",
+      "Stay on top of train roofs whenever possible — they have fewer sudden barricades and cleaner sightlines."
+    ],
+    "faq": [
+      {
+        "q": "Is this the full official Subway Surfers web version?",
+        "a": "Yes! It contains full soundtrack, character selection, mission achievements, and hoverboards running on optimized HTML5."
+      }
+    ]
+  },
+  {
     "slug": "tag",
     "name": "Tag Unblocked",
     "isHero": false,
@@ -129,7 +205,7 @@
     "slug": "slope",
     "name": "Slope 3D",
     "isHero": false,
-    "category": "Action",
+    "category": "Skill",
     "tagline": "Endless high-speed rolling ball runner through neon cityscapes",
     "seoTitle": "Slope Unblocked - Play 3D Ball Game | Unblocked Games Lab",
     "seoDescription": "Play Slope unblocked 3D ball runner game on GitHub. Test your reflexes on high-speed neon slopes with responsive keyboard steering. Free at school.",
@@ -195,10 +271,202 @@
     ]
   },
   {
+    "slug": "snow-rider-3d",
+    "name": "Snow Rider 3D",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "Thrilling 3D winter sleigh ride down mountain snow slopes",
+    "seoTitle": "Snow Rider 3D Unblocked - Play Sled Game | Unblocked Games Lab",
+    "seoDescription": "Play Snow Rider 3D unblocked winter downhill sleigh game. Dodge giant snowballs, jump ravines, and collect gifts to unlock 10+ custom sleighs.",
+    "h1": "Snow Rider 3D Unblocked",
+    "rating": 4.91,
+    "plays": "320,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/snowrider3d/game.html",
+    "icon": "🏂",
+    "gradient": "from-cyan-500 to-blue-700",
+    "controls": [
+      { "key": "Up Arrow / W", "action": "Jump Over Chasm / Snowman" },
+      { "key": "Left / Right Arrow (or A / D)", "action": "Steer Sleigh Left / Right" }
+    ],
+    "overview": "Snow Rider 3D puts you at the helm of a fast-moving wooden bobsleigh hurtling down a steep snowy mountain. Navigate through pine forests, dodge giant rolling snowballs, avoid falling boulders, and jump across yawning ravines. Along the slope, gather holiday gift boxes to purchase upgrade sleighs like the Santa Sleigh, Evil Sled, and Metal Bobsled.",
+    "howToPlay": "Steer left and right to avoid collisions. Time your jumps precisely when approaching deep cliff gaps or stationary snowmen. The mountain speed progressively increases, testing your reflexes and situational awareness.",
+    "tips": [
+      "Do not jump unnecessarily on flat slopes — jumping makes steering temporarily impossible in mid-air.",
+      "Collect gifts on easy straightaways, but avoid risking crashes for gift boxes located right behind boulders.",
+      "Stick towards the center trail where visual reaction time is highest."
+    ],
+    "faq": [
+      {
+        "q": "How many sleighs can I unlock?",
+        "a": "There are over 10 unlockable sleighs, each with distinct visual designs and handling physics."
+      }
+    ]
+  },
+  {
+    "slug": "basket-random",
+    "name": "Basket Random",
+    "isHero": false,
+    "category": "2 Player",
+    "tagline": "Hilarious ragdoll physics 1v1 and 2v2 basketball party game",
+    "seoTitle": "Basket Random Unblocked - Play 2 Player | Unblocked Games Lab",
+    "seoDescription": "Play Basket Random unblocked 2-player ragdoll basketball game. Score 5 points under wacky changing courts, player sizes, and bouncing physics.",
+    "h1": "Basket Random Unblocked",
+    "rating": 4.94,
+    "plays": "275,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/basket-random/game.html",
+    "icon": "🏀",
+    "gradient": "from-amber-500 to-orange-600",
+    "controls": [
+      { "key": "Player 1", "action": "W (Jump, Dunk & Shoot)" },
+      { "key": "Player 2", "action": "Up Arrow (Jump, Dunk & Shoot)" },
+      { "key": "Mobile / Touch", "action": "Tap Screen Buttons" }
+    ],
+    "overview": "Basket Random is an uproarious 2-player arcade basketball game from the creators of Soccer Random. Featuring chaotic ragdoll physics, each point takes place in completely randomized court settings — from icy courts with slippery shoes to bouncy beach courts, long-armed players, and heavy bowling balls. First team to reach 5 points takes the victory.",
+    "howToPlay": "Press your jump button to make both your offensive and defensive ragdoll players leap, grab the ball, and launch shots towards the basket. React swiftly to changing gravity and player weights on every reset.",
+    "tips": [
+      "Time your jumps just as the opponent leaps to block their shot in mid-air.",
+      "On icy courts, lean forward before jumping to generate forward dunk momentum.",
+      "Stay patient and let opponents make jumping mistakes on high-rebound balls."
+    ],
+    "faq": [
+      {
+        "q": "Can I play solo against the computer CPU?",
+        "a": "Yes! Basket Random features both 1-Player vs AI CPU mode and 2-Player local keyboard versus mode."
+      }
+    ]
+  },
+  {
+    "slug": "paper-io-2",
+    "name": "Paper.io 2",
+    "isHero": false,
+    "category": "Action",
+    "tagline": "Addictive online territory expansion and trail-cutting battle",
+    "seoTitle": "Paper.io 2 Unblocked - Play Free Online | Unblocked Games Lab",
+    "seoDescription": "Play Paper.io 2 unblocked multiplayer territory arcade game. Paint the arena, capture 100% map area, and cut opponent trails on school Chromebooks.",
+    "h1": "Paper.io 2 Unblocked",
+    "rating": 4.89,
+    "plays": "365,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/paperio2/game.html",
+    "icon": "🗺️",
+    "gradient": "from-indigo-500 to-purple-700",
+    "controls": [
+      { "key": "Mouse / Arrow Keys / WASD", "action": "Steer Color Marker" }
+    ],
+    "overview": "Paper.io 2 is a massively popular arena territory conquering game. Control a colorful paper block that paints a trail as it moves. Close a loop back into your own territory to conquer the enclosed map space. Watch out for enemy players — if someone touches your exposed tail before you seal your boundary, you are instantly eliminated.",
+    "howToPlay": "Leave your base to carve out loops and expand your dominion. Target 100% map dominance while defending your perimeter and cutting enemy lines whenever they overextend.",
+    "tips": [
+      "Take small, safe territorial bites near your perimeter rather than giant, risky expeditions.",
+      "Watch the minimap: ambush greedy players when they wander far from their home base.",
+      "Never turn 180 degrees directly into your own freshly laid trail."
+    ],
+    "faq": [
+      {
+        "q": "Is Paper.io 2 unblocked for Chromebooks?",
+        "a": "Yes, our lightweight HTML5 canvas implementation loads in under a second on any school network."
+      }
+    ]
+  },
+  {
+    "slug": "tiny-fishing",
+    "name": "Tiny Fishing",
+    "isHero": false,
+    "category": "Simulation",
+    "tagline": "Satisfying casual fishing upgrades and deep-sea treasure hunts",
+    "seoTitle": "Tiny Fishing Unblocked - Play Online Game | Unblocked Games Lab",
+    "seoDescription": "Play Tiny Fishing unblocked casual upgrade game. Cast your hook, catch rare exotic fish, upgrade depth and max catch, and earn offline idle cash.",
+    "h1": "Tiny Fishing Unblocked",
+    "rating": 4.95,
+    "plays": "490,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/tinyfishing/game.html",
+    "icon": "🎣",
+    "gradient": "from-sky-400 to-teal-600",
+    "controls": [
+      { "key": "Mouse Click & Drag / Touch", "action": "Cast Hook & Steer Line" }
+    ],
+    "overview": "Tiny Fishing is a beloved relaxing casual simulator where players cast their hook into the deep blue sea. Cast your line, drag your mouse to hook the most valuable and legendary fish on the way up, and reinvest your cash rewards into four core upgrades: Max Depth, Number of Fish, and Offline Passive Earnings.",
+    "howToPlay": "Click to cast the hook. As the line reels back to the surface, drag left and right to snag colorful fish. Reach deeper depths to discover golden and legendary aquarium species that yield massive cash payouts.",
+    "tips": [
+      "Prioritize upgrading 'Depth' early — the rarest and highest value fish live below 50 meters.",
+      "Upgrade 'Offline Earnings' before closing your browser to collect huge cash rewards when you return.",
+      "Dodge cheap surface minnows to ensure your hook slots catch high-tier deep sea monsters."
+    ],
+    "faq": [
+      {
+        "q": "Does Tiny Fishing save my fish aquarium collection?",
+        "a": "Yes, all your depth records, unlocked hook skins, and aquarium collection save locally in your browser."
+      }
+    ]
+  },
+  {
+    "slug": "moto-x3m",
+    "name": "Moto X3M",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "Extreme physics motorbike trials across 25 explosive stunt tracks",
+    "seoTitle": "Moto X3M Unblocked - Play Bike Stunt Game | Unblocked Games Lab",
+    "seoDescription": "Play Moto X3M unblocked motorcycle stunt racing game. Flip through explosive loops, sawblades, and spikes to earn 3 stars across 25 levels.",
+    "h1": "Moto X3M Unblocked",
+    "rating": 4.94,
+    "plays": "380,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/motox3m/game.html",
+    "icon": "🏍️",
+    "gradient": "from-orange-500 to-red-600",
+    "controls": [
+      { "key": "Up Arrow / W", "action": "Accelerate / Drive Forward" },
+      { "key": "Down Arrow / S", "action": "Brake / Reverse" },
+      { "key": "Left / Right Arrow (or A / D)", "action": "Tilt Bike Back / Forward (Flips)" },
+      { "key": "Space", "action": "Respawn at Last Checkpoint" }
+    ],
+    "overview": "Moto X3M is the undisputed king of online 2D dirt bike racing games created by MadPuffers. Race your motorcycle through 25 handcrafted obstacle courses packed with giant loop-de-loops, catapults, spike pits, and rotating buzzsaws. Execute front and back flips in mid-air to subtract 0.5 seconds from your final time and achieve the coveted 3-star rating.",
+    "howToPlay": "Accelerate across checkpoints, keeping your bike balanced on rough terrain. Land cleanly on both wheels after jumps to maintain full speed. Perform continuous flips in the air to shave valuable seconds off your timer.",
+    "tips": [
+      "Front and back flips shave 0.5 seconds each off your level time — flip on every big air jump!",
+      "Lean backwards slightly when landing steep drops to prevent your front wheel from crashing.",
+      "Memorize checkpoint traps to anticipate sudden falling platforms."
+    ],
+    "faq": [
+      {
+        "q": "Can I unlock new bikes and riders?",
+        "a": "Yes, earning stars on levels unlocks new custom motorbikes, including the Ninja Bike and Spooky Skeleton Bike."
+      }
+    ]
+  },
+  {
+    "slug": "cookie-clicker",
+    "name": "Cookie Clicker",
+    "isHero": false,
+    "category": "Simulation",
+    "tagline": "The legendary incremental idle baking and empire building game",
+    "seoTitle": "Cookie Clicker Unblocked - Play Free Online | Unblocked Games Lab",
+    "seoDescription": "Play Cookie Clicker unblocked in browser. Bake billions of cookies, hire grandmas, build cookie factories, and ascend in this classic idle game.",
+    "h1": "Cookie Clicker Unblocked",
+    "rating": 4.97,
+    "plays": "620,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/cookieclicker/game.html",
+    "icon": "🍪",
+    "gradient": "from-yellow-600 to-amber-800",
+    "controls": [
+      { "key": "Left Mouse Click", "action": "Click Big Cookie / Purchase Buildings" }
+    ],
+    "overview": "Cookie Clicker is the definitive incremental idle game created by Orteil in 2013 that spawned an entire gaming genre. Start by clicking a giant cookie to bake cookies one by one. Reinvest your sweet fortune into purchasing cursors, grandmas, farms, mines, factories, alchemy labs, and antimatter condensers that bake millions of cookies per second automatically.",
+    "howToPlay": "Click the big cookie on the left. As your cookie bank grows, buy automated production buildings from the store on the right. Unlock hundreds of upgrades and achievements, click Golden Cookies for massive temporary multipliers, and prestige to ascend with heavenly chips.",
+    "tips": [
+      "Always click Golden Cookies when they appear — they grant 7x multipliers or instant 'Frenzy' cookie boosts.",
+      "Balance building purchases: It is often more efficient to buy tier upgrades for older buildings than buying one expensive new building.",
+      "Export your save code to a text file periodically to back up your cookie empire."
+    ],
+    "faq": [
+      {
+        "q": "Does Cookie Clicker continue baking cookies while the tab is closed?",
+        "a": "Yes, once you unlock the Angel and Demon heavenly upgrades, offline production generates cookies while you are away."
+      }
+    ]
+  },
+  {
     "slug": "geometry-dash-lite",
     "name": "Geometry Dash Lite",
     "isHero": false,
-    "category": "Rhythm",
+    "category": "Skill",
     "tagline": "Rhythm-based neon jumping and flying platformer",
     "seoTitle": "Geometry Dash Lite Unblocked - Play Free | Unblocked Games Lab",
     "seoDescription": "Play Geometry Dash Lite unblocked on GitHub. Jump, fly, and flip your way through dangerous geometric spike tracks synced to energetic music beats.",
@@ -252,6 +520,70 @@
       {
         "q": "Can I continue playing after reaching 2048?",
         "a": "Yes! You can continue past 2048 to reach 4096, 8192, and higher scores."
+      }
+    ]
+  },
+  {
+    "slug": "smash-karts",
+    "name": "Smash Karts",
+    "isHero": false,
+    "category": "Action",
+    "tagline": "3D multiplayer kart battle arena with rockets and power-ups",
+    "seoTitle": "Smash Karts Unblocked - Play 3D Kart Battle | Unblocked Games Lab",
+    "seoDescription": "Play Smash Karts unblocked 3D multiplayer battle arena. Drive fast karts, grab mystery boxes, fire rockets, and brawl with players online free.",
+    "h1": "Smash Karts Unblocked",
+    "rating": 4.91,
+    "plays": "310,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/smashkarts/game.html",
+    "icon": "🏎️",
+    "gradient": "from-rose-500 to-purple-600",
+    "controls": [
+      { "key": "W, A, S, D / Arrow Keys", "action": "Drive & Steer Kart" },
+      { "key": "Space", "action": "Fire Weapon / Use Power-Up" }
+    ],
+    "overview": "Smash Karts is a fast-paced 3D multiplayer kart combat game. Drop into a vibrant battle arena with players worldwide, drift around sharp turns, and smash through mystery item boxes. Arm yourself with guided rockets, invincibility stars, landmines, machine guns, and spiky balls to blow up rival karts and climb the round leaderboard.",
+    "howToPlay": "Drive over mystery question boxes to grab a random weapon. Aim towards opponents and press Space to fire. Score the highest number of knockouts within the 3-minute round time limit to earn XP, level up, and unlock wacky character hats and custom karts.",
+    "tips": [
+      "Drift around corners to maintain maximum driving speed while grabbing item boxes.",
+      "Hold onto your Invincibility Star until opponents target you with homing missiles.",
+      "Drop landmines directly in narrow choke points and item box spawn zones."
+    ],
+    "faq": [
+      {
+        "q": "Can I play Smash Karts with friends in private rooms?",
+        "a": "Yes, you can create custom party rooms to play private matches with your school classmates."
+      }
+    ]
+  },
+  {
+    "slug": "crossy-road",
+    "name": "Crossy Road",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "Endless 8-bit voxel arcade crossing busy roads and rivers",
+    "seoTitle": "Crossy Road Unblocked - Play Free Online | Unblocked Games Lab",
+    "seoDescription": "Play Crossy Road unblocked in your browser. Hop across busy freeways, train tracks, and floating river logs in this beloved 8-bit voxel classic.",
+    "h1": "Crossy Road Unblocked",
+    "rating": 4.93,
+    "plays": "260,000+",
+    "iframeUrl": "https://mac-web.github.io/macvg/projects/crossyroad/game.html",
+    "icon": "🐔",
+    "gradient": "from-green-400 to-emerald-600",
+    "controls": [
+      { "key": "Arrow Keys / W A S D", "action": "Hop Forward, Backward, Left, Right" },
+      { "key": "Space", "action": "Hop Forward" }
+    ],
+    "overview": "Crossy Road by Hipster Whale reimagined classic Frogger into an endless, charming 3D voxel arcade world. Guide a quirky chicken (and dozens of other unlockable animals and pop-culture characters) across high-speed multilane highways, high-velocity railway tracks, and fast-flowing rivers with floating logs and lily pads.",
+    "howToPlay": "Tap forward to hop across each lane. Look both ways to time gaps between speeding cars, freight trains, and floating tree trunks. Don't linger too long in one spot — the predatory eagle will swoop down if you hesitate.",
+    "tips": [
+      "Listen closely for train warning signals — railway red lights flash 2 seconds before high-speed trains arrive.",
+      "Hop sideways to wait for safer traffic openings rather than staying still.",
+      "Collect gold coins scattered across the road to unlock the prize machine."
+    ],
+    "faq": [
+      {
+        "q": "Does Crossy Road work on school Chromebook keyboards?",
+        "a": "Yes! Responsive Arrow and WASD keyboard controls provide instant response times."
       }
     ]
   },
