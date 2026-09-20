@@ -1,35 +1,28 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-
-
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    <title>MotoX3M</title>
-    
-    
-    <script> if (window.self !== window.top) {
-        // This page is being displayed in an iframe
-        window.top.location.href = window.location.href;
-    }
-    </script>
-    <script>
-        if (top != self)
-            delete top.onbeforeunload;
-    </script>
-    <script>
-        var iframes = document.getElementsByTagName('iframe');
-
-        for (var i = 0; i < iframes.length; i++) {
-            var iframe = iframes[i];
-
-            // Set the sandbox attribute to 'allow-scripts'
-            iframe.sandbox = 'allow-scripts';
-        }
-    </script>
-    <meta content="deny" http-equiv="X-Frame-Options">
-    crossorigin="anonymous"></script>
     <meta charset="utf-8"/>
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <meta content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" name="viewport"/>
+    <title>Moto X3M</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: #070b14;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas {
+            display: block;
+            margin: auto;
+            max-width: 100vw;
+            max-height: 100vh;
+        }
+    </style>
     <link href="assets/css/app.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
