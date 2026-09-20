@@ -67,7 +67,8 @@
         "q": "Is progress saved automatically?",
         "a": "Yes, coins and weapon unlocks are saved in your browser local storage."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/funny-shooter-2.jpg"
   },
   {
     "slug": "retro-bowl",
@@ -108,7 +109,8 @@
         "q": "Is this the full version of Retro Bowl?",
         "a": "Yes! Features complete roster management, full 17-game seasons, and postseason playoff brackets."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/retro-bowl.jpg"
   },
   {
     "slug": "subway-surfers",
@@ -153,7 +155,8 @@
         "q": "Does Subway Surfers work on keyboard controls?",
         "a": "Yes! Full WASD and Arrow key controls are pre-configured."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/subway-surfers.jpeg"
   },
   {
     "slug": "drift-hunters",
@@ -210,7 +213,8 @@
         "q": "How do I earn money faster in Drift Hunters?",
         "a": "Chain drifts continuously without hitting walls to build a 5x combo multiplier."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/drift-hunters.jpg"
   },
   {
     "slug": "slope",
@@ -243,7 +247,8 @@
         "q": "Is Slope endlessly generated?",
         "a": "Yes! The slope track is procedurally generated and gets faster the longer you survive."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/slope.jpg"
   },
   {
     "slug": "1v1-lol",
@@ -300,7 +305,8 @@
         "q": "Can I customize building keybinds?",
         "a": "Yes, full custom keybind configuration is available in the game settings menu."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/1v1-lol.jpg"
   },
   {
     "slug": "snow-rider-3d",
@@ -337,7 +343,8 @@
         "q": "How many sleds can you unlock?",
         "a": "There are over 10 unique sleighs and snowmobiles available in the gift shop."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/snow-rider-3d.jpg"
   },
   {
     "slug": "basket-random",
@@ -374,7 +381,8 @@
         "q": "Can I play with a friend on one keyboard?",
         "a": "Yes! Local 2-player mode uses W and Up Arrow keys side-by-side."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/basket-random.jpg"
   },
   {
     "slug": "paper-io-2",
@@ -407,7 +415,8 @@
         "q": "Can you reach 100% map dominance?",
         "a": "Yes! Encircling the entire arena unlocks special skins and crown awards."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/paper-io-2.jpg"
   },
   {
     "slug": "tiny-fishing",
@@ -440,7 +449,8 @@
         "q": "Does Tiny Fishing save my upgrades?",
         "a": "Yes, all rod upgrades, caught fish trophies, and coins are saved in your browser."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/tiny-fishing.jpg"
   },
   {
     "slug": "moto-x3m",
@@ -481,7 +491,8 @@
         "q": "How do you unlock new motorbikes?",
         "a": "Earn 3-star ratings on levels to collect stars and unlock awesome stunt bikes."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/moto-x3m.jpeg"
   },
   {
     "slug": "cookie-clicker",
@@ -514,7 +525,8 @@
         "q": "Does Cookie Clicker run in the background?",
         "a": "Yes! Automated buildings continue baking cookies even when you switch browser tabs."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/cookie-clicker.jpg"
   },
   {
     "slug": "bitlife",
@@ -547,7 +559,8 @@
         "q": "Can you have multiple generations?",
         "a": "Yes! You can continue playing as your children after your character passes away."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/bitlife.jpg"
   },
   {
     "slug": "tunnel-rush",
@@ -580,7 +593,8 @@
         "q": "Does Tunnel Rush support two-player mode?",
         "a": "Yes, 2-player split-screen mode lets you race a friend on the same device."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/tunnel-rush.jpg"
   },
   {
     "slug": "cluster-rush",
@@ -617,7 +631,8 @@
         "q": "How many levels are in Cluster Rush?",
         "a": "There are over 30 increasingly difficult levels with moving obstacles and tumbling trucks."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/cluster-rush.jpg"
   },
   {
     "slug": "stickman-hook",
@@ -650,7 +665,8 @@
         "q": "Can you unlock different character skins?",
         "a": "Yes! Complete levels to unlock superheroes, robots, and custom costume skins."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/stickman-hook.jpg"
   },
   {
     "slug": "time-shooter-2",
@@ -695,7 +711,8 @@
         "q": "Does looking around advance time?",
         "a": "Looking around advances time by a tiny fraction, letting you aim without speeding up bullets."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/time-shooter-2.jpg"
   },
   {
     "slug": "time-shooter-3",
@@ -744,7 +761,8 @@
         "q": "Are there new weapons compared to Time Shooter 2?",
         "a": "Yes! SWAT includes ballistic shields, pump-action shotguns, flashbangs, and armor-piercing rifles."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/time-shooter-3.jpg"
   },
   {
     "slug": "monkey-mart",
@@ -777,7 +795,8 @@
         "q": "Can you open second and third supermarket locations?",
         "a": "Yes! Maximizing revenue unlocks additional mart locations with brand new exotic foods."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/monkey-mart.jpg"
   },
   {
     "slug": "vex-7",
@@ -818,7 +837,8 @@
         "q": "Is there a Tower Mode in Vex 7?",
         "a": "Yes! Tower Mode features an endless vertical climb with daily leaderboard challenges."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/vex-7.jpg"
   },
   {
     "slug": "vex-6",
@@ -851,7 +871,8 @@
         "q": "How many skins are in Vex 6?",
         "a": "There are 64 unlockable stickman skins accessible in the main menu wardrobe."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/vex-6.jpg"
   },
   {
     "slug": "soccer-random",
@@ -888,7 +909,8 @@
         "q": "Can you play against CPU or friends?",
         "a": "Both! Choose 1-Player vs AI or 2-Player mode on a single shared keyboard."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/soccer-random.jpg"
   },
   {
     "slug": "watermelon-game",
@@ -925,7 +947,8 @@
         "q": "What is the highest achievable fruit?",
         "a": "Merging two Watermelons eliminates both and awards the ultimate 3,000+ point bonus."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/watermelon-game.jpg"
   },
   {
     "slug": "temple-run-2",
@@ -966,7 +989,8 @@
         "q": "Does Temple Run 2 feature mine cart stages?",
         "a": "Yes! Tilt controls let you steer mine carts along broken subterranean railway tracks."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/temple-run-2.jpg"
   },
   {
     "slug": "crossy-road",
@@ -1003,7 +1027,8 @@
         "q": "Can you unlock new voxel characters?",
         "a": "Yes! Collect gold coins to spin the prize machine for ducks, dogs, robots, and secret characters."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/crossy-road.jpg"
   },
   {
     "slug": "getaway-shootout",
@@ -1048,7 +1073,8 @@
         "q": "Can you play with 4 players?",
         "a": "The game features 4 simultaneous racers controlled by combinations of human players and AI bots."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/getaway-shootout.jpg"
   },
   {
     "slug": "fireboy-and-watergirl",
@@ -1085,7 +1111,8 @@
         "q": "Can one person play alone?",
         "a": "Yes! One player can control both characters simultaneously using WASD and Arrow keys."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/fireboy-and-watergirl.jpg"
   },
   {
     "slug": "q1k3",
@@ -1134,7 +1161,8 @@
         "q": "Does Q1K3 require downloading Quake 1 files?",
         "a": "No! Q1K3 is 100% self-contained in lightweight WebGL."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/q1k3.jpg"
   },
   {
     "slug": "underrun",
@@ -1179,7 +1207,8 @@
         "q": "Can I play UNDERRUN offline or on Chromebooks?",
         "a": "Yes! UNDERRUN is extremely lightweight and runs on pure Canvas 2D."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/underrun.jpg"
   },
   {
     "slug": "2048",
@@ -1212,7 +1241,8 @@
         "q": "Can I continue playing after reaching 2048?",
         "a": "Yes! You can continue past 2048 to reach 4096, 8192, and higher scores."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/2048.jpg"
   },
   {
     "slug": "hextris",
@@ -1249,7 +1279,8 @@
         "q": "How are combos calculated in Hextris?",
         "a": "Clearing consecutive matches within short time windows triggers multipliers up to 5x+."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/hextris.png"
   },
   {
     "slug": "clumsy-bird",
@@ -1282,7 +1313,8 @@
         "q": "Does Clumsy Bird save high scores locally?",
         "a": "Yes, your best distance is saved in local storage."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/clumsy-bird.jpg"
   },
   {
     "slug": "pacman-html5",
@@ -1315,7 +1347,8 @@
         "q": "Are authentic sound effects included?",
         "a": "Yes! Authentic retro waka-waka sounds and ghost siren loops are included."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/pacman-html5.jpg"
   },
   {
     "slug": "html5-asteroids",
@@ -1356,7 +1389,8 @@
         "q": "Does the ship wrap around screen edges?",
         "a": "Yes, passing through borders wraps you to the opposite side."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/html5-asteroids.jpg"
   },
   {
     "slug": "retro-snake",
@@ -1392,7 +1426,8 @@
         "q": "Can I play Retro Snake on mobile?",
         "a": "Yes, touch and swipe gestures are fully supported."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/retro-snake.jpg"
   },
   {
     "slug": "flappy-2048",
@@ -1424,6 +1459,7 @@
         "q": "What happens when you hit the 2048 tile?",
         "a": "Reaching 2048 awards a massive victory score and unlocks endless mode."
       }
-    ]
+    ],
+    "thumbnail": "/images/thumbnails/flappy-2048.jpg"
   }
 ]

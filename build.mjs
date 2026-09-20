@@ -160,13 +160,18 @@ function renderGameGrid(gameList, currentSlug = '') {
             
             <!-- Thumbnail Visual Card -->
             <div class="aspect-[4/3] rounded-xl bg-gradient-to-br ${g.gradient || 'from-slate-800 to-slate-950'} flex flex-col items-center justify-center relative overflow-hidden border border-slate-750/50 mb-3 group-hover:scale-[1.02] transition-transform duration-300">
-              <span class="text-4xl sm:text-5xl filter drop-shadow-md group-hover:scale-110 transition-transform duration-300 select-none">${g.icon}</span>
-              <div class="absolute top-2 left-2 px-2 py-0.5 bg-black/60 backdrop-blur-md rounded-md text-[10px] font-semibold text-slate-300 border border-white/10 uppercase tracking-wider">
+              ${
+                g.thumbnail
+                  ? `<img src="${SITE_URL}${g.thumbnail}" alt="${g.name} Unblocked" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.style.display='none'">`
+                  : ''
+              }
+              <span class="text-4xl sm:text-5xl filter drop-shadow-md group-hover:scale-110 transition-transform duration-300 select-none ${g.thumbnail ? 'opacity-0' : ''}">${g.icon}</span>
+              <div class="absolute top-2 left-2 px-2 py-0.5 bg-black/75 backdrop-blur-md rounded-md text-[10px] font-semibold text-slate-200 border border-white/10 uppercase tracking-wider shadow-sm z-10">
                 ${g.category}
               </div>
               ${
                 isCurrent
-                  ? `<div class="absolute inset-0 bg-cyan-950/70 backdrop-blur-sm flex items-center justify-center">
+                  ? `<div class="absolute inset-0 bg-cyan-950/75 backdrop-blur-sm flex items-center justify-center z-20">
                       <span class="px-2.5 py-1 bg-cyan-500 text-slate-950 font-bold text-xs rounded-lg shadow-lg animate-pulse">NOW PLAYING</span>
                     </div>`
                   : ''
@@ -997,6 +1002,23 @@ Sitemap: ${SITE_URL}/sitemap.xml
     }
     copyDir(hostedGamesSrc, hostedGamesDist);
     console.log('✓ Copied self-hosted games to dist/hosted-games/');
+  }
+
+  // Copy images directory recursively
+  const imagesSrc = path.join(SRC_DIR, 'images');
+  const imagesDist = path.join(DIST_DIR, 'images');
+  if (fs.existsSync(imagesSrc)) {
+    function copyDir(src, dest) {
+      if (!fs.existsSync(dest)) fs.mkdirSync(dest, { recursive: true });
+      for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+        const sPath = path.join(src, entry.name);
+        const dPath = path.join(dest, entry.name);
+        if (entry.isDirectory()) copyDir(sPath, dPath);
+        else fs.copyFileSync(sPath, dPath);
+      }
+    }
+    copyDir(imagesSrc, imagesDist);
+    console.log('✓ Copied images to dist/images/');
   }
 
   console.log('✓ Copied assets and created .nojekyll');
