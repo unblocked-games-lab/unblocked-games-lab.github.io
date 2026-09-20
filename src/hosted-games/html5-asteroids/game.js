@@ -816,20 +816,46 @@ Text = {
     }
   },
 
+  measureText: function(text, size) {
+    if (!this.face) return text.length * size * 0.6;
+    var pixels = size * 72 / (this.face.resolution * 100);
+    var width = 0;
+    var chars = text.toString().split('');
+    for (var i = 0; i < chars.length; i++) {
+      var glyph = this.face.glyphs[chars[i]];
+      if (glyph && glyph.ha) {
+        width += glyph.ha * pixels;
+      } else {
+        width += 20 * pixels;
+      }
+    }
+    return width;
+  },
+
+  renderCenteredText: function(text, size, y) {
+    var width = this.measureText(text, size);
+    var x = (Game.canvasWidth - width) / 2;
+    this.renderText(text, size, x, y);
+  },
+
   renderText: function(text, size, x, y) {
+    if (!this.context || !this.face) return;
     this.context.save();
 
     this.context.translate(x, y);
 
     var pixels = size * 72 / (this.face.resolution * 100);
     this.context.scale(pixels, -1 * pixels);
+    this.context.lineWidth = 2.0 / pixels;
+    this.context.strokeStyle = '#ffffff';
+    this.context.fillStyle = '#ffffff';
     this.context.beginPath();
-    var chars = text.split('');
+    var chars = text.toString().split('');
     var charsLength = chars.length;
     for (var i = 0; i < charsLength; i++) {
       this.renderGlyph(this.context, this.face, chars[i]);
     }
-    this.context.fill();
+    this.context.stroke();
 
     this.context.restore();
   },
@@ -926,7 +952,7 @@ Game = {
       this.state = 'waiting';
     },
     waiting: function () {
-      Text.renderText(window.ipad ? 'Touch Screen to Start' : 'Press Space to Start', 36, Game.canvasWidth/2 - 270, Game.canvasHeight/2);
+      Text.renderCenteredText(window.ipad ? 'TOUCH SCREEN TO START' : 'PRESS SPACE TO START', 28, Game.canvasHeight / 2);
       if (KEY_STATUS.space || window.gameStart) {
         KEY_STATUS.space = false; // hack so we don't shoot right away
         window.gameStart = false;
@@ -1006,12 +1032,13 @@ Game = {
       }
     },
     end_game: function () {
-      Text.renderText('GAME OVER', 50, Game.canvasWidth/2 - 160, Game.canvasHeight/2 + 10);
+      Text.renderCenteredText('GAME OVER', 48, Game.canvasHeight / 2 - 10);
+      Text.renderCenteredText('SCORE ' + Game.score, 24, Game.canvasHeight / 2 + 40);
       if (this.timer == null) {
         this.timer = Date.now();
       }
-      // wait 5 seconds then go back to waiting state
-      if (Date.now() - this.timer > 5000) {
+      // wait 4 seconds then go back to waiting state
+      if (Date.now() - this.timer > 4000) {
         this.timer = null;
         this.state = 'waiting';
       }
@@ -1172,21 +1199,21 @@ $(function () {
     }
 
     // score
-    var score_text = ''+Game.score;
-    Text.renderText(score_text, 18, Game.canvasWidth - 14 * score_text.length, 20);
+    var score_text = 'SCORE ' + Game.score;
+    Text.renderText(score_text, 18, 24, 28);
 
     // extra dudes
     for (i = 0; i < Game.lives; i++) {
       context.save();
-      extraDude.x = Game.canvasWidth - (8 * (i + 1));
-      extraDude.y = 32;
+      extraDude.x = 28 + (i * 18);
+      extraDude.y = 48;
       extraDude.configureTransform();
       extraDude.draw();
       context.restore();
     }
 
     if (showFramerate) {
-      Text.renderText(''+avgFramerate, 24, Game.canvasWidth - 38, Game.canvasHeight - 2);
+      Text.renderText(''+avgFramerate, 20, Game.canvasWidth - 60, 28);
     }
 
     frameCount++;
@@ -1198,7 +1225,7 @@ $(function () {
     }
 
     if (paused) {
-      Text.renderText('PAUSED', 72, Game.canvasWidth/2 - 160, 120);
+      Text.renderCenteredText('PAUSED', 48, Game.canvasHeight / 2);
     } else {
       requestAnimFrame(mainLoop, canvasNode);
     }
