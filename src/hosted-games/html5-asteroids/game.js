@@ -908,8 +908,8 @@ Game = {
   totalAsteroids: 5,
   lives: 0,
 
-  canvasWidth: 800,
-  canvasHeight: 600,
+  canvasWidth: 960,
+  canvasHeight: 540,
 
   sprites: [],
   ship: null,
@@ -952,7 +952,7 @@ Game = {
       this.state = 'waiting';
     },
     waiting: function () {
-      Text.renderCenteredText(window.ipad ? 'TOUCH SCREEN TO START' : 'PRESS SPACE TO START', 28, Game.canvasHeight / 2);
+      Text.renderCenteredText(window.ipad ? 'TOUCH SCREEN TO START' : 'PRESS SPACE TO START', 26, Game.canvasHeight / 2 + 12);
       if (KEY_STATUS.space || window.gameStart) {
         KEY_STATUS.space = false; // hack so we don't shoot right away
         window.gameStart = false;
@@ -1032,8 +1032,8 @@ Game = {
       }
     },
     end_game: function () {
-      Text.renderCenteredText('GAME OVER', 48, Game.canvasHeight / 2 - 10);
-      Text.renderCenteredText('SCORE ' + Game.score, 24, Game.canvasHeight / 2 + 40);
+      Text.renderCenteredText('GAME OVER', 44, Game.canvasHeight / 2 - 12);
+      Text.renderCenteredText('SCORE ' + Game.score, 24, Game.canvasHeight / 2 + 36);
       if (this.timer == null) {
         this.timer = Date.now();
       }
@@ -1057,8 +1057,8 @@ Game = {
 
 $(function () {
   var canvas = $("#canvas");
-  Game.canvasWidth  = canvas.width();
-  Game.canvasHeight = canvas.height();
+  Game.canvasWidth  = (canvas[0] && canvas[0].width) ? canvas[0].width : 960;
+  Game.canvasHeight = (canvas[0] && canvas[0].height) ? canvas[0].height : 540;
 
   var context = canvas[0].getContext("2d");
 
@@ -1200,13 +1200,13 @@ $(function () {
 
     // score
     var score_text = 'SCORE ' + Game.score;
-    Text.renderText(score_text, 18, 24, 28);
+    Text.renderText(score_text, 18, 30, 44);
 
     // extra dudes
     for (i = 0; i < Game.lives; i++) {
       context.save();
-      extraDude.x = 28 + (i * 18);
-      extraDude.y = 48;
+      extraDude.x = 34 + (i * 20);
+      extraDude.y = 68;
       extraDude.configureTransform();
       extraDude.draw();
       context.restore();
