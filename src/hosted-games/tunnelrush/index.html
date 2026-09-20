@@ -1,5 +1,36 @@
 <html>
 <head>
+<script>
+    window.idnetGetWindowUrl = function() { return window.location.href; };
+    (function() {
+      const host = window.location.hostname || 'localhost';
+      const mockResponse = JSON.stringify({
+        approved_domains: [host, '*', 'localhost', '127.0.0.1', 'unblocked-games-lab.github.io', 'github.io', '.github.io', '.y8.com', 'y8.com'],
+        blacklisted_urls: []
+      });
+      const originalOpen = XMLHttpRequest.prototype.open;
+      const originalSend = XMLHttpRequest.prototype.send;
+      XMLHttpRequest.prototype.open = function(method, url, ...rest) {
+        this._url = url ? url.toString() : '';
+        return originalOpen.apply(this, [method, url, ...rest]);
+      };
+      XMLHttpRequest.prototype.send = function(body) {
+        if (this._url && (this._url.includes('protektion-lists') || this._url.includes('id.net') || this._url.includes('y8.com'))) {
+          Object.defineProperty(this, 'readyState', { value: 4, writable: true, configurable: true });
+          Object.defineProperty(this, 'status', { value: 200, writable: true, configurable: true });
+          Object.defineProperty(this, 'statusText', { value: 'OK', writable: true, configurable: true });
+          Object.defineProperty(this, 'responseText', { value: mockResponse, writable: true, configurable: true });
+          Object.defineProperty(this, 'response', { value: mockResponse, writable: true, configurable: true });
+          setTimeout(() => {
+            if (typeof this.onreadystatechange === 'function') this.onreadystatechange(new Event('readystatechange'));
+            if (typeof this.onload === 'function') this.onload(new Event('load'));
+          }, 10);
+          return;
+        }
+        return originalSend.apply(this, arguments);
+      };
+    })();
+    </script>
 
 
     <meta charset="utf-8">
@@ -7,7 +38,7 @@
     <title>Tunnel Rush</title>
     
 
-    <meta content="deny" http-equiv="X-Frame-Options">
+    
     <link href="style/favicon.ico" rel="shortcut icon">
     <link href="style/style.css" rel="stylesheet">
     <script>

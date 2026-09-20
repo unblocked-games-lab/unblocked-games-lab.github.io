@@ -90,38 +90,27 @@ function js_trace(text)
   console.log(text);
 }
 
-// SITELOCKS
+// SITELOCKS (Neutralized for clean self-hosting)
 
-function js_iframed( )
+function js_iframed()
 {
-  if(window.self != window.top)
-      return 1; else
-      return 0;
+  return 0;
 }
 
 function js_getParentDomain()
 {
-  return window.top.location.href;
+  return window.location.href;
 }
 
 function js_getDomainOfSubDomain()
 {
-  //*** window.location.host is subdomain.domain.com
-
-  var siteName;
-  if (js_iframed())
-    siteName = window.top.location.host; else
-    siteName = window.location.host;
-
-  var parts   = siteName.split('.');
+  var siteName = window.location.host;
+  var parts = siteName.split('.');
 
   if (parts.length >= 2)
   {
-  	//*** sub is 'subdomain', 'domain', type is 'com'
-    var sub  = parts[parts.length-3]
-    var domain  = parts[parts.length-2]
-    var type    = parts[parts.length-1]
-    
+    var domain = parts[parts.length-2];
+    var type = parts[parts.length-1];
     return domain + "." + type;
   } else
   {
