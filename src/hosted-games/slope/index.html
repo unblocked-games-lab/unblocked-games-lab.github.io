@@ -3,8 +3,89 @@
 
 
     <title>Slope</title>
+    <script>
+    // ID.net / Y8 Sitelock Bypass & Mock
+    (function() {
+        const host = window.location.hostname || 'localhost';
+        const mockResponse = JSON.stringify({
+            approved_domains: [
+                host,
+                '*',
+                'localhost',
+                '127.0.0.1',
+                'unblocked-games-lab.github.io',
+                'github.io',
+                '.github.io',
+                '.y8.com',
+                'y8.com',
+                'slopegame.app'
+            ],
+            blacklisted_urls: []
+        });
 
-    <meta content="deny" http-equiv="X-Frame-Options">
+        // 1. Intercept XMLHttpRequest
+        const originalOpen = XMLHttpRequest.prototype.open;
+        const originalSend = XMLHttpRequest.prototype.send;
+
+        XMLHttpRequest.prototype.open = function(method, url, ...rest) {
+            this._url = url ? url.toString() : '';
+            return originalOpen.apply(this, [method, url, ...rest]);
+        };
+
+        XMLHttpRequest.prototype.send = function(body) {
+            if (this._url && (this._url.includes('protektion-lists') || this._url.includes('id.net') || this._url.includes('y8.com'))) {
+                console.log('[Bypass] Intercepted XHR:', this._url);
+                Object.defineProperty(this, 'readyState', { value: 4, writable: true, configurable: true });
+                Object.defineProperty(this, 'status', { value: 200, writable: true, configurable: true });
+                Object.defineProperty(this, 'statusText', { value: 'OK', writable: true, configurable: true });
+                Object.defineProperty(this, 'responseText', { value: mockResponse, writable: true, configurable: true });
+                Object.defineProperty(this, 'response', { value: mockResponse, writable: true, configurable: true });
+
+                setTimeout(() => {
+                    if (typeof this.onreadystatechange === 'function') {
+                        this.onreadystatechange(new Event('readystatechange'));
+                    }
+                    if (typeof this.onload === 'function') {
+                        this.onload(new Event('load'));
+                    }
+                }, 10);
+                return;
+            }
+            return originalSend.apply(this, arguments);
+        };
+
+        // 2. Intercept Fetch
+        if (window.fetch) {
+            const originalFetch = window.fetch;
+            window.fetch = function(input, init) {
+                const url = typeof input === 'string' ? input : (input && input.url ? input.url : '');
+                if (url && (url.includes('protektion-lists') || url.includes('id.net') || url.includes('y8.com'))) {
+                    console.log('[Bypass] Intercepted fetch:', url);
+                    return Promise.resolve(new Response(mockResponse, {
+                        status: 200,
+                        headers: { 'Content-Type': 'application/json' }
+                    }));
+                }
+                return originalFetch.apply(this, arguments);
+            };
+        }
+
+        // 3. Mock window.idnet and alertify to prevent errors
+        window.idnet = window.idnet || {
+            init: function() {},
+            showLeaderboard: function() {},
+            submitScore: function() {},
+            authorize: function() {},
+            isAuthorized: function() { return false; }
+        };
+        window.idnetPrerollCallback = function(cb) { if (typeof cb === 'function') cb(); };
+        window.alertify = window.alertify || {
+            confirm: function(msg, cb) { if (typeof cb === 'function') cb(false); },
+            alert: function() {},
+            log: function() {}
+        };
+    })();
+    </script>
     <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
     <script src="UnityProgress.js"></script>
