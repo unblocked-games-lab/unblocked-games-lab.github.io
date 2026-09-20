@@ -70,7 +70,44 @@
             };
         }
 
-        // 3. Mock window.idnet and alertify to prevent errors
+        // 3. Intercept dynamic script tags (like IDNET autologin)
+        const originalCreateElement = document.createElement;
+        document.createElement = function(tagName, ...rest) {
+            const el = originalCreateElement.apply(document, [tagName, ...rest]);
+            if (tagName && String(tagName).toLowerCase() === 'script') {
+                const originalSetAttribute = el.setAttribute;
+                el.setAttribute = function(name, val) {
+                    if (name === 'src' && val && String(val).includes('autologin')) {
+                        console.log('[Bypass] Intercepted autologin setAttribute:', val);
+                        setTimeout(() => {
+                            if (typeof window.idnet_autologin === 'function') {
+                                try { window.idnet_autologin({ status: 'ok', user: { nickname: 'Guest' } }); } catch(e) {}
+                            }
+                        }, 50);
+                        return;
+                    }
+                    return originalSetAttribute.apply(this, arguments);
+                };
+            }
+            return el;
+        };
+
+        // 4. Hook window.idnet_autologin
+        let _autologinFn = null;
+        Object.defineProperty(window, 'idnet_autologin', {
+            get: function() { return _autologinFn; },
+            set: function(fn) {
+                _autologinFn = fn;
+                if (typeof fn === 'function') {
+                    setTimeout(() => {
+                        try { fn({ status: 'ok', user: { nickname: 'Guest' } }); } catch(e) {}
+                    }, 50);
+                }
+            },
+            configurable: true
+        });
+
+        // 5. Mock window.idnet and alertify to prevent errors
         window.idnet = window.idnet || {
             init: function() {},
             showLeaderboard: function() {},
@@ -95,7 +132,17 @@
         var unityInstance = window.unityInstance = UnityLoader.instantiate("gameContainer", "slope_new.json", {
             onProgress: UnityProgress, Module: {
                 onRuntimeInitialized: function () {
-                    UnityProgress(window.unityInstance, "complete")
+                    UnityProgress(window.unityInstance, "complete");
+                    const dismissModal = () => {
+                        try { window.unityInstance.SendMessage('', 'CloseLoginRegisterGui'); } catch(e) {}
+                        try { window.unityInstance.SendMessage('', 'CloseGui'); } catch(e) {}
+                        try { window.unityInstance.SendMessage('', 'CloseAutoLoginGui'); } catch(e) {}
+                        try { window.unityInstance.SendMessage('IDNET', 'CloseLoginRegisterGui'); } catch(e) {}
+                        try { window.unityInstance.SendMessage('IDNET', 'CloseGui'); } catch(e) {}
+                    };
+                    setTimeout(dismissModal, 500);
+                    setTimeout(dismissModal, 1500);
+                    setTimeout(dismissModal, 3000);
                 }
             }
         });
