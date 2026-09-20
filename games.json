@@ -653,7 +653,7 @@
     "h1": "2048 Unblocked Game",
     "rating": 4.96,
     "plays": "180,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/2048/game.html",
+    "iframeUrl": "/hosted-games/2048/index.html",
     "icon": "🔢",
     "gradient": "from-yellow-400 to-orange-500",
     "controls": [
@@ -787,318 +787,323 @@
     ]
   },
   {
-    "slug": "1942-arcade",
-    "name": "1942 Classic Arcade",
+    "slug": "q1k3",
+    "name": "Q1K3 (Quake 1K)",
     "isHero": false,
     "category": "Shooting",
-    "tagline": "Legendary WWII vertical scrolling fighter plane combat",
-    "seoTitle": "1942 Unblocked - Play WWII Air Combat | Unblocked Games Lab",
-    "seoDescription": "Play 1942 arcade unblocked in your browser. Pilot your P-38 Lightning fighter, dodge enemy fire, and take down enemy fleets in 60 FPS.",
-    "h1": "1942 Classic Arcade Unblocked",
-    "rating": 4.93,
-    "plays": "165,000+",
-    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/1942/index.html",
-    "icon": "✈️",
-    "gradient": "from-sky-600 to-slate-800",
+    "tagline": "Fast-paced 3D Quake 1 WebGL retro FPS with monster combat",
+    "seoTitle": "Q1K3 Unblocked - Play 3D Quake 1 WebGL FPS | Unblocked Games Lab",
+    "seoDescription": "Play Q1K3 unblocked online. Experience fast-paced 3D Quake 1 FPS combat in WebGL. Battle grunts, ogres, and zombies at 60 FPS on school Chromebooks.",
+    "h1": "Q1K3 Unblocked (Quake 1K WebGL)",
+    "rating": 4.98,
+    "plays": "192,000+",
+    "iframeUrl": "/hosted-games/q1k3/index.html",
+    "icon": "💥",
+    "gradient": "from-orange-600 to-red-800",
     "controls": [
       {
-        "key": "Arrow Keys / WASD / Mouse",
-        "action": "Steer Fighter Plane"
+        "key": "W, A, S, D",
+        "action": "Move & Strafe"
       },
       {
-        "key": "Space / Left Click",
-        "action": "Fire Machine Guns"
+        "key": "Mouse",
+        "action": "Look & Aim"
       },
       {
-        "key": "B / Right Click",
-        "action": "Loop-the-Loop Special Evasion"
-      }
-    ],
-    "overview": "1942 is the legendary vertical scrolling shooter arcade game set in the Pacific theater of World War II. Pilot a Lockheed P-38 Lightning fighter plane, dogfight squadrons of enemy aircraft, sink naval battleships, and execute tactical aerial loop-the-loops to evade dense bullet storms.",
-    "howToPlay": "Steer your plane across the screen, shooting down formations of enemy bombers and fighters. Collect power-up icons to gain twin companion wingmen and heavier firepower.",
-    "tips": [
-      "Save your special evasive loops for when you are completely trapped by bullet patterns.",
-      "Defeat full red enemy plane formations to spawn special score and weapon power-ups.",
-      "Stay near the lower third of the screen to give yourself maximum reaction time."
-    ],
-    "faq": [
-      {
-        "q": "Is this the full classic 1942 arcade game?",
-        "a": "Yes, running on our zero-lag self-hosted HTML5 emulator engine directly on GitHub Pages."
-      }
-    ]
-  },
-  {
-    "slug": "3d-boxing",
-    "name": "3D Boxing Ring",
-    "isHero": false,
-    "category": "Action",
-    "tagline": "Immersive first-person 3D knockout boxing brawl",
-    "seoTitle": "3D Boxing Unblocked - Play Fighting Game | Unblocked Games Lab",
-    "seoDescription": "Play 3D Boxing unblocked in your browser. Throw jabs, hooks, and uppercuts to KO championship contenders in full 3D WebGL.",
-    "h1": "3D Boxing Unblocked",
-    "rating": 4.88,
-    "plays": "140,000+",
-    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/3dboxing/index.html",
-    "icon": "🥊",
-    "gradient": "from-red-600 to-rose-800",
-    "controls": [
-      {
-        "key": "A / D or Left / Right",
-        "action": "Dodge Left / Right & Weave"
-      },
-      {
-        "key": "J / K / L",
-        "action": "Left Jab, Right Cross, Heavy Uppercut"
+        "key": "Left Click",
+        "action": "Fire Weapon"
       },
       {
         "key": "Space",
-        "action": "Guard / Block Incoming Punches"
+        "action": "Jump"
+      },
+      {
+        "key": "1, 2, 3",
+        "action": "Switch Shotgun / Nailgun / Grenade Launcher"
       }
     ],
-    "overview": "Step inside the championship squared circle in 3D Boxing. Face off against aggressive heavyweight boxers, read your opponent stance, weave past heavy blows, and unleash devastating counter-punch combos to score decisive knockouts.",
-    "howToPlay": "Watch your opponent wind-up animations. Dodge when they swing, then retaliate with fast multi-hit combinations while their guard is broken.",
+    "overview": "Q1K3 is an incredible 3D first-person shooter homage to Quake 1 created entirely in pure WebGL by Dominic Szablewski. Featuring fluid strafe-jumping mechanics, retro gothic architecture, procedural textures, and intense combat against hostile grunts, ogres, and zombies, Q1K3 brings authentic 90s FPS arena combat directly to your browser with zero loading delays.",
+    "howToPlay": "Navigate through dark gothic corridors, pick up weapons and ammo caches, eliminate all hostile monsters, and find keys to open exit portals. Keep strafing to avoid incoming projectile attacks.",
     "tips": [
-      "Never punch continuously while your stamina meter is low.",
-      "Counter-punching immediately after a successful dodge deals 2x critical damage.",
-      "Keep your guard raised when trapped against the ropes."
+      "Master Circle Strafing: Run sideways in circles around heavy enemies like Ogres to dodge grenades while keeping fire on target.",
+      "Listen for Enemy Cues: Audio cues tell you when a monster is charging or firing before they round corners.",
+      "Conserve Heavy Ammo: Use the standard shotgun on weaker grunts and save explosive nailguns for high-health bosses."
     ],
     "faq": [
       {
-        "q": "Does 3D Boxing support keyboard controls on Chromebooks?",
-        "a": "Yes, full responsive WASD and Arrow key mappings are supported."
+        "q": "Does Q1K3 require downloading Quake 1 files?",
+        "a": "No! Q1K3 is 100% self-contained in lightweight HTML5/WebGL and generates its procedural textures and audio entirely in browser memory."
+      },
+      {
+        "q": "How do I capture mouse pointer lock?",
+        "a": "Click anywhere inside the game screen to lock the mouse cursor for full 3D FPS looking."
       }
     ]
   },
   {
-    "slug": "blackjack-21",
-    "name": "Blackjack 21 Master",
+    "slug": "underrun",
+    "name": "UNDERRUN",
     "isHero": false,
-    "category": "Puzzle",
-    "tagline": "Casino style classic 21 card strategy and dealer duels",
-    "seoTitle": "Blackjack Unblocked - Play 21 Card Game | Unblocked Games Lab",
-    "seoDescription": "Play classic Blackjack 21 unblocked online. Practice hit, stand, double down, and split strategy against the dealer with free chips.",
-    "h1": "Blackjack 21 Unblocked",
-    "rating": 4.91,
-    "plays": "175,000+",
-    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/blackjack/index.html",
-    "icon": "🃏",
-    "gradient": "from-emerald-700 to-slate-900",
-    "controls": [
-      {
-        "key": "Hit Button / H",
-        "action": "Draw Another Card"
-      },
-      {
-        "key": "Stand Button / S",
-        "action": "Hold Total and End Turn"
-      },
-      {
-        "key": "Double / Split Buttons",
-        "action": "Double Bet or Split Matching Pair"
-      }
-    ],
-    "overview": "Blackjack 21 is the authentic browser simulation of the world-famous casino table game. Test your probability and mental math skills against the virtual dealer. Aim for a hand total of 21 without busting, and master optimal strategy charts completely risk-free.",
-    "howToPlay": "Place your chip bet, receive two cards, and decide whether to Hit for additional cards or Stand with your current hand score. Beat the dealer score or let them bust to win 1:1 or 3:2 on natural Blackjacks.",
-    "tips": [
-      "Always Double Down on a hard 11 when the dealer shows a 2 through 10.",
-      "Always split Aces and 8s, but never split 10s or 5s.",
-      "Stand on 12-16 if the dealer up-card is 4, 5, or 6."
-    ],
-    "faq": [
-      {
-        "q": "Is real money required to play?",
-        "a": "No, Blackjack 21 uses 100% free virtual chips with instant free refills."
-      }
-    ]
-  },
-  {
-    "slug": "classic-block-puzzle",
-    "name": "Classic Block Puzzle",
-    "isHero": false,
-    "category": "Puzzle",
-    "tagline": "Falling tetromino block clearing and line stacking classic",
-    "seoTitle": "Block Puzzle Unblocked - Play Free Online | Unblocked Games Lab",
-    "seoDescription": "Play Classic Block Puzzle unblocked. Rotate falling tetromino blocks, clear horizontal lines, and chase endless high-score marathons.",
-    "h1": "Classic Block Puzzle Unblocked",
-    "rating": 4.95,
-    "plays": "290,000+",
-    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/blockgame/index.html",
-    "icon": "🧱",
-    "gradient": "from-indigo-600 to-blue-800",
-    "controls": [
-      {
-        "key": "Left / Right Arrow",
-        "action": "Move Falling Block"
-      },
-      {
-        "key": "Up Arrow / Space",
-        "action": "Rotate Block"
-      },
-      {
-        "key": "Down Arrow",
-        "action": "Soft Drop (Speed Up)"
-      }
-    ],
-    "overview": "Classic Block Puzzle delivers timeless geometric line-clearing arcade gameplay. Manipulate falling multi-colored tetromino pieces into solid horizontal rows to clear lines and prevent the stack from reaching the ceiling.",
-    "howToPlay": "Guide each falling piece into the matrix grid. Complete horizontal lines to clear blocks and score points. Set up multi-line clears (Tetris) for exponential point multipliers.",
-    "tips": [
-      "Keep the surface of your block stack as flat and even as possible.",
-      "Reserve an open lane on the far right column to execute 4-line Tetris clears with long straight bars.",
-      "Do not panic as speed increases — look at the upcoming Next Piece preview window."
-    ],
-    "faq": [
-      {
-        "q": "Does it save high scores?",
-        "a": "Yes, your all-time high score and level records save locally in browser storage."
-      }
-    ]
-  },
-  {
-    "slug": "core-ball",
-    "name": "Core Ball Arcade",
-    "isHero": false,
-    "category": "Skill",
-    "tagline": "Hyper-precise needle pin shooting into rotating central cores",
-    "seoTitle": "Core Ball Unblocked - Play Free Online | Unblocked Games Lab",
-    "seoDescription": "Play Core Ball unblocked reflex skill game. Launch numbered needle pins into the rotating core sphere without colliding with other pins.",
-    "h1": "Core Ball Unblocked",
-    "rating": 4.89,
-    "plays": "185,000+",
-    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/coreball/index.html",
-    "icon": "🎯",
-    "gradient": "from-amber-600 to-rose-700",
-    "controls": [
-      {
-        "key": "Left Mouse Click / Space / Touch",
-        "action": "Launch Pin into Core"
-      }
-    ],
-    "overview": "Core Ball (inspired by the viral hit aa) is a minimalist, hyper-addictive reflex arcade game. A central sphere rotates at varying speeds and directions in the center. Your mission is to launch all available needle pins into the rotating sphere without hitting existing pins.",
-    "howToPlay": "Tap the screen or press Space to shoot pins into open gaps on the rotating core. Advance across 60+ increasingly tricky stages with reversing rotation and obstacle barriers.",
-    "tips": [
-      "Find the rhythmic cadence of the core rotation before firing consecutive pins.",
-      "Watch for sudden direction reversals that occur every few seconds on higher levels.",
-      "Fire in quick double-taps when you spot wide open gaps on the core."
-    ],
-    "faq": [
-      {
-        "q": "How many stages are in Core Ball?",
-        "a": "Over 60 challenging stages with unique rotation physics and obstacle speeds."
-      }
-    ]
-  },
-  {
-    "slug": "fruit-slicer",
-    "name": "Fruit Slicer Classic",
-    "isHero": false,
-    "category": "Skill",
-    "tagline": "Juicy blade swiping and explosive fruit combo slashing",
-    "seoTitle": "Fruit Slicer Unblocked - Play Ninja Slash | Unblocked Games Lab",
-    "seoDescription": "Play Fruit Slicer unblocked (Fruit Ninja style). Slice flying watermelons, bananas, and pineapples while dodging explosive bombs.",
-    "h1": "Fruit Slicer Unblocked",
+    "category": "Shooting",
+    "tagline": "Atmospheric cyberpunk 3D software-rendered twin-stick shooter",
+    "seoTitle": "UNDERRUN Unblocked - Play Cyberpunk Twin-Stick Shooter | Unblocked Games Lab",
+    "seoDescription": "Play UNDERRUN unblocked online. Battle rogue AI drones and defense spires in this dark sci-fi twin-stick shooter with real-time dynamic lighting.",
+    "h1": "UNDERRUN Unblocked Twin-Stick Shooter",
     "rating": 4.92,
-    "plays": "240,000+",
-    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/cutfruit/index.html",
-    "icon": "🍉",
+    "plays": "115,000+",
+    "iframeUrl": "/hosted-games/underrun/index.html",
+    "icon": "🤖",
+    "gradient": "from-amber-600 to-yellow-800",
+    "controls": [
+      {
+        "key": "W, A, S, D",
+        "action": "Move Character"
+      },
+      {
+        "key": "Mouse",
+        "action": "Aim Weapon"
+      },
+      {
+        "key": "Left Click",
+        "action": "Shoot Plasma"
+      },
+      {
+        "key": "E / Space",
+        "action": "Interact / Hack Terminals"
+      }
+    ],
+    "overview": "UNDERRUN is a cyberpunk twin-stick survival shooter set in a subterranean computer mainframe overrun by malfunctioning defense automata. Featuring software-rendered 3D raycasting, dynamic lighting, atmospheric ambient synth audio, and brutal twin-stick combat, players must purge contaminated nodes and reboot central terminals.",
+    "howToPlay": "Move through dark technological sectors, eliminate security drones, and locate offline terminals. Interact with computer nodes to reboot system power and unlock the blast doors to deeper levels.",
+    "tips": [
+      "Keep Distance from Spiders: Exploding crawler units rush quickly—kite them backwards while firing.",
+      "Utilize Corner Cover: Shoot from around corners to avoid incoming defense turret fire.",
+      "Check Terminal Logs: Hacking terminals restores shields and illuminates unexplored map sectors."
+    ],
+    "faq": [
+      {
+        "q": "Can I play UNDERRUN offline or on Chromebooks?",
+        "a": "Yes! UNDERRUN is extremely lightweight and runs on pure Canvas 2D without needing dedicated GPU drivers."
+      }
+    ]
+  },
+  {
+    "slug": "hextris",
+    "name": "Hextris",
+    "isHero": false,
+    "category": "Puzzle",
+    "tagline": "Fast-paced hexagonal puzzle game inspired by Tetris",
+    "seoTitle": "Hextris Unblocked - Play Hexagonal Tetris Online | Unblocked Games Lab",
+    "seoDescription": "Play Hextris unblocked online. Rotate the hexagon, match 3+ same-colored blocks, and clear rows before they overflow the perimeter.",
+    "h1": "Hextris Unblocked (Hexagonal Tetris)",
+    "rating": 4.88,
+    "plays": "165,000+",
+    "iframeUrl": "/hosted-games/hextris/index.html",
+    "icon": "⬡",
+    "gradient": "from-fuchsia-600 to-pink-600",
+    "controls": [
+      {
+        "key": "Left / Right Arrow / A / D",
+        "action": "Rotate Hexagon Left / Right"
+      },
+      {
+        "key": "Down Arrow / S",
+        "action": "Fast Drop Block"
+      },
+      {
+        "key": "Touch / Click Sides",
+        "action": "Rotate on Mobile"
+      }
+    ],
+    "overview": "Hextris is a fast-paced, addictive puzzle game inspired by Tetris, reimagined onto a 6-sided hexagonal playing field. Colored blocks fall from the outer edges toward the central gray hexagon. Rotate the hexagon to catch blocks on corresponding edges and match three or more blocks of the same color to clear lines and rack up massive combo multipliers.",
+    "howToPlay": "Rotate your central hexagon to guide incoming colored wedges. Connect 3+ blocks of identical color along any face to disintegrate them. Don’t let blocks stack past the outer perimeter line!",
+    "tips": [
+      "Balance All 6 Faces: Avoid piling too many layers onto one face; distribute blocks evenly.",
+      "Build Multi-Color Combos: Setting up chain reactions clears multiple faces simultaneously for bonus multipliers.",
+      "Anticipate Incoming Angles: Look at outer incoming waves before they reach center to position your face early."
+    ],
+    "faq": [
+      {
+        "q": "How are combos calculated in Hextris?",
+        "a": "Clearing consecutive color matches within short time windows triggers increasing combo multipliers up to 5x+."
+      }
+    ]
+  },
+  {
+    "slug": "clumsy-bird",
+    "name": "Clumsy Bird",
+    "isHero": false,
+    "category": "Arcade",
+    "tagline": "The open-source physics Flappy Bird flapping arcade challenge",
+    "seoTitle": "Clumsy Bird Unblocked - Play Flappy Bird Arcade | Unblocked Games Lab",
+    "seoDescription": "Play Clumsy Bird unblocked for free. Flap your wings through pipe obstacles, time your taps, and beat your high scores in this addictive arcade game.",
+    "h1": "Clumsy Bird Unblocked Arcade",
+    "rating": 4.85,
+    "plays": "210,000+",
+    "iframeUrl": "/hosted-games/clumsy-bird/index.html",
+    "icon": "🐦",
     "gradient": "from-emerald-500 to-green-700",
     "controls": [
       {
-        "key": "Mouse Click & Drag / Touch Swipe",
-        "action": "Slash Blade Across Screen"
+        "key": "Space / Click / Tap",
+        "action": "Flap Wings & Gain Altitude"
       }
     ],
-    "overview": "Fruit Slicer brings classic fruit-slashing arcade action directly to your browser. Swipe your blade across flying watermelons, oranges, coconuts, and strawberries to create juicy multi-fruit combo slices while avoiding dangerous explosive bombs.",
-    "howToPlay": "Drag your mouse cursor rapidly across airborne fruits before they fall off-screen. Chain 3 or more fruits in a single slice for combo score multipliers. Avoid slicing any black bombs.",
+    "overview": "Clumsy Bird is an open-source recreation of the legendary mobile hit Flappy Bird built on MelonJS. Guide your lovable clumsy bird through endless narrow pipe gaps, managing gravity and flap timing to survive as long as possible and set new high score records.",
+    "howToPlay": "Tap Space or click the screen to flap your bird’s wings. Gravity pulls you down constantly, so maintain a steady rhythm to glide cleanly through the openings between pipes.",
     "tips": [
-      "Wait for multiple fruits to cluster at the peak of their arc before slicing through them all in one stroke.",
-      "Do not swipe frantically — calm, precise slices prevent accidental bomb hits.",
-      "Slice special glowing fruit to activate frenzy and slow-motion time power-ups."
+      "Focus on the Bottom Pipes: Most players crash by misjudging the lower pipe clearance. Clear the lower pipe with a margin.",
+      "Keep a Short Tapping Rhythm: Light, frequent taps give you far better vertical control than infrequent panic taps."
     ],
     "faq": [
       {
-        "q": "Does it work smoothly with Chromebook trackpads?",
-        "a": "Yes, ultra-responsive mouse and trackpad swipe physics are fully supported."
+        "q": "Does Clumsy Bird save high scores locally?",
+        "a": "Yes, your best distance and score are automatically saved in local storage."
       }
     ]
   },
   {
-    "slug": "golf-blast",
-    "name": "Golf Blast 3D",
+    "slug": "pacman-html5",
+    "name": "Pac-Man HTML5",
     "isHero": false,
-    "category": "Sports",
-    "tagline": "Casual mini-golf trajectory aiming and hole-in-one puzzles",
-    "seoTitle": "Golf Blast Unblocked - Play Mini Golf Game | Unblocked Games Lab",
-    "seoDescription": "Play Golf Blast unblocked mini golf game. Aim trajectory, calculate bank shots, and sink hole-in-one putts across 30+ creative green courses.",
-    "h1": "Golf Blast Unblocked",
-    "rating": 4.9,
-    "plays": "150,000+",
-    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/golfblast/index.html",
-    "icon": "⛳",
+    "category": "Arcade",
+    "tagline": "The legendary retro arcade maze chase with ghosts & power pellets",
+    "seoTitle": "Pac-Man Unblocked - Play Classic HTML5 Arcade | Unblocked Games Lab",
+    "seoDescription": "Play Pac-Man unblocked online. Eat pellets, outsmart Blinky, Pinky, Inky, and Clyde, and clear retro maze stages with authentic sounds.",
+    "h1": "Pac-Man Unblocked HTML5 Arcade",
+    "rating": 4.96,
+    "plays": "275,000+",
+    "iframeUrl": "/hosted-games/pacman/index.html",
+    "icon": "🟡",
+    "gradient": "from-yellow-400 to-amber-600",
+    "controls": [
+      {
+        "key": "Arrow Keys / W A S D",
+        "action": "Navigate Pac-Man (Up, Down, Left, Right)"
+      }
+    ],
+    "overview": "Pac-Man HTML5 is a faithful browser recreation of Namco’s iconic 1980 arcade classic. Navigate through the neon maze, gobble up every yellow dot, and avoid the colorful ghost squad (Blinky, Pinky, Inky, and Clyde). Chomp large Power Pellets to turn the tables and feast on vulnerable blue ghosts for huge bonus points.",
+    "howToPlay": "Direct Pac-Man around the maze to eat all pellets. Avoid touching ghosts in their normal state. When you eat an energizer pellet in the corners, ghosts turn blue and become edible for a brief time.",
+    "tips": [
+      "Know Ghost Personalities: Blinky (Red) chases your tail directly, Pinky targets ahead of you, Inky flanks, and Clyde roams unpredictably.",
+      "Use Side Warp Tunnels: Ghosts move at half speed through the side escape tunnels, giving you an easy getaway.",
+      "Time Power Pellets: Wait until multiple ghosts are in your vicinity before eating a power pellet to chain multiple ghost bonuses."
+    ],
+    "faq": [
+      {
+        "q": "Are authentic sound effects included?",
+        "a": "Yes! Authentic retro arcade waka-waka sounds, siren loops, and ghost eating audio are fully reproduced."
+      }
+    ]
+  },
+  {
+    "slug": "html5-asteroids",
+    "name": "Asteroids HTML5",
+    "isHero": false,
+    "category": "Action",
+    "tagline": "Authentic vector space combat with inertia physics & particle lasers",
+    "seoTitle": "Asteroids Unblocked - Play Vector Space Arcade | Unblocked Games Lab",
+    "seoDescription": "Play Asteroids unblocked online. Pilot your spaceship through deep space, blast giant space rocks, dodge alien UFOs, and survive endless waves.",
+    "h1": "Asteroids Unblocked Space Arcade",
+    "rating": 4.86,
+    "plays": "98,000+",
+    "iframeUrl": "/hosted-games/html5-asteroids/index.html",
+    "icon": "🚀",
+    "gradient": "from-indigo-600 to-slate-900",
+    "controls": [
+      {
+        "key": "Left / Right Arrow",
+        "action": "Rotate Spaceship"
+      },
+      {
+        "key": "Up Arrow",
+        "action": "Engage Rocket Thruster"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Fire Laser Blaster"
+      }
+    ],
+    "overview": "Asteroids HTML5 brings Atari’s legendary vector arcade shooter into modern web browsers with authentic inertia flight physics, particle explosions, and retro sound effects. Command a triangular spacecraft in a hazardous asteroid field, blasting giant space rocks into smaller fragments while avoiding deadly collisions.",
+    "howToPlay": "Rotate your ship, pulse thrusters for forward momentum, and fire lasers at floating asteroids. Large asteroids break into two medium ones, which fragment into two small fast-moving chunks before being destroyed.",
+    "tips": [
+      "Do Not Over-Thrust: Space has no friction! Tapping thrusters lightly keeps you in control without flying off-screen at uncontrollable speeds.",
+      "Shoot From Center: Staying near the center gives you 360-degree reaction time against incoming fragments.",
+      "Eliminate Small Chunks First: Small asteroid shards move the fastest and pose the highest collision threat."
+    ],
+    "faq": [
+      {
+        "q": "Does the ship wrap around screen edges?",
+        "a": "Yes, passing through any border immediately wraps your ship to the opposite side of the screen."
+      }
+    ]
+  },
+  {
+    "slug": "retro-snake",
+    "name": "Retro Snake",
+    "isHero": false,
+    "category": "Casual",
+    "tagline": "Classic retro arcade snake with smooth controls and custom speeds",
+    "seoTitle": "Retro Snake Unblocked - Play Classic Arcade Snake | Unblocked Games Lab",
+    "seoDescription": "Play Retro Snake unblocked online. Slither, eat apples, grow your tail, and test your reflexes in this timeless arcade game.",
+    "h1": "Retro Snake Unblocked Classic",
+    "rating": 4.89,
+    "plays": "185,000+",
+    "iframeUrl": "/hosted-games/snake/index.html",
+    "icon": "🐍",
     "gradient": "from-lime-500 to-emerald-700",
     "controls": [
       {
-        "key": "Mouse Click & Drag",
-        "action": "Aim Shot Power & Direction"
+        "key": "Arrow Keys / W A S D",
+        "action": "Change Snake Direction"
       },
       {
-        "key": "Release Click",
-        "action": "Putt Ball Towards Hole"
+        "key": "Spacebar",
+        "action": "Pause / Resume"
       }
     ],
-    "overview": "Golf Blast is a polished physics-based mini-golf puzzle game. Navigate undulating greens, bounce off wooden walls, jump over sand traps, and sink the ball into the cup with the fewest strokes possible.",
-    "howToPlay": "Click and drag backwards from your golf ball to set shot trajectory and power. Release to launch the ball. Score an albatross or hole-in-one to earn 3 gold stars on each level.",
+    "overview": "Retro Snake is the classic arcade game that defined mobile gaming history. Guide your hungry pixel snake across the grid, swallowing apples to grow longer with each bite. As your snake extends, maneuvering through tight corridors without crashing into walls or biting your own tail becomes a thrilling test of spatial planning.",
+    "howToPlay": "Navigate the snake to eat the food. Each meal increases your score and adds one segment to your body. Avoid colliding with grid boundaries and your own tail.",
     "tips": [
-      "Use bank shots off side cushions to navigate around difficult sand traps.",
-      "Do not always use max power — gentle putts prevent your ball from rolling off the green.",
-      "Collect bonus gems scattered on the fairway before sinking the final putt."
+      "Follow the Perimeter: When your snake gets very long, circle the outer perimeter in a zigzag pattern to keep open space in the middle.",
+      "Never Double Back: Avoid pressing the opposite direction key to prevent instant head-to-body collisions."
     ],
     "faq": [
       {
-        "q": "How many golf courses are available?",
-        "a": "Over 30 handcrafted levels with increasing terrain complexity and obstacles."
+        "q": "Can I play Retro Snake on touchscreens?",
+        "a": "Yes, swipe gestures or on-screen directional controls allow full mobile support."
       }
     ]
   },
   {
-    "slug": "classic-minesweeper",
-    "name": "Classic Minesweeper",
+    "slug": "flappy-2048",
+    "name": "Flappy 2048",
     "isHero": false,
     "category": "Puzzle",
-    "tagline": "The iconic retro grid logic and mine-defusing challenge",
-    "seoTitle": "Minesweeper Unblocked - Play Free Online | Unblocked Games Lab",
-    "seoDescription": "Play Classic Minesweeper unblocked in your browser. Uncover safe tiles, flag hidden mines, and solve Easy, Medium, and Expert grids.",
-    "h1": "Classic Minesweeper Unblocked",
-    "rating": 4.96,
-    "plays": "310,000+",
-    "iframeUrl": "https://unblocked-games-lab.github.io/hosted-games/saolei/index.html",
-    "icon": "💣",
-    "gradient": "from-slate-600 to-zinc-800",
+    "tagline": "Hilarious mashup of Flappy Bird flight and 2048 numerical merges",
+    "seoTitle": "Flappy 2048 Unblocked - Play The Viral Mashup Game | Unblocked Games Lab",
+    "seoDescription": "Play Flappy 2048 unblocked online. Flap your numbered tile through barriers, merge with matching digits, and fly all the way to the 2048 tile.",
+    "h1": "Flappy 2048 Unblocked Mashup",
+    "rating": 4.91,
+    "plays": "145,000+",
+    "iframeUrl": "/hosted-games/flappy-2048/index.html",
+    "icon": "🪽",
+    "gradient": "from-amber-400 to-violet-600",
     "controls": [
       {
-        "key": "Left Click",
-        "action": "Uncover Safe Square"
-      },
-      {
-        "key": "Right Click / Long Press",
-        "action": "Place Flag on Suspected Mine"
-      },
-      {
-        "key": "Smiley Face Icon",
-        "action": "Restart Game Board"
+        "key": "Spacebar / Click / Tap",
+        "action": "Flap Upward"
       }
     ],
-    "overview": "Classic Minesweeper is the timeless single-player logic puzzle created for Windows. Clear a rectangular minefield grid without detonating any hidden naval mines, using number clues on revealed tiles that indicate how many adjacent mines touch each square.",
-    "howToPlay": "Left click any square to reveal the board. Numbers (1 to 8) tell you exactly how many mines surround that square. Right click to plant red warning flags on confirmed mine locations.",
+    "overview": "Flappy 2048 combines the physics-based tap flight of Flappy Bird with the mathematical merging logic of 2048! Control a flying number tile, glide between towering numerical gates, and merge with identical values to upgrade your tile from 2 to 4, 8, 16... all the way to 2048 while dodging non-matching barriers.",
+    "howToPlay": "Tap space or click to flap upward. Fly into gate openings that match your current tile number to merge and level up. Crashing into mismatching tiles or the floor resets your run.",
     "tips": [
-      "Master the basic 1-1 and 1-2 patterns along outer corners to identify safe squares instantly.",
-      "Your very first click is always 100% safe and guaranteed to open an expanse of tiles.",
-      "Flag all known mines before attempting risky guesses in dense corners."
+      "Read Gates Early: Identify the matching number slot well in advance before approaching the barrier.",
+      "Maintain Mid-Level Altitude: Hovering near middle height gives you the easiest angle to adjust up or down quickly."
     ],
     "faq": [
       {
-        "q": "Does it support Easy, Medium, and Expert difficulty levels?",
-        "a": "Yes, full 9x9 (Easy), 16x16 (Medium), and 30x16 (Expert) board sizes with timer tracking are included."
+        "q": "What happens when you hit the 2048 tile?",
+        "a": "Reaching 2048 awards a massive victory score and unlocks endless master mode!"
       }
     ]
   }
