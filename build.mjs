@@ -48,7 +48,7 @@ function renderHeader(activeNav = '') {
         </a>
         
         <!-- Search Bar -->
-        <div class="flex-1 max-w-md mx-2 sm:mx-4">
+        <div class="flex-1 max-w-md mx-2 sm:mx-4 relative" id="search-container">
           <div class="relative group">
             <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400 group-focus-within:text-cyan-400 transition-colors">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
@@ -56,10 +56,16 @@ function renderHeader(activeNav = '') {
             <input 
               type="text" 
               id="search-input" 
-              placeholder="Search 26+ games (Slope, 1v1 LOL, Retro Bowl, 1942)..." 
-              class="w-full pl-10 pr-4 py-2 bg-slate-900/90 border border-slate-800 text-slate-100 placeholder-slate-500 text-sm rounded-xl focus:outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-all"
+              autocomplete="off"
+              placeholder="Search 36+ unblocked games (Slope, 1v1 LOL, Retro Bowl)..." 
+              class="w-full pl-10 pr-9 py-2 bg-slate-900/90 border border-slate-800 text-slate-100 placeholder-slate-500 text-sm rounded-xl focus:outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-all"
               aria-label="Search unblocked games">
+            <button id="search-clear" type="button" class="hidden absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-white transition-colors" title="Clear search">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
           </div>
+          <!-- Live Search Dropdown -->
+          <div id="search-dropdown" class="hidden absolute left-0 right-0 top-full mt-2 bg-slate-900/95 backdrop-blur-xl border border-slate-800 rounded-2xl shadow-2xl shadow-black/80 overflow-hidden z-50 max-h-[70vh] overflow-y-auto divide-y divide-slate-800/60"></div>
         </div>
 
         <!-- Navigation Links -->
@@ -336,6 +342,19 @@ function renderPage({
     ${contentHtml}
   </main>
   ${renderFooter()}
+  <script>
+    window.__SITE_URL__ = "${SITE_URL}";
+    window.__GAMES__ = ${JSON.stringify(games.map(g => ({
+      name: g.name,
+      slug: g.slug,
+      category: g.category,
+      tagline: g.tagline,
+      icon: g.icon,
+      thumbnail: g.thumbnail || '',
+      rating: g.rating,
+      plays: g.plays
+    })))};
+  </script>
   <script src="${SITE_URL}/app.js" defer></script>
 </body>
 </html>`;
