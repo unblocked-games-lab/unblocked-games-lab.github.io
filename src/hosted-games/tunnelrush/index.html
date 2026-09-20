@@ -1,0 +1,34 @@
+<html>
+<head>
+
+
+    <meta charset="utf-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Tunnel Rush</title>
+    
+
+    <meta content="deny" http-equiv="X-Frame-Options">
+    <link href="style/favicon.ico" rel="shortcut icon">
+    <link href="style/style.css" rel="stylesheet">
+    <script>
+        const getAdinDomain = 'placeholder'
+    </script>
+    <script src="UnityLoader.js"></script>
+    <script src="UnityProgress.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "build.json", {
+            onProgress: UnityProgress, Module: {
+                onRuntimeInitialized: function () {
+                    UnityProgress(gameInstance, "complete")
+                }
+            }
+        });
+    </script>
+</head>
+<body>
+<div class="webgl-content">
+    <div id="gameContainer" style="width: 100%; height: 95%; margin: auto;"></div>
+
+</div>
+</body>
+</html>

@@ -4,13 +4,13 @@
     "name": "Funny Shooter 2",
     "isHero": true,
     "category": "Shooting",
-    "tagline": "Battle bizarre enemies with wacky weapons in 3D WebGL",
+    "tagline": "Battle wacky enemies with absurd weapons in 3D WebGL",
     "seoTitle": "Funny Shooter 2 Unblocked - Play Free | Unblocked Games Lab",
-    "seoDescription": "Play Funny Shooter 2 unblocked for free in your browser. Fight waves of funny enemies with 10+ hilarious weapons. Fast 60FPS WebGL on school Chromebooks.",
+    "seoDescription": "Play Funny Shooter 2 unblocked for free in your browser. Fight waves of funny enemies with 10+ hilarious weapons at smooth 60FPS on school Chromebooks.",
     "h1": "Funny Shooter 2 Unblocked",
-    "rating": 4.9,
-    "plays": "142,500+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/funnyshooter2/game.html",
+    "rating": 4.95,
+    "plays": "245,000+",
+    "iframeUrl": "/hosted-games/funnyshooter2/index.html",
     "icon": "🎯",
     "gradient": "from-amber-500 to-rose-600",
     "controls": [
@@ -24,11 +24,11 @@
       },
       {
         "key": "Left Click",
-        "action": "Shoot / Attack"
+        "action": "Shoot Weapon"
       },
       {
         "key": "Right Click",
-        "action": "Aim Down Sights (Zoom)"
+        "action": "Aim Down Sights"
       },
       {
         "key": "Space",
@@ -36,46 +36,36 @@
       },
       {
         "key": "Shift",
-        "action": "Run / Sprint"
+        "action": "Sprint"
       },
       {
-        "key": "1 - 7 / Mouse Wheel",
+        "key": "1 - 7 / Wheel",
         "action": "Switch Weapons"
       },
       {
         "key": "R",
-        "action": "Reload Weapon"
+        "action": "Reload"
       },
       {
         "key": "G",
         "action": "Throw Grenade"
       }
     ],
-    "overview": "Funny Shooter 2 is a fast-paced, colorful 3D first-person shooter (FPS) game where players face off against hordes of wacky, bizarre redmen, giant clowns, and strange creatures. Featuring an absurd arsenal ranging from customized rifles to grenade launchers and laser blasters, the game delivers high-octane shooting action with smooth physics right in your web browser. Designed with lightweight WebGL optimization, it runs flawlessly at 60 FPS even on low-spec school Chromebooks without any installations or downloads.",
-    "howToPlay": "Your objective in Funny Shooter 2 is straightforward: survive enemy onslaughts across increasingly challenging arena levels. Move through the 3D maps using WASD, aim with your mouse, and eliminate enemies before they overwhelm you. Defeating enemies rewards you with in-game gold coins, which you can spend in the shop between waves to purchase deadlier weapons, upgrade damage, increase movement speed, and unlock unique cosmetics.",
+    "overview": "Funny Shooter 2 is a fast-paced 3D first-person shooter where you battle waves of wacky redmen, giant clowns, and strange enemies. Use an arsenal of hilarious weapons, customize upgrades, and dominate 60 FPS arena combat.",
+    "howToPlay": "Eliminate all incoming enemy waves across 3D arenas. Earn coins from eliminations to purchase rocket launchers, laser rifles, speed boosts, and armor in the armory.",
     "tips": [
-      "Keep moving continuously: Enemies will crowd your position quickly if you stand still.",
-      "Headshots deal critical damage: Aim for the upper torso and head to conserve ammo and clear waves faster.",
-      "Upgrade fire rate early: Rapid-fire weapons clear close-range swarms much more effectively.",
-      "Use grenades against clumped crowds: When 4-5 enemies group together, a single grenade eliminates them all instantly.",
-      "Switch weapons instead of waiting for reload during intense swarms to maintain continuous DPS."
+      "Keep Strafing: Standing still allows swarming melee enemies to surround you.",
+      "Aim for Headshots: High-caliber headshots eliminate standard enemies in a single bullet.",
+      "Group Enemies for Grenades: Lure crowds together before tossing explosives for maximum multi-kills."
     ],
     "faq": [
       {
-        "q": "Can I play Funny Shooter 2 Unblocked on a school Chromebook?",
-        "a": "Yes! Unblocked Games Lab is hosted on GitHub Pages and runs completely inside your browser via lightweight HTML5/WebGL. It bypasses school network restrictions and does not require Flash, extensions, or admin permissions."
+        "q": "Can I play Funny Shooter 2 on a school Chromebook?",
+        "a": "Yes! It runs locally in WebGL without any blocked external domains."
       },
       {
-        "q": "Is Funny Shooter 2 completely free to play?",
-        "a": "100% free! All levels, weapons, and features are unlocked through in-game gameplay and coins without any real-money paywalls."
-      },
-      {
-        "q": "How do I make Funny Shooter 2 full screen?",
-        "a": "Click the 'Fullscreen' button located right below the game player to enter true immersive full-screen mode."
-      },
-      {
-        "q": "Does the game save my progress?",
-        "a": "Yes, your coins, unlocked weapons, and completed stage levels are automatically saved to your browser's local storage."
+        "q": "Is progress saved automatically?",
+        "a": "Yes, coins and weapon unlocks are saved in your browser local storage."
       }
     ]
   },
@@ -86,47 +76,82 @@
     "category": "Sports",
     "tagline": "The legendary 8-bit American football simulation game",
     "seoTitle": "Retro Bowl Unblocked - Play Free Online | Unblocked Games Lab",
-    "seoDescription": "Play Retro Bowl unblocked on GitHub. Manage your NFL roster, call plays, throw touchdown passes, and win the championship in authentic 8-bit retro style.",
+    "seoDescription": "Play Retro Bowl unblocked on GitHub. Manage your NFL roster, call plays, throw touchdown passes, and win championships in authentic 8-bit retro style.",
     "h1": "Retro Bowl Unblocked",
-    "rating": 4.95,
-    "plays": "289,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/retro-bowl/game.html",
+    "rating": 4.96,
+    "plays": "310,000+",
+    "iframeUrl": "/hosted-games/retrobowl/index.html",
     "icon": "🏈",
     "gradient": "from-emerald-500 to-teal-700",
     "controls": [
       {
-        "key": "Mouse / Touch",
-        "action": "Aim Pass & Control Quarterback"
+        "key": "Mouse Drag & Release",
+        "action": "Aim & Throw Football Passes"
       },
       {
-        "key": "Left Click (Drag & Release)",
-        "action": "Throw Ball / Pass"
-      },
-      {
-        "key": "W / S or Up / Down",
-        "action": "Dodge Tackles / Juke"
+        "key": "W, S / Up, Down",
+        "action": "Dodge & Juke Defenders"
       },
       {
         "key": "Space",
-        "action": "Dive / Slide for Extra Yardage"
+        "action": "Dive for Extra Yards"
       }
     ],
-    "overview": "Retro Bowl is the ultimate 8-bit American football simulation game created by New Star Games. Combining addictive retro arcade-style passing mechanics with in-depth team management, Retro Bowl lets you take control of an NFL franchise. Draft rookie superstars, manage salary caps and team morale, upgrade training facilities, and call plays on the field to lead your team to the Retro Bowl championship trophy.",
-    "howToPlay": "As the head coach and quarterback, you balance front-office management with on-field execution. Drag backward with your mouse to set the pass trajectory, anticipating wide receiver routes. Release to fire bullet passes into open coverage. On defense, manage clock time and make critical fourth-down conversion decisions.",
+    "overview": "Retro Bowl is the beloved 8-bit American football simulation game created by New Star Games. Take full control of your franchise as head coach and quarterback, managing team rosters, facility upgrades, and player morale while executing precision passing on game day.",
+    "howToPlay": "Draft promising rookies, manage salary caps, call offensive drives, and drag back to throw laser passes to open receivers for game-winning touchdowns.",
     "tips": [
-      "Prioritize drafting a 5-star Quarterback and Wide Receiver early for consistent passing offense.",
-      "Upgrade your Rehab Center to prevent star players from suffering long-term fatigue and injuries.",
-      "Learn the bullet pass: Tap the screen while throwing to throw lower, faster passes past defenders.",
-      "Manage timeouts wisely in the 2-minute drill before halftime and at the end of the 4th quarter."
+      "Upgrade Rehab Facilities Early: Prevents star players from suffering fatigue and long-term injuries.",
+      "Lead Your Wide Receivers: Throw the ball slightly ahead of sprinting receivers so they catch it in full stride."
     ],
     "faq": [
       {
-        "q": "Why is Retro Bowl so popular on school computers?",
-        "a": "Retro Bowl features simple pixel graphics that load instantly and run at 60 FPS on any basic laptop while offering deep strategic sports gameplay."
+        "q": "Is this the full version of Retro Bowl?",
+        "a": "Yes! Features complete roster management, full 17-game seasons, and postseason playoff brackets."
+      }
+    ]
+  },
+  {
+    "slug": "subway-surfers",
+    "name": "Subway Surfers",
+    "isHero": false,
+    "category": "Action",
+    "tagline": "Dodge trains, dash through subway tracks, and escape the inspector",
+    "seoTitle": "Subway Surfers Unblocked - Play Free Online | Unblocked Games Lab",
+    "seoDescription": "Play Subway Surfers unblocked in your browser. Dash across subway tracks, jump over trains, collect coins, and unlock hoverboards with 60 FPS fluidity.",
+    "h1": "Subway Surfers Unblocked",
+    "rating": 4.93,
+    "plays": "420,000+",
+    "iframeUrl": "/hosted-games/subwaysurfers/index.html",
+    "icon": "🛹",
+    "gradient": "from-orange-500 to-yellow-500",
+    "controls": [
+      {
+        "key": "Left / Right Arrow / A, D",
+        "action": "Switch Subway Tracks"
       },
       {
-        "q": "Can I play a full 17-game season and playoffs?",
-        "a": "Yes! The full career mode is supported with season progression, playoffs, and Retro Bowl championship games."
+        "key": "Up Arrow / W",
+        "action": "Jump Over Barriers"
+      },
+      {
+        "key": "Down Arrow / S",
+        "action": "Slide Under Obstacles"
+      },
+      {
+        "key": "Space",
+        "action": "Activate Hoverboard"
+      }
+    ],
+    "overview": "Subway Surfers is the world-famous endless runner game by SYBO Games. Run as fast as you can through vibrant subway tracks, dodging oncoming trains, leaping over barriers, and grabbing jetpacks to escape the grumpy inspector and his dog.",
+    "howToPlay": "Swipe or press arrow keys to switch between three railway tracks. Jump over signals, slide under signs, and double-tap space to ride hoverboards for crash immunity.",
+    "tips": [
+      "Save Hoverboards for High Speeds: Activating your hoverboard saves you from an instant crash.",
+      "Upgrade Jetpack & Coin Magnet: Maximizing power-up duration dramatically multiplies your high scores."
+    ],
+    "faq": [
+      {
+        "q": "Does Subway Surfers work on keyboard controls?",
+        "a": "Yes! Full WASD and Arrow key controls are pre-configured."
       }
     ]
   },
@@ -134,28 +159,28 @@
     "slug": "drift-hunters",
     "name": "Drift Hunters",
     "isHero": false,
-    "category": "Skill",
-    "tagline": "Realistic 3D car drifting simulator with 26 customizable vehicles",
-    "seoTitle": "Drift Hunters Unblocked - Play 3D Car Game | Unblocked Games Lab",
-    "seoDescription": "Play Drift Hunters unblocked 3D car drifting simulator. Tune engines, customize body kits, and drift across 10 racetracks in smooth 60 FPS WebGL.",
+    "category": "Driving",
+    "tagline": "Realistic 3D car drifting simulator with deep tuning & 10+ tracks",
+    "seoTitle": "Drift Hunters Unblocked - Play 3D Drifting Game | Unblocked Games Lab",
+    "seoDescription": "Play Drift Hunters unblocked online. Customize 25+ drift cars, tune turbos and suspension, and drift across 10 detailed 3D tracks at 60 FPS.",
     "h1": "Drift Hunters Unblocked",
-    "rating": 4.93,
-    "plays": "415,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/drifthunters/game.html",
+    "rating": 4.92,
+    "plays": "275,000+",
+    "iframeUrl": "/hosted-games/drifthunters/index.html",
     "icon": "🏎️",
-    "gradient": "from-red-500 to-amber-600",
+    "gradient": "from-red-600 to-amber-600",
     "controls": [
       {
         "key": "W / Up Arrow",
-        "action": "Accelerate / Gas"
+        "action": "Accelerate Gas"
       },
       {
         "key": "S / Down Arrow",
         "action": "Brake / Reverse"
       },
       {
-        "key": "A / D or Left / Right",
-        "action": "Steer Car Left / Right"
+        "key": "A, D / Left, Right",
+        "action": "Steer Vehicle"
       },
       {
         "key": "Space",
@@ -167,159 +192,56 @@
       },
       {
         "key": "Shift",
-        "action": "Shift Up Gear (Manual Mode)"
+        "action": "Shift Gear Up"
       },
       {
         "key": "Ctrl",
-        "action": "Shift Down Gear (Manual Mode)"
+        "action": "Shift Gear Down"
       }
     ],
-    "overview": "Drift Hunters is the premier 3D browser-based car drifting simulation game powered by Unity WebGL. Choose from an elite roster of 26 tuner drift cars, including legendary Japanese icons like the Toyota AE86, Nissan Silvia S15, and Supra, as well as European exotics. Customize turbochargers, brake balance, front camber, suspension stiffness, and paint jobs before shredding tires across 10 diverse tracks including touge mountain passes and city docks.",
-    "howToPlay": "Accelerate towards corners, tap the Handbrake (Space) while turning sharply to break rear traction, and feather the throttle to sustain long drift angles. The longer and steeper your drift angle, the higher your point multiplier climbs. Accumulated drift points convert directly into cash to buy new cars and performance upgrades.",
+    "overview": "Drift Hunters is the ultimate browser-based 3D car drifting simulator powered by Unity WebGL. Choose from 25+ legendary tuning cars (including Toyota AE86, Nissan Silvia, Porsche 911, and BMW M3), modify engines and suspensions, and pull off massive continuous drift combos.",
+    "howToPlay": "Accelerate into corners, pull the handbrake to initiate sideways sliding, and counter-steer smoothly with throttle modulation to maintain high drift angle multipliers.",
     "tips": [
-      "Upgrade your Turbo and Weight Reduction first to sustain high-speed slides effortlessly.",
-      "Adjust front camber to negative angles in the Tuning menu to increase turn-in grip.",
-      "The 'Docks' and 'Nishisu' tracks offer wide corners that are easiest for stringing together mega combos.",
-      "Feather the throttle instead of holding it down constantly to prevent spinning out."
+      "Upgrade Turbo & Gearbox First: Higher horsepower lets you sustain long drifts without spinning out.",
+      "Nishisu Track for Easy Money: The Nishisu layout offers wide sweeping curves that yield huge point multipliers."
     ],
     "faq": [
       {
-        "q": "Can I save my tuned cars and earned cash in Drift Hunters?",
-        "a": "Yes, your garage, vehicle modifications, and bank balance save automatically to your browser local storage."
-      },
-      {
-        "q": "Does Drift Hunters run on school Chromebooks without lagging?",
-        "a": "Yes, you can adjust the graphics quality from High to Low in the options menu to ensure a locked 60 FPS even on basic Intel Celeron processors."
-      }
-    ]
-  },
-  {
-    "slug": "subway-surfers",
-    "name": "Subway Surfers",
-    "isHero": false,
-    "category": "Skill",
-    "tagline": "World-famous 3D endless railway runner and hoverboard dodging",
-    "seoTitle": "Subway Surfers Unblocked - Play Free Online | Unblocked Games Lab",
-    "seoDescription": "Play Subway Surfers unblocked in your browser. Dash, jump, roll, and hoverboard dodge trains across world tour tracks. Free 60 FPS on Chromebooks.",
-    "h1": "Subway Surfers Unblocked",
-    "rating": 4.96,
-    "plays": "580,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/subwaysurfers/game.html",
-    "icon": "🏃",
-    "gradient": "from-teal-400 to-emerald-600",
-    "controls": [
-      {
-        "key": "Left / Right Arrow (or A / D)",
-        "action": "Switch Rail Tracks"
-      },
-      {
-        "key": "Up Arrow (or W)",
-        "action": "Jump Over Obstacles"
-      },
-      {
-        "key": "Down Arrow (or S)",
-        "action": "Roll Under Barriers"
-      },
-      {
-        "key": "Space",
-        "action": "Activate Hoverboard (Crash Protection)"
-      }
-    ],
-    "overview": "Subway Surfers is the legendary endless runner created by Kiloo and SYBO Games. Sprint down colorful railway tracks, dodging oncoming trains, construction barricades, and tunnels while escaping the grumpy Inspector and his dog. Collect gold coins, power-ups like Super Sneakers, Coin Magnets, and Jetpacks, and unlock dozens of unique surfers and custom hoverboards right inside your browser.",
-    "howToPlay": "Use arrow keys to swiftly dodge obstacles. Jump over signal barriers and roll underneath high blockades. Double tap Space to deploy your hoverboard for temporary crash immunity. Collect power-ups along the tracks to multiply your score and haul massive coin piles.",
-    "tips": [
-      "Upgrade the Coin Magnet and 2x Multiplier in the shop early for rapid score progression.",
-      "Hoverboards save your run: Activate a board when entering crowded triple-train sections.",
-      "Stay on top of train roofs whenever possible — they have fewer sudden barricades and cleaner sightlines."
-    ],
-    "faq": [
-      {
-        "q": "Is this the full official Subway Surfers web version?",
-        "a": "Yes! It contains full soundtrack, character selection, mission achievements, and hoverboards running on optimized HTML5."
-      }
-    ]
-  },
-  {
-    "slug": "tag",
-    "name": "Tag Unblocked",
-    "isHero": false,
-    "category": "2 Player",
-    "tagline": "Fast-paced local 2-4 player tag multiplayer game",
-    "seoTitle": "Tag Unblocked Game - Play 2-4 Players | Unblocked Games Lab",
-    "seoDescription": "Play Tag unblocked 2-4 player party game. Run, jump, and dodge your friends in thrilling local multiplayer platform arenas on school Chromebooks.",
-    "h1": "Tag Unblocked Game",
-    "rating": 4.85,
-    "plays": "98,400+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/tag/game.html",
-    "icon": "🏃",
-    "gradient": "from-sky-500 to-indigo-600",
-    "controls": [
-      {
-        "key": "Player 1 (WASD)",
-        "action": "Move & Jump"
-      },
-      {
-        "key": "Player 2 (Arrow Keys)",
-        "action": "Move & Jump"
-      },
-      {
-        "key": "Player 3 (IJKL)",
-        "action": "Move & Jump"
-      },
-      {
-        "key": "Player 4 (Numpad 8456)",
-        "action": "Move & Jump"
-      }
-    ],
-    "overview": "Tag is a hilarious local multiplayer platformer where up to 4 players compete on the same keyboard in classic playground tag. One player starts as 'IT' and must chase others across jumping pads, teleporters, bounce pads, and changing level obstacles before time runs out. Smooth physics and instant keyboard inputs make it one of the top 2-player games for school breaks.",
-    "howToPlay": "Select the number of players (2, 3, or 4). When the round begins, the tagged player has a timer ticking down. Run into another player to transfer the tag. Utilize map shortcuts, wall-jumps, and bounce pads to outmaneuver your opponents.",
-    "tips": [
-      "Master wall-jumping: You can bounce off vertical walls to reach high platforms quickly.",
-      "Use teleporters to trick pursuers: Step in just as the chaser gets close to escape across the map.",
-      "Fake directions: Change jump trajectory in mid-air to dodge incoming chasers."
-    ],
-    "faq": [
-      {
-        "q": "Can two people play on the same keyboard?",
-        "a": "Yes! Tag supports up to 4 simultaneous players sharing a single computer keyboard without any controllers needed."
+        "q": "How do I earn money faster in Drift Hunters?",
+        "a": "Chain drifts continuously without hitting walls to build a 5x combo multiplier."
       }
     ]
   },
   {
     "slug": "slope",
-    "name": "Slope 3D",
+    "name": "Slope Game",
     "isHero": false,
     "category": "Skill",
-    "tagline": "Endless high-speed rolling ball runner through neon cityscapes",
-    "seoTitle": "Slope Unblocked - Play 3D Ball Game | Unblocked Games Lab",
-    "seoDescription": "Play Slope unblocked 3D ball runner game on GitHub. Test your reflexes on high-speed neon slopes with responsive keyboard steering. Free at school.",
-    "h1": "Slope Unblocked 3D",
-    "rating": 4.9,
-    "plays": "310,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/slope/game.html",
+    "tagline": "High-speed neon 3D ball runner down steep futuristic ramps",
+    "seoTitle": "Slope Game Unblocked - Play Fast 3D Ball Game | Unblocked Games Lab",
+    "seoDescription": "Play Slope game unblocked online. Steer your rolling ball down steep 3D neon slopes, dodge red obstacles, and test your reflexes at extreme speeds.",
+    "h1": "Slope Game Unblocked",
+    "rating": 4.91,
+    "plays": "380,000+",
+    "iframeUrl": "/hosted-games/slope/index.html",
     "icon": "⚡",
-    "gradient": "from-cyan-400 to-blue-600",
+    "gradient": "from-emerald-500 to-cyan-600",
     "controls": [
       {
-        "key": "A / D or Left / Right Arrows",
+        "key": "A / D or Left / Right Arrow",
         "action": "Steer Ball Left / Right"
-      },
-      {
-        "key": "Q / E",
-        "action": "Alternative Steering"
       }
     ],
-    "overview": "Slope is a legendary 3D endless runner game where players guide a rolling neon ball down a steep, obstacle-filled futuristic course. As your speed accelerates, you must dodge red obstacles, jump across perilous gaps, and navigate narrow ramps without falling into the void. Simple controls combined with intense adrenaline make Slope a global school favorite.",
-    "howToPlay": "Control the ball's balance using the A/D or Arrow keys. Keep your ball centered on the tracks, anticipate sharp elevation changes, and avoid colliding with any red blocks or falling off the edges. The further you survive, the higher your score multiplier climbs.",
+    "overview": "Slope is a heart-pounding 3D arcade skill game where you control a rolling ball plummeting down endless neon ramps. With randomized terrain, unpredictable speed acceleration, and deadly red obstacles, every fraction of a second requires razor-sharp reflexes.",
+    "howToPlay": "Steer left and right to keep the ball on track. Avoid falling off the edges and do not collide with red obstacle blocks.",
     "tips": [
-      "Make gentle, slight adjustments rather than hard turns at extreme speeds.",
-      "Look ahead down the track, not directly at the ball, to anticipate upcoming obstacles.",
-      "Stay in the middle lane whenever possible to give yourself maximum room to react."
+      "Make Subtle Adjustments: Over-steering will throw your ball right off the narrow ramps.",
+      "Aim for Ramp Centers: Landing in the middle of track segments gives you time to react to the next obstacle."
     ],
     "faq": [
       {
-        "q": "Does Slope require high-end graphics?",
-        "a": "No, Slope runs on optimized WebGL 3D rendering that delivers stable 60 FPS on any Chromebook or browser."
+        "q": "Is Slope endlessly generated?",
+        "a": "Yes! The slope track is procedurally generated and gets faster the longer you survive."
       }
     ]
   },
@@ -328,56 +250,55 @@
     "name": "1v1.LOL",
     "isHero": false,
     "category": "Shooting",
-    "tagline": "Competitive 3D third-person building and shooting duel simulator",
-    "seoTitle": "1v1.LOL Unblocked - Play Duel Online | Unblocked Games Lab",
-    "seoDescription": "Play 1v1.LOL unblocked third person shooter and battle royale building simulator. Practice box fights, ramp rushes, and shotgun aim free in browser.",
+    "tagline": "Fast-paced 3D third-person shooter with rapid building battle mechanics",
+    "seoTitle": "1v1.LOL Unblocked - Play Free Building Battle FPS | Unblocked Games Lab",
+    "seoDescription": "Play 1v1.LOL unblocked in your browser. Practice build battles, box fights, and 1v1 competitive arena duels at 60 FPS on school Chromebooks.",
     "h1": "1v1.LOL Unblocked",
-    "rating": 4.88,
-    "plays": "220,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/1v1lol/game.html",
-    "icon": "⚔️",
-    "gradient": "from-purple-500 to-pink-600",
+    "rating": 4.94,
+    "plays": "490,000+",
+    "iframeUrl": "/hosted-games/1v1lol/index.html",
+    "icon": "🧱",
+    "gradient": "from-blue-600 to-indigo-700",
     "controls": [
       {
         "key": "W, A, S, D",
-        "action": "Movement"
+        "action": "Move Player"
+      },
+      {
+        "key": "Mouse",
+        "action": "Aim & Look"
+      },
+      {
+        "key": "Left Click",
+        "action": "Shoot / Place Build"
       },
       {
         "key": "Space",
         "action": "Jump"
       },
       {
-        "key": "Left Click",
-        "action": "Shoot / Build"
-      },
-      {
-        "key": "Right Click",
-        "action": "Aim Down Sights"
+        "key": "Shift",
+        "action": "Crouch"
       },
       {
         "key": "Z, X, C, V",
-        "action": "Wall, Floor, Ramp, Roof Builds"
+        "action": "Wall / Ramp / Floor / Pyramid"
       },
       {
-        "key": "F, 1, 2",
-        "action": "Pickaxe & Weapons"
-      },
-      {
-        "key": "R",
-        "action": "Reload / Rotate Build"
+        "key": "1, 2, 3",
+        "action": "Pickaxe / Shotgun / Assault Rifle"
       }
     ],
-    "overview": "1v1.LOL is an online third-person shooter and fast-paced building simulator inspired by battle royale mechanics. Players can duel in 1v1 arena mode, practice box fights, edit walls, and master tactical shooting without downloading heavy software.",
-    "howToPlay": "Spawn into the arena, quickly construct protective ramps and walls to gain high-ground advantage, and eliminate opponents using shotguns, assault rifles, or sniper rifles.",
+    "overview": "1v1.LOL is a premier competitive third-person shooter combining gunplay with rapid tactical building mechanics. Practice high-ground retakes, editing speed, and shotgun aim in fast 1v1 duels against players worldwide.",
+    "howToPlay": "Build ramps and walls for instant cover, maintain the high ground, and eliminate opponents with precision shotgun and rifle shots.",
     "tips": [
-      "Master the ramp rush: Place a ramp and wall combo to approach opponents safely.",
-      "Keep high ground: Shooting down from above offers better headshot angles.",
-      "Customize your keybinds in settings for faster building speed."
+      "Claim High Ground Early: Building above opponents gives you easy headshot angles while protecting your body.",
+      "Master Box Editing: Edit windows or triangles in your walls to take quick surprise shots."
     ],
     "faq": [
       {
-        "q": "Can I practice building alone?",
-        "a": "Yes, 1v1.LOL features a dedicated JustBuild free practice mode with infinite materials."
+        "q": "Can I customize building keybinds?",
+        "a": "Yes, full custom keybind configuration is available in the game settings menu."
       }
     ]
   },
@@ -385,37 +306,36 @@
     "slug": "snow-rider-3d",
     "name": "Snow Rider 3D",
     "isHero": false,
-    "category": "Skill",
-    "tagline": "Thrilling 3D winter sleigh ride down mountain snow slopes",
-    "seoTitle": "Snow Rider 3D Unblocked - Play Sled Game | Unblocked Games Lab",
-    "seoDescription": "Play Snow Rider 3D unblocked winter downhill sleigh game. Dodge giant snowballs, jump ravines, and collect gifts to unlock 10+ custom sleighs.",
+    "category": "Sports",
+    "tagline": "Speed down snowy mountains on a fast sled dodging trees & snowmen",
+    "seoTitle": "Snow Rider 3D Unblocked - Play Sledding Game | Unblocked Games Lab",
+    "seoDescription": "Play Snow Rider 3D unblocked online. Ride your sled down steep snowy mountains, dodge pine trees and giant snowballs, and collect gift boxes for upgrades.",
     "h1": "Snow Rider 3D Unblocked",
-    "rating": 4.91,
-    "plays": "320,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/snowrider3d/game.html",
-    "icon": "🏂",
-    "gradient": "from-cyan-500 to-blue-700",
+    "rating": 4.89,
+    "plays": "190,000+",
+    "iframeUrl": "/hosted-games/snowrider3d/index.html",
+    "icon": "🛷",
+    "gradient": "from-sky-400 to-blue-600",
     "controls": [
       {
-        "key": "Up Arrow / W",
-        "action": "Jump Over Chasm / Snowman"
+        "key": "A / D or Left / Right Arrow",
+        "action": "Steer Sled Left / Right"
       },
       {
-        "key": "Left / Right Arrow (or A / D)",
-        "action": "Steer Sleigh Left / Right"
+        "key": "W / Up Arrow / Space",
+        "action": "Jump Over Obstacles"
       }
     ],
-    "overview": "Snow Rider 3D puts you at the helm of a fast-moving wooden bobsleigh hurtling down a steep snowy mountain. Navigate through pine forests, dodge giant rolling snowballs, avoid falling boulders, and jump across yawning ravines. Along the slope, gather holiday gift boxes to purchase upgrade sleighs like the Santa Sleigh, Evil Sled, and Metal Bobsled.",
-    "howToPlay": "Steer left and right to avoid collisions. Time your jumps precisely when approaching deep cliff gaps or stationary snowmen. The mountain speed progressively increases, testing your reflexes and situational awareness.",
+    "overview": "Snow Rider 3D is a festive winter downhill sledding game where you pilot a speeding sleigh down steep mountainsides. Dodge pine trees, rock boulders, snowmen, and giant rolling snowballs while collecting Christmas presents to unlock 10+ new sleds.",
+    "howToPlay": "Steer left and right to navigate through narrow tree gaps. Jump over low obstacles and collect floating gifts along your path.",
     "tips": [
-      "Do not jump unnecessarily on flat slopes — jumping makes steering temporarily impossible in mid-air.",
-      "Collect gifts on easy straightaways, but avoid risking crashes for gift boxes located right behind boulders.",
-      "Stick towards the center trail where visual reaction time is highest."
+      "Time Jumps for Gaps: Jumping off ramp ridges carries you smoothly over dangerous boulder patches.",
+      "Look Ahead Downhill: Focus your vision a few seconds ahead rather than right in front of the sled."
     ],
     "faq": [
       {
-        "q": "How many sleighs can I unlock?",
-        "a": "There are over 10 unlockable sleighs, each with distinct visual designs and handling physics."
+        "q": "How many sleds can you unlock?",
+        "a": "There are over 10 unique sleighs and snowmobiles available in the gift shop."
       }
     ]
   },
@@ -423,41 +343,36 @@
     "slug": "basket-random",
     "name": "Basket Random",
     "isHero": false,
-    "category": "2 Player",
-    "tagline": "Hilarious ragdoll physics 1v1 and 2v2 basketball party game",
-    "seoTitle": "Basket Random Unblocked - Play 2 Player | Unblocked Games Lab",
-    "seoDescription": "Play Basket Random unblocked 2-player ragdoll basketball game. Score 5 points under wacky changing courts, player sizes, and bouncing physics.",
+    "category": "Sports",
+    "tagline": "Hilarious two-player ragdoll physics basketball battles",
+    "seoTitle": "Basket Random Unblocked - Play 2 Player Basketball | Unblocked Games Lab",
+    "seoDescription": "Play Basket Random unblocked online with 1 or 2 players. Score wacky ragdoll dunks across changing courts, beach balls, and bouncing hoops.",
     "h1": "Basket Random Unblocked",
-    "rating": 4.94,
-    "plays": "275,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/basket-random/game.html",
+    "rating": 4.9,
+    "plays": "230,000+",
+    "iframeUrl": "/hosted-games/basketrandom/index.html",
     "icon": "🏀",
-    "gradient": "from-amber-500 to-orange-600",
+    "gradient": "from-orange-500 to-rose-600",
     "controls": [
       {
-        "key": "Player 1",
-        "action": "W (Jump, Dunk & Shoot)"
+        "key": "W (Player 1)",
+        "action": "Jump & Shoot Basket"
       },
       {
-        "key": "Player 2",
-        "action": "Up Arrow (Jump, Dunk & Shoot)"
-      },
-      {
-        "key": "Mobile / Touch",
-        "action": "Tap Screen Buttons"
+        "key": "Up Arrow (Player 2)",
+        "action": "Jump & Shoot Basket"
       }
     ],
-    "overview": "Basket Random is an uproarious 2-player arcade basketball game from the creators of Soccer Random. Featuring chaotic ragdoll physics, each point takes place in completely randomized court settings — from icy courts with slippery shoes to bouncy beach courts, long-armed players, and heavy bowling balls. First team to reach 5 points takes the victory.",
-    "howToPlay": "Press your jump button to make both your offensive and defensive ragdoll players leap, grab the ball, and launch shots towards the basket. React swiftly to changing gravity and player weights on every reset.",
+    "overview": "Basket Random is a funny one-button ragdoll basketball game for 1 or 2 players. Every round randomizes court fields, player body types, and ball physics—from icy courts to giant beach balls and bouncy spring hoops. First team to 5 points wins!",
+    "howToPlay": "Press your jump key to flop into the air and launch basketball shots. Steal the ball in mid-air and block incoming opponent shots.",
     "tips": [
-      "Time your jumps just as the opponent leaps to block their shot in mid-air.",
-      "On icy courts, lean forward before jumping to generate forward dunk momentum.",
-      "Stay patient and let opponents make jumping mistakes on high-rebound balls."
+      "Tap in Rhythm: Spamming the button makes ragdolls lose balance; time taps when facing the hoop.",
+      "Utilize Long Arms: Taller randomized player models can easily swat away airborne opponent shots."
     ],
     "faq": [
       {
-        "q": "Can I play solo against the computer CPU?",
-        "a": "Yes! Basket Random features both 1-Player vs AI CPU mode and 2-Player local keyboard versus mode."
+        "q": "Can I play with a friend on one keyboard?",
+        "a": "Yes! Local 2-player mode uses W and Up Arrow keys side-by-side."
       }
     ]
   },
@@ -466,32 +381,31 @@
     "name": "Paper.io 2",
     "isHero": false,
     "category": "Action",
-    "tagline": "Addictive online territory expansion and trail-cutting battle",
-    "seoTitle": "Paper.io 2 Unblocked - Play Free Online | Unblocked Games Lab",
-    "seoDescription": "Play Paper.io 2 unblocked multiplayer territory arcade game. Paint the arena, capture 100% map area, and cut opponent trails on school Chromebooks.",
+    "tagline": "Expand your colored territory and cut off opponent trails in real-time",
+    "seoTitle": "Paper.io 2 Unblocked - Play Multiplayer Territory Game | Unblocked Games Lab",
+    "seoDescription": "Play Paper.io 2 unblocked online. Draw boundary lines, capture 100% of the arena map, and eliminate rival players by cutting their tails.",
     "h1": "Paper.io 2 Unblocked",
-    "rating": 4.89,
-    "plays": "365,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/paperio2/game.html",
-    "icon": "🗺️",
-    "gradient": "from-indigo-500 to-purple-700",
+    "rating": 4.88,
+    "plays": "260,000+",
+    "iframeUrl": "/hosted-games/paperio2/index.html",
+    "icon": "📜",
+    "gradient": "from-teal-500 to-cyan-600",
     "controls": [
       {
-        "key": "Mouse / Arrow Keys / WASD",
-        "action": "Steer Color Marker"
+        "key": "Mouse / WASD / Arrow Keys",
+        "action": "Control Movement Direction"
       }
     ],
-    "overview": "Paper.io 2 is a massively popular arena territory conquering game. Control a colorful paper block that paints a trail as it moves. Close a loop back into your own territory to conquer the enclosed map space. Watch out for enemy players — if someone touches your exposed tail before you seal your boundary, you are instantly eliminated.",
-    "howToPlay": "Leave your base to carve out loops and expand your dominion. Target 100% map dominance while defending your perimeter and cutting enemy lines whenever they overextend.",
+    "overview": "Paper.io 2 is a massively popular arena territory capture game. Guide your colored block across the canvas, leaving a drawing trail. Loop back to your base to convert enclosed areas into your territory, while intercepting rival trails before they return home.",
+    "howToPlay": "Venture outside your zone to claim territory, but guard your exposed tail. If another player touches your trail before you return to base, you are eliminated.",
     "tips": [
-      "Take small, safe territorial bites near your perimeter rather than giant, risky expeditions.",
-      "Watch the minimap: ambush greedy players when they wander far from their home base.",
-      "Never turn 180 degrees directly into your own freshly laid trail."
+      "Take Small Bites: Expanding in small circles minimizes the time your tail is exposed to enemies.",
+      "Defend Your Perimeter: Stay near your border when opponents attempt to bite into your land."
     ],
     "faq": [
       {
-        "q": "Is Paper.io 2 unblocked for Chromebooks?",
-        "a": "Yes, our lightweight HTML5 canvas implementation loads in under a second on any school network."
+        "q": "Can you reach 100% map dominance?",
+        "a": "Yes! Encircling the entire arena unlocks special skins and crown awards."
       }
     ]
   },
@@ -499,33 +413,32 @@
     "slug": "tiny-fishing",
     "name": "Tiny Fishing",
     "isHero": false,
-    "category": "Simulation",
-    "tagline": "Satisfying casual fishing upgrades and deep-sea treasure hunts",
-    "seoTitle": "Tiny Fishing Unblocked - Play Online Game | Unblocked Games Lab",
-    "seoDescription": "Play Tiny Fishing unblocked casual upgrade game. Cast your hook, catch rare exotic fish, upgrade depth and max catch, and earn offline idle cash.",
+    "category": "Casual",
+    "tagline": "Cast your line, reel in rare exotic fish, and upgrade your hook depth",
+    "seoTitle": "Tiny Fishing Unblocked - Play Free Fishing Game | Unblocked Games Lab",
+    "seoDescription": "Play Tiny Fishing unblocked in your browser. Cast your hook into deep underwater trenches, catch valuable fish, and upgrade offline earnings.",
     "h1": "Tiny Fishing Unblocked",
-    "rating": 4.95,
-    "plays": "490,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/tinyfishing/game.html",
+    "rating": 4.87,
+    "plays": "195,000+",
+    "iframeUrl": "/hosted-games/tinyfishing/index.html",
     "icon": "🎣",
-    "gradient": "from-sky-400 to-teal-600",
+    "gradient": "from-blue-400 to-emerald-500",
     "controls": [
       {
-        "key": "Mouse Click & Drag / Touch",
-        "action": "Cast Hook & Steer Line"
+        "key": "Mouse Click & Drag",
+        "action": "Cast Hook & Guide Line While Reeling"
       }
     ],
-    "overview": "Tiny Fishing is a beloved relaxing casual simulator where players cast their hook into the deep blue sea. Cast your line, drag your mouse to hook the most valuable and legendary fish on the way up, and reinvest your cash rewards into four core upgrades: Max Depth, Number of Fish, and Offline Passive Earnings.",
-    "howToPlay": "Click to cast the hook. As the line reels back to the surface, drag left and right to snag colorful fish. Reach deeper depths to discover golden and legendary aquarium species that yield massive cash payouts.",
+    "overview": "Tiny Fishing is an incredibly relaxing casual fishing game. Cast your line into the depths, then hold and drag your mouse as the hook reels back up to catch the rarest and most valuable sea creatures.",
+    "howToPlay": "Click to cast when the meter is in the green zone. Drag left and right to hook valuable fish, then invest your earnings into Max Depth, Fish Count, and Offline Income.",
     "tips": [
-      "Prioritize upgrading 'Depth' early — the rarest and highest value fish live below 50 meters.",
-      "Upgrade 'Offline Earnings' before closing your browser to collect huge cash rewards when you return.",
-      "Dodge cheap surface minnows to ensure your hook slots catch high-tier deep sea monsters."
+      "Prioritize Max Depth: Deeper waters contain legendary golden and gem-encrusted fish worth 10x more.",
+      "Upgrade Offline Earnings: Offline income accumulates coins while you are away from the game."
     ],
     "faq": [
       {
-        "q": "Does Tiny Fishing save my fish aquarium collection?",
-        "a": "Yes, all your depth records, unlocked hook skins, and aquarium collection save locally in your browser."
+        "q": "Does Tiny Fishing save my upgrades?",
+        "a": "Yes, all rod upgrades, caught fish trophies, and coins are saved in your browser."
       }
     ]
   },
@@ -533,45 +446,40 @@
     "slug": "moto-x3m",
     "name": "Moto X3M",
     "isHero": false,
-    "category": "Skill",
-    "tagline": "Extreme physics motorbike trials across 25 explosive stunt tracks",
-    "seoTitle": "Moto X3M Unblocked - Play Bike Stunt Game | Unblocked Games Lab",
-    "seoDescription": "Play Moto X3M unblocked motorcycle stunt racing game. Flip through explosive loops, sawblades, and spikes to earn 3 stars across 25 levels.",
-    "h1": "Moto X3M Unblocked",
-    "rating": 4.94,
-    "plays": "380,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/motox3m/game.html",
+    "category": "Driving",
+    "tagline": "Extreme physics motorcycle stunt racing across 25+ deadly obstacle tracks",
+    "seoTitle": "Moto X3M Unblocked - Play Bike Racing Game | Unblocked Games Lab",
+    "seoDescription": "Play Moto X3M bike race unblocked for free. Perform flips, avoid explosive TNT traps, survive giant saw blades, and earn 3 stars across 25+ levels.",
+    "h1": "Moto X3M Unblocked Bike Racing",
+    "rating": 4.93,
+    "plays": "340,000+",
+    "iframeUrl": "/hosted-games/motox3m/index.html",
     "icon": "🏍️",
-    "gradient": "from-orange-500 to-red-600",
+    "gradient": "from-amber-500 to-orange-600",
     "controls": [
       {
-        "key": "Up Arrow / W",
-        "action": "Accelerate / Drive Forward"
+        "key": "W / Up Arrow",
+        "action": "Accelerate Gas"
       },
       {
-        "key": "Down Arrow / S",
-        "action": "Brake / Reverse"
+        "key": "S / Down Arrow",
+        "action": "Brake"
       },
       {
-        "key": "Left / Right Arrow (or A / D)",
-        "action": "Tilt Bike Back / Forward (Flips)"
-      },
-      {
-        "key": "Space",
-        "action": "Respawn at Last Checkpoint"
+        "key": "A, D / Left, Right",
+        "action": "Lean Bike / Perform Flips"
       }
     ],
-    "overview": "Moto X3M is the undisputed king of online 2D dirt bike racing games created by MadPuffers. Race your motorcycle through 25 handcrafted obstacle courses packed with giant loop-de-loops, catapults, spike pits, and rotating buzzsaws. Execute front and back flips in mid-air to subtract 0.5 seconds from your final time and achieve the coveted 3-star rating.",
-    "howToPlay": "Accelerate across checkpoints, keeping your bike balanced on rough terrain. Land cleanly on both wheels after jumps to maintain full speed. Perform continuous flips in the air to shave valuable seconds off your timer.",
+    "overview": "Moto X3M is the crown jewel of 2D physics motorcycle stunt racing. Speed through 25+ thrilling levels packed with giant circular saws, collapsing bridges, spikes, and explosive barrels while performing mid-air front and back flips to shave seconds off your time.",
+    "howToPlay": "Accelerate through loops and ramps while maintaining perfect balance. Land on both wheels cleanly to maintain speed and earn 3 stars on every stage.",
     "tips": [
-      "Front and back flips shave 0.5 seconds each off your level time — flip on every big air jump!",
-      "Lean backwards slightly when landing steep drops to prevent your front wheel from crashing.",
-      "Memorize checkpoint traps to anticipate sudden falling platforms."
+      "Front and Back Flips Deduct Time: Each completed 360 flip deducts 0.5 seconds from your final level timer.",
+      "Control Throttle in Air: Releasing gas mid-air makes landing on steep downhill slopes much easier."
     ],
     "faq": [
       {
-        "q": "Can I unlock new bikes and riders?",
-        "a": "Yes, earning stars on levels unlocks new custom motorbikes, including the Ninja Bike and Spooky Skeleton Bike."
+        "q": "How do you unlock new motorbikes?",
+        "a": "Earn 3-star ratings on levels to collect stars and unlock awesome stunt bikes."
       }
     ]
   },
@@ -579,138 +487,484 @@
     "slug": "cookie-clicker",
     "name": "Cookie Clicker",
     "isHero": false,
-    "category": "Simulation",
-    "tagline": "The legendary incremental idle baking and empire building game",
-    "seoTitle": "Cookie Clicker Unblocked - Play Free Online | Unblocked Games Lab",
-    "seoDescription": "Play Cookie Clicker unblocked in browser. Bake billions of cookies, hire grandmas, build cookie factories, and ascend in this classic idle game.",
+    "category": "Casual",
+    "tagline": "The original viral idle incremental game of endless cookie baking",
+    "seoTitle": "Cookie Clicker Unblocked - Play Idle Baking Game | Unblocked Games Lab",
+    "seoDescription": "Play Cookie Clicker unblocked online. Click the giant cookie, hire grandmas, construct cookie farms, and bake billions of cookies in this classic idle game.",
     "h1": "Cookie Clicker Unblocked",
-    "rating": 4.97,
-    "plays": "620,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/cookieclicker/game.html",
+    "rating": 4.95,
+    "plays": "520,000+",
+    "iframeUrl": "/hosted-games/cookieclicker/index.html",
     "icon": "🍪",
-    "gradient": "from-yellow-600 to-amber-800",
+    "gradient": "from-amber-600 to-yellow-700",
     "controls": [
       {
-        "key": "Left Mouse Click",
-        "action": "Click Big Cookie / Purchase Buildings"
+        "key": "Mouse Click",
+        "action": "Click Giant Cookie & Buy Upgrades"
       }
     ],
-    "overview": "Cookie Clicker is the definitive incremental idle game created by Orteil in 2013 that spawned an entire gaming genre. Start by clicking a giant cookie to bake cookies one by one. Reinvest your sweet fortune into purchasing cursors, grandmas, farms, mines, factories, alchemy labs, and antimatter condensers that bake millions of cookies per second automatically.",
-    "howToPlay": "Click the big cookie on the left. As your cookie bank grows, buy automated production buildings from the store on the right. Unlock hundreds of upgrades and achievements, click Golden Cookies for massive temporary multipliers, and prestige to ascend with heavenly chips.",
+    "overview": "Cookie Clicker is the legendary idle incremental game created by Orteil. Start by clicking a single giant cookie, hire grandmas to bake for you, build automated cookie factories, mine antimatter cookies, and build an astronomical baking empire.",
+    "howToPlay": "Click to generate cookies, then spend your dough on automated buildings and multiplicative upgrades to reach quintillions of Cookies Per Second (CPS).",
     "tips": [
-      "Always click Golden Cookies when they appear — they grant 7x multipliers or instant 'Frenzy' cookie boosts.",
-      "Balance building purchases: It is often more efficient to buy tier upgrades for older buildings than buying one expensive new building.",
-      "Export your save code to a text file periodically to back up your cookie empire."
+      "Click Golden Cookies Immediately: Golden cookies grant massive temporary production multipliers (Frenzy, Click Frenzy).",
+      "Ascend at 100+ Prestige: Ascending converts your progress into permanent Heavenly Chips that boost future runs exponentially."
     ],
     "faq": [
       {
-        "q": "Does Cookie Clicker continue baking cookies while the tab is closed?",
-        "a": "Yes, once you unlock the Angel and Demon heavenly upgrades, offline production generates cookies while you are away."
+        "q": "Does Cookie Clicker run in the background?",
+        "a": "Yes! Automated buildings continue baking cookies even when you switch browser tabs."
       }
     ]
   },
   {
-    "slug": "geometry-dash-lite",
-    "name": "Geometry Dash Lite",
+    "slug": "bitlife",
+    "name": "BitLife Online",
+    "isHero": false,
+    "category": "Casual",
+    "tagline": "Make life choices from birth to old age in this rich text life simulator",
+    "seoTitle": "BitLife Unblocked - Play Life Simulator Online | Unblocked Games Lab",
+    "seoDescription": "Play BitLife unblocked in your browser. Choose your career, manage relationships, build wealth, or live a life of crime in this popular text simulator.",
+    "h1": "BitLife Unblocked Life Simulator",
+    "rating": 4.91,
+    "plays": "315,000+",
+    "iframeUrl": "/hosted-games/bitlife/index.html",
+    "icon": "👶",
+    "gradient": "from-red-500 to-pink-600",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Select Life Choices & Age Up"
+      }
+    ],
+    "overview": "BitLife is the premier text-based interactive life simulation game. Start as an infant in any country around the world, make critical life choices regarding education, career, romance, health, and finances, and see how your unique life story unfolds.",
+    "howToPlay": "Click Age Up to progress through life year-by-year. Make decisions when random life events occur, study hard for high-paying careers, and maintain your happiness and health stats.",
+    "tips": [
+      "Study Hard & Go to the Gym: Maximizes your Smarts and Looks stats, opening doors to careers in Medicine, Law, and Acting.",
+      "Invest in Real Estate: Buying properties early and renting or flipping them yields massive generational wealth."
+    ],
+    "faq": [
+      {
+        "q": "Can you have multiple generations?",
+        "a": "Yes! You can continue playing as your children after your character passes away."
+      }
+    ]
+  },
+  {
+    "slug": "tunnel-rush",
+    "name": "Tunnel Rush",
     "isHero": false,
     "category": "Skill",
-    "tagline": "Rhythm-based neon jumping and flying platformer",
-    "seoTitle": "Geometry Dash Lite Unblocked - Play Free | Unblocked Games Lab",
-    "seoDescription": "Play Geometry Dash Lite unblocked on GitHub. Jump, fly, and flip your way through dangerous geometric spike tracks synced to energetic music beats.",
-    "h1": "Geometry Dash Lite Unblocked",
+    "tagline": "Blazing 3D speed run through vibrant, twisting kaleidoscope tunnels",
+    "seoTitle": "Tunnel Rush Unblocked - Play High Speed 3D Game | Unblocked Games Lab",
+    "seoDescription": "Play Tunnel Rush unblocked online. Dodge moving neon barriers, rotate through high-speed 3D tunnels, and test your reaction limits at 60 FPS.",
+    "h1": "Tunnel Rush Unblocked",
+    "rating": 4.88,
+    "plays": "280,000+",
+    "iframeUrl": "/hosted-games/tunnelrush/index.html",
+    "icon": "🌀",
+    "gradient": "from-violet-600 to-indigo-800",
+    "controls": [
+      {
+        "key": "A / D or Left / Right Arrow",
+        "action": "Rotate Camera Left / Right"
+      }
+    ],
+    "overview": "Tunnel Rush is an adrenaline-pumping 3D reaction game where you hurtle through a twisting, kaleidoscope-colored tunnel at extreme velocity. Dodge spinning barriers, sliding triangles, and narrow gaps as speed escalates.",
+    "howToPlay": "Rotate left and right to navigate through opening slots in incoming obstacles. Crashing into any barrier ends your run.",
+    "tips": [
+      "Track the Gap Openings: Focus on where the open gaps are rather than looking at the red barrier walls.",
+      "Anticipate Tunnel Curves: Watch the horizon curvature to position yourself before the turn."
+    ],
+    "faq": [
+      {
+        "q": "Does Tunnel Rush support two-player mode?",
+        "a": "Yes, 2-player split-screen mode lets you race a friend on the same device."
+      }
+    ]
+  },
+  {
+    "slug": "cluster-rush",
+    "name": "Cluster Rush",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "High-speed first-person parkour jumping on speeding semi-trucks",
+    "seoTitle": "Cluster Rush Unblocked - Play 3D Truck Parkour | Unblocked Games Lab",
+    "seoDescription": "Play Cluster Rush unblocked online. Jump, climb, and slide across roofs of speeding trucks in this intense 3D first-person platformer.",
+    "h1": "Cluster Rush Unblocked",
+    "rating": 4.9,
+    "plays": "175,000+",
+    "iframeUrl": "/hosted-games/clusterrush/index.html",
+    "icon": "🚛",
+    "gradient": "from-yellow-500 to-red-600",
+    "controls": [
+      {
+        "key": "A / D or Left / Right Arrow",
+        "action": "Move Left / Right"
+      },
+      {
+        "key": "Spacebar / J",
+        "action": "Jump / Climb Trucks"
+      }
+    ],
+    "overview": "Cluster Rush is a chaotic 3D first-person platformer developed by Landfall. Leap between the roofs of speeding semi-trucks, wall-climb slipping containers, and dodge tumbling crashes in 30+ challenging levels.",
+    "howToPlay": "Run forward and time your jumps to hop from truck to truck without touching the ground. Hold jump near the sides of trucks to scramble up their walls.",
+    "tips": [
+      "Use Wall Clambers: If you miss a rooftop landing, hold jump to climb up the back or side of the truck trailer.",
+      "Watch Truck Trajectories: Some trucks swerve and crash into each other—time your leaps before collisions happen."
+    ],
+    "faq": [
+      {
+        "q": "How many levels are in Cluster Rush?",
+        "a": "There are over 30 increasingly difficult levels with moving obstacles and tumbling trucks."
+      }
+    ]
+  },
+  {
+    "slug": "stickman-hook",
+    "name": "Stickman Hook",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "Swing like a spider, bounce off pads, and catapult across the finish line",
+    "seoTitle": "Stickman Hook Unblocked - Play Physics Grapple Game | Unblocked Games Lab",
+    "seoDescription": "Play Stickman Hook unblocked online. Grapple, swing through 100+ acrobatic levels, bounce off trampolines, and unlock cool stickman skins.",
+    "h1": "Stickman Hook Unblocked",
+    "rating": 4.89,
+    "plays": "225,000+",
+    "iframeUrl": "/hosted-games/stickmanhook/index.html",
+    "icon": "🪝",
+    "gradient": "from-pink-500 to-rose-600",
+    "controls": [
+      {
+        "key": "Spacebar / Left Click / Touch",
+        "action": "Attach Hook & Swing"
+      }
+    ],
+    "overview": "Stickman Hook is an acrobatic physics swinging game by Madbox. Hook onto pivot points to swing through gravity-defying obstacle courses, bouncing off trampolines and pulling off triple flips to cross the checkered flag.",
+    "howToPlay": "Click or hold Space to attach your grappling rope to the nearest hook. Release at the peak of your swing arc to launch forward with maximum momentum.",
+    "tips": [
+      "Release at 45 Degrees: Launching at a 45-degree angle provides the optimal balance of forward speed and height.",
+      "Chain Bounces on Pads: White and orange bounce pads launch your character across multiple checkpoints."
+    ],
+    "faq": [
+      {
+        "q": "Can you unlock different character skins?",
+        "a": "Yes! Complete levels to unlock superheroes, robots, and custom costume skins."
+      }
+    ]
+  },
+  {
+    "slug": "time-shooter-2",
+    "name": "Time Shooter 2",
+    "isHero": false,
+    "category": "Shooting",
+    "tagline": "Superhot-style 3D FPS where time moves only when you move",
+    "seoTitle": "Time Shooter 2 Unblocked - Play Time Control FPS | Unblocked Games Lab",
+    "seoDescription": "Play Time Shooter 2 unblocked online. Control the flow of time in this stylized 3D Superhot homage. Dodge bullets, throw weapons, and eliminate enemies.",
+    "h1": "Time Shooter 2 Unblocked",
+    "rating": 4.93,
+    "plays": "210,000+",
+    "iframeUrl": "/hosted-games/timeshooter2/index.html",
+    "icon": "⏳",
+    "gradient": "from-cyan-500 to-blue-700",
+    "controls": [
+      {
+        "key": "W, A, S, D",
+        "action": "Move (Advances Time)"
+      },
+      {
+        "key": "Mouse",
+        "action": "Aim & Look"
+      },
+      {
+        "key": "Left Click",
+        "action": "Shoot Weapon"
+      },
+      {
+        "key": "Right Click / E",
+        "action": "Throw Weapon at Enemies"
+      }
+    ],
+    "overview": "Time Shooter 2 is an incredible 3D tactical first-person shooter inspired by SUPERHOT. Time is frozen in place whenever you stand still, allowing you to plan intricate movements, dodge slow-motion bullet trails, and disarm enemies in cinematic style.",
+    "howToPlay": "Assess enemy positions while stationary. Move strategically to dodge incoming bullets, pick up fallen guns, and eliminate all red crystal enemies.",
+    "tips": [
+      "Stop Moving to Analyze: Whenever under fire, stop moving to see every incoming bullet trajectory clearly.",
+      "Throw Empty Weapons: Throwing an empty gun at an enemy instantly disarms them and knocks their weapon toward you."
+    ],
+    "faq": [
+      {
+        "q": "Does looking around advance time?",
+        "a": "Looking around advances time by a tiny fraction, letting you aim without speeding up bullets."
+      }
+    ]
+  },
+  {
+    "slug": "time-shooter-3",
+    "name": "Time Shooter 3: SWAT",
+    "isHero": false,
+    "category": "Shooting",
+    "tagline": "Breach doors, rescue hostages, and eliminate terrorists in bullet-time",
+    "seoTitle": "Time Shooter 3: SWAT Unblocked - Play Free FPS | Unblocked Games Lab",
+    "seoDescription": "Play Time Shooter 3 SWAT unblocked in your browser. Breach doors with riot shields, rescue hostages, and take down armored terrorists in slow motion.",
+    "h1": "Time Shooter 3: SWAT Unblocked",
+    "rating": 4.94,
+    "plays": "190,000+",
+    "iframeUrl": "/hosted-games/timeshooter3/index.html",
+    "icon": "🛡️",
+    "gradient": "from-blue-600 to-slate-900",
+    "controls": [
+      {
+        "key": "W, A, S, D",
+        "action": "Move (Advances Time)"
+      },
+      {
+        "key": "Mouse",
+        "action": "Aim"
+      },
+      {
+        "key": "Left Click",
+        "action": "Shoot / Bash Shield"
+      },
+      {
+        "key": "Right Click",
+        "action": "Throw Item / Weapon"
+      },
+      {
+        "key": "F",
+        "action": "Pick Up Riot Shield / Weapon"
+      }
+    ],
+    "overview": "Time Shooter 3: SWAT brings tactical SWAT breaching into the time-control shooter formula. Equip ballistic riot shields, breach fortified rooms, protect innocent hostages, and eliminate heavily armed terrorists with shotguns and assault rifles in slow motion.",
+    "howToPlay": "Breach rooms, use riot shields to absorb incoming fire, and neutralize hostiles while ensuring zero civilian casualties.",
+    "tips": [
+      "Equip Riot Shields First: Riot shields deflect bullets completely, allowing you to advance safely toward enemies.",
+      "Watch Out for Hostages: Do not fire recklessly into groups containing orange civilian hostages."
+    ],
+    "faq": [
+      {
+        "q": "Are there new weapons compared to Time Shooter 2?",
+        "a": "Yes! SWAT includes ballistic shields, pump-action shotguns, flashbangs, and armor-piercing rifles."
+      }
+    ]
+  },
+  {
+    "slug": "monkey-mart",
+    "name": "Monkey Mart",
+    "isHero": false,
+    "category": "Casual",
+    "tagline": "Manage and expand your bustling supermarket empire run by monkeys",
+    "seoTitle": "Monkey Mart Unblocked - Play Supermarket Idle Game | Unblocked Games Lab",
+    "seoDescription": "Play Monkey Mart unblocked online. Plant bananas, stock shelves, hire monkey assistants, and build a multi-aisle supermarket empire.",
+    "h1": "Monkey Mart Unblocked",
     "rating": 4.92,
-    "plays": "340,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/geometry-dash/game.html",
-    "icon": "🔷",
-    "gradient": "from-emerald-400 to-cyan-600",
-    "controls": [
-      {
-        "key": "Space / Up Arrow / Left Click",
-        "action": "Jump / Fly Upward"
-      }
-    ],
-    "overview": "Geometry Dash Lite is a rhythm-based platformer where one misstep means instant restart. Navigate your geometric cube through spike hazards, gravity portals, and rocket-ship flying sequences synchronized to heart-pumping electronic soundtracks.",
-    "howToPlay": "Press Space or Left Click with precise timing to jump over spikes and obstacles. In rocket sections, hold down to ascend and release to dive.",
-    "tips": [
-      "Play with sound/headphones on: Jumps are perfectly synchronized to the musical beat.",
-      "Use Practice Mode to place checkpoints and master difficult obstacle segments."
-    ],
-    "faq": [
-      {
-        "q": "Are all official Lite soundtrack levels playable?",
-        "a": "Yes, levels like Stereo Madness, Back On Track, and Polargeist are included."
-      }
-    ]
-  },
-  {
-    "slug": "2048",
-    "name": "2048 Unblocked",
-    "isHero": false,
-    "category": "Puzzle",
-    "tagline": "The timeless sliding tile number strategy puzzle",
-    "seoTitle": "2048 Unblocked - Play Online Math Puzzle | Unblocked Games Lab",
-    "seoDescription": "Play 2048 unblocked sliding tile math puzzle game. Merge matching numbers to reach the elusive 2048 tile in this clean, ad-light classic.",
-    "h1": "2048 Unblocked Game",
-    "rating": 4.96,
-    "plays": "180,000+",
-    "iframeUrl": "/hosted-games/2048/index.html",
-    "icon": "🔢",
-    "gradient": "from-yellow-400 to-orange-500",
-    "controls": [
-      {
-        "key": "Arrow Keys / W A S D / Swipe",
-        "action": "Slide All Tiles Up, Down, Left, Right"
-      }
-    ],
-    "overview": "2048 is an addictive sliding tile puzzle game created by Gabriele Cirulli. Played on a 4x4 grid, you slide numbered tiles in four directions. When two tiles with the same number collide, they merge into one with double the value. Your goal is to create the 2048 tile.",
-    "howToPlay": "Slide tiles to combine identical numbers (2+2=4, 4+4=8, 8+8=16... 1024+1024=2048). Plan every move to keep your highest value tile in one corner of the grid.",
-    "tips": [
-      "Corner Strategy: Keep your highest tile permanently parked in the bottom-right (or bottom-left) corner.",
-      "Never swipe Up if your highest tile is parked on the bottom row.",
-      "Build chains in descending numerical order along the edge."
-    ],
-    "faq": [
-      {
-        "q": "Can I continue playing after reaching 2048?",
-        "a": "Yes! You can continue past 2048 to reach 4096, 8192, and higher scores."
-      }
-    ]
-  },
-  {
-    "slug": "smash-karts",
-    "name": "Smash Karts",
-    "isHero": false,
-    "category": "Action",
-    "tagline": "3D multiplayer kart battle arena with rockets and power-ups",
-    "seoTitle": "Smash Karts Unblocked - Play 3D Kart Battle | Unblocked Games Lab",
-    "seoDescription": "Play Smash Karts unblocked 3D multiplayer battle arena. Drive fast karts, grab mystery boxes, fire rockets, and brawl with players online free.",
-    "h1": "Smash Karts Unblocked",
-    "rating": 4.91,
     "plays": "310,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/smashkarts/game.html",
-    "icon": "🏎️",
-    "gradient": "from-rose-500 to-purple-600",
+    "iframeUrl": "/hosted-games/monkeymart/index.html",
+    "icon": "🐒",
+    "gradient": "from-amber-400 to-emerald-600",
     "controls": [
       {
         "key": "W, A, S, D / Arrow Keys",
-        "action": "Drive & Steer Kart"
-      },
-      {
-        "key": "Space",
-        "action": "Fire Weapon / Use Power-Up"
+        "action": "Move Monkey Manager"
       }
     ],
-    "overview": "Smash Karts is a fast-paced 3D multiplayer kart combat game. Drop into a vibrant battle arena with players worldwide, drift around sharp turns, and smash through mystery item boxes. Arm yourself with guided rockets, invincibility stars, landmines, machine guns, and spiky balls to blow up rival karts and climb the round leaderboard.",
-    "howToPlay": "Drive over mystery question boxes to grab a random weapon. Aim towards opponents and press Space to fire. Score the highest number of knockouts within the 3-minute round time limit to earn XP, level up, and unlock wacky character hats and custom karts.",
+    "overview": "Monkey Mart is an addictive idle management simulation game by TinyDobbins. Plant crops of bananas and corn, stock display shelves, ring up customer monkeys at the register, and hire employee monkeys to automate your supermarket.",
+    "howToPlay": "Walk over crops to harvest food, carry them to store aisles, collect customer cash, and unlock new sections including bakery treats, milk stations, and microwave meals.",
     "tips": [
-      "Drift around corners to maintain maximum driving speed while grabbing item boxes.",
-      "Hold onto your Invincibility Star until opponents target you with homing missiles.",
-      "Drop landmines directly in narrow choke points and item box spawn zones."
+      "Hire Cashiers & Assistants Early: Automates checkout lines and keeps shelves full while you expand new aisles.",
+      "Upgrade Carrying Capacity: Upgrading your monkey manager’s stack capacity lets you transport double the inventory per trip."
     ],
     "faq": [
       {
-        "q": "Can I play Smash Karts with friends in private rooms?",
-        "a": "Yes, you can create custom party rooms to play private matches with your school classmates."
+        "q": "Can you open second and third supermarket locations?",
+        "a": "Yes! Maximizing revenue unlocks additional mart locations with brand new exotic foods."
+      }
+    ]
+  },
+  {
+    "slug": "vex-7",
+    "name": "Vex 7",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "The ultimate stickman parkour challenge with grappling hooks & lasers",
+    "seoTitle": "Vex 7 Unblocked - Play Stickman Parkour Game | Unblocked Games Lab",
+    "seoDescription": "Play Vex 7 unblocked for free. Jump, slide, grapple, and wall-climb through deadly obstacle courses, saw blades, and laser traps at 60 FPS.",
+    "h1": "Vex 7 Unblocked Parkour",
+    "rating": 4.9,
+    "plays": "165,000+",
+    "iframeUrl": "/hosted-games/vex7/index.html",
+    "icon": "🏃",
+    "gradient": "from-violet-600 to-purple-800",
+    "controls": [
+      {
+        "key": "A / D or Left / Right Arrow",
+        "action": "Run Left / Right"
+      },
+      {
+        "key": "W / Up Arrow",
+        "action": "Jump / Climb"
+      },
+      {
+        "key": "S / Down Arrow",
+        "action": "Crouch / Slide"
+      }
+    ],
+    "overview": "Vex 7 is the latest high-octane installment in the legendary Vex stickman platforming franchise. Featuring new grapple mechanics, flying potions, tower survival modes, and daily challenges, test your dexterity across lethal gauntlets.",
+    "howToPlay": "Run, jump, and slide through each Act to reach the green portal. Avoid touching red spikes, buzzsaws, falling blocks, and laser beams.",
+    "tips": [
+      "Slide Into Narrow Tunnels: Sliding maintains speed while keeping your hitbox low under spinning blades.",
+      "Use Wall Jumping to Scale Heights: Alternate left and right taps quickly to scale vertical elevator shafts."
+    ],
+    "faq": [
+      {
+        "q": "Is there a Tower Mode in Vex 7?",
+        "a": "Yes! Tower Mode features an endless vertical climb with daily leaderboard challenges."
+      }
+    ]
+  },
+  {
+    "slug": "vex-6",
+    "name": "Vex 6",
+    "isHero": false,
+    "category": "Skill",
+    "tagline": "Master precision wall jumping and acrobatics across 9 intense Acts",
+    "seoTitle": "Vex 6 Unblocked - Play Precision Stickman Platformer | Unblocked Games Lab",
+    "seoDescription": "Play Vex 6 unblocked online. Overcome 9 challenging acts, collect hidden stars, unlock 64 cool skins, and survive hardcore mode.",
+    "h1": "Vex 6 Unblocked",
+    "rating": 4.88,
+    "plays": "145,000+",
+    "iframeUrl": "/hosted-games/vex6/index.html",
+    "icon": "⚡",
+    "gradient": "from-indigo-500 to-purple-700",
+    "controls": [
+      {
+        "key": "W, A, S, D / Arrow Keys",
+        "action": "Move, Jump, Slide, Wall-Climb"
+      }
+    ],
+    "overview": "Vex 6 is a thrilling stickman action platformer featuring 9 core Acts, hardcore challenge modes, and unlockable customization skins. Navigate lethal hazards with precision physics and fluid acrobatics.",
+    "howToPlay": "Reach the end of every Act by following checkpoints. Collect bonus coins and stars by completing optional challenge criteria.",
+    "tips": [
+      "Master Kite Gliding: Gliding segments require gentle taps to maintain lift across bottomless spike pits.",
+      "Activate Green Checkpoints: Checkpoints save your progress so you don’t restart from the beginning upon dying."
+    ],
+    "faq": [
+      {
+        "q": "How many skins are in Vex 6?",
+        "a": "There are 64 unlockable stickman skins accessible in the main menu wardrobe."
+      }
+    ]
+  },
+  {
+    "slug": "soccer-random",
+    "name": "Soccer Random",
+    "isHero": false,
+    "category": "Sports",
+    "tagline": "Hilarious ragdoll soccer matches on snow, beach, and bouncy grass",
+    "seoTitle": "Soccer Random Unblocked - Play 2 Player Ragdoll Soccer | Unblocked Games Lab",
+    "seoDescription": "Play Soccer Random unblocked online for 1 or 2 players. Kick, jump, and score funny physics goals in changing weather and arenas.",
+    "h1": "Soccer Random Unblocked",
+    "rating": 4.89,
+    "plays": "180,000+",
+    "iframeUrl": "/hosted-games/soccerrandom/index.html",
+    "icon": "⚽",
+    "gradient": "from-emerald-500 to-lime-600",
+    "controls": [
+      {
+        "key": "W (Player 1)",
+        "action": "Jump & Kick Ball"
+      },
+      {
+        "key": "Up Arrow (Player 2)",
+        "action": "Jump & Kick Ball"
+      }
+    ],
+    "overview": "Soccer Random is a zany two-player ragdoll physics soccer game. Every goal resets the match into unpredictable conditions: playing on snow with slippery ice, on a sunny beach, with heavy balls or bouncy lightweight balloons. First to 5 goals wins!",
+    "howToPlay": "Press your jump button to make both players leap and swing their legs. Guide the ball into the opponent’s goal while defending your own net.",
+    "tips": [
+      "Stay Grounded on Slippery Ice: On ice fields, jump conservatively to avoid flying backwards into your own net.",
+      "Header Goals: Timing your jump right as the ball drops from high overhead generates unstoppable downward momentum."
+    ],
+    "faq": [
+      {
+        "q": "Can you play against CPU or friends?",
+        "a": "Both! Choose 1-Player vs AI or 2-Player mode on a single shared keyboard."
+      }
+    ]
+  },
+  {
+    "slug": "watermelon-game",
+    "name": "Watermelon Game (Suika)",
+    "isHero": false,
+    "category": "Puzzle",
+    "tagline": "Merge matching fruits inside the box to create the giant Watermelon",
+    "seoTitle": "Watermelon Game Unblocked (Suika) - Play Free | Unblocked Games Lab",
+    "seoDescription": "Play the viral Watermelon Game (Suika) unblocked in your browser. Drop and merge cherries, strawberries, and pineapples to make giant watermelons.",
+    "h1": "Watermelon Game Unblocked (Suika)",
+    "rating": 4.96,
+    "plays": "390,000+",
+    "iframeUrl": "/hosted-games/watermelongame/index.html",
+    "icon": "🍉",
+    "gradient": "from-rose-500 to-green-600",
+    "controls": [
+      {
+        "key": "Mouse Move / Drag",
+        "action": "Position Fruit Drop Location"
+      },
+      {
+        "key": "Click / Space",
+        "action": "Drop Fruit Into Box"
+      }
+    ],
+    "overview": "Watermelon Game (Suika Game) is the viral Japanese fruit physics puzzle sensation. Drop various round fruits into a transparent container. When two identical fruits touch, they combine into the next larger fruit (Cherries → Strawberries → Grapes → Oranges → Melons → Giant Watermelon)!",
+    "howToPlay": "Drop fruits strategically to trigger cascade merges. Don’t let fruits overflow past the top container line!",
+    "tips": [
+      "Size Gradient Strategy: Keep your largest fruits (melons, pineapples) stacked on one side and smaller fruits on the other.",
+      "Use Physics Pushes: Dropping a heavy fruit onto two separated identical fruits can push them together to merge."
+    ],
+    "faq": [
+      {
+        "q": "What is the highest achievable fruit?",
+        "a": "Merging two Watermelons eliminates both and awards the ultimate 3,000+ point bonus."
+      }
+    ]
+  },
+  {
+    "slug": "temple-run-2",
+    "name": "Temple Run 2",
+    "isHero": false,
+    "category": "Action",
+    "tagline": "Sprint, slide down zip-lines, and escape the giant cursed demon monkey",
+    "seoTitle": "Temple Run 2 Unblocked - Play Classic Endless Runner | Unblocked Games Lab",
+    "seoDescription": "Play Temple Run 2 unblocked online. Navigate perilous cliff edges, zip-lines, mine carts, and ancient temple ruins at 60 FPS in your browser.",
+    "h1": "Temple Run 2 Unblocked",
+    "rating": 4.9,
+    "plays": "320,000+",
+    "iframeUrl": "/hosted-games/templerun2/index.html",
+    "icon": "🗿",
+    "gradient": "from-amber-600 to-stone-800",
+    "controls": [
+      {
+        "key": "Left / Right Arrow / A, D",
+        "action": "Turn Corners / Tilt Left & Right"
+      },
+      {
+        "key": "Up Arrow / W",
+        "action": "Jump Over Obstacles"
+      },
+      {
+        "key": "Down Arrow / S",
+        "action": "Slide Under Flame Jets"
+      }
+    ],
+    "overview": "Temple Run 2 is the legendary 3D endless runner developed by Imangi Studios. Steal the cursed golden idol and sprint along ancient cliff temples, navigate runaway mine carts through dark tunnels, and slide down zip-lines while evading the demon beast.",
+    "howToPlay": "Turn sharp 90-degree corners, jump over gaping ravines, slide under spinning blades, and collect gold coins to activate shield and coin boost power-ups.",
+    "tips": [
+      "Swipe Early for Turns: Queuing your corner swipe right before intersections guarantees you never miss a sharp bend.",
+      "Double Tap for Shield: Activate your shield ability to survive a single collision without dying."
+    ],
+    "faq": [
+      {
+        "q": "Does Temple Run 2 feature mine cart stages?",
+        "a": "Yes! Tilt controls let you steer mine carts along broken subterranean railway tracks."
       }
     ]
   },
@@ -718,71 +972,118 @@
     "slug": "crossy-road",
     "name": "Crossy Road",
     "isHero": false,
-    "category": "Skill",
-    "tagline": "Endless 8-bit voxel arcade crossing busy roads and rivers",
-    "seoTitle": "Crossy Road Unblocked - Play Free Online | Unblocked Games Lab",
-    "seoDescription": "Play Crossy Road unblocked in your browser. Hop across busy freeways, train tracks, and floating river logs in this beloved 8-bit voxel classic.",
+    "category": "Action",
+    "tagline": "Hop across busy highways, rushing rivers, and train tracks in voxel 3D",
+    "seoTitle": "Crossy Road Unblocked - Play Voxel Hopper Online | Unblocked Games Lab",
+    "seoDescription": "Play Crossy Road unblocked in your browser. Hop across busy multi-lane highways, dodge speeding trucks and express trains, and collect coins.",
     "h1": "Crossy Road Unblocked",
-    "rating": 4.93,
-    "plays": "260,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/crossyroad/game.html",
+    "rating": 4.92,
+    "plays": "360,000+",
+    "iframeUrl": "/hosted-games/crossy/index.html",
     "icon": "🐔",
-    "gradient": "from-green-400 to-emerald-600",
+    "gradient": "from-emerald-400 to-teal-600",
     "controls": [
       {
-        "key": "Arrow Keys / W A S D",
-        "action": "Hop Forward, Backward, Left, Right"
+        "key": "W / Up Arrow / Space",
+        "action": "Hop Forward"
       },
       {
-        "key": "Space",
-        "action": "Hop Forward"
+        "key": "A, S, D / Left, Down, Right",
+        "action": "Hop Left, Backward, Right"
       }
     ],
-    "overview": "Crossy Road by Hipster Whale reimagined classic Frogger into an endless, charming 3D voxel arcade world. Guide a quirky chicken (and dozens of other unlockable animals and pop-culture characters) across high-speed multilane highways, high-velocity railway tracks, and fast-flowing rivers with floating logs and lily pads.",
-    "howToPlay": "Tap forward to hop across each lane. Look both ways to time gaps between speeding cars, freight trains, and floating tree trunks. Don't linger too long in one spot — the predatory eagle will swoop down if you hesitate.",
+    "overview": "Crossy Road is the smash-hit 3D voxel endless hopper created by Hipster Whale. Guide your blocky chicken and quirky animal characters across bustling highways, rushing rivers filled with floating logs, and high-speed railway tracks.",
+    "howToPlay": "Time your hops forward across traffic lanes. Avoid getting hit by cars and do not stay in one place too long or the hungry eagle will swoop down!",
     "tips": [
-      "Listen closely for train warning signals — railway red lights flash 2 seconds before high-speed trains arrive.",
-      "Hop sideways to wait for safer traffic openings rather than staying still.",
-      "Collect gold coins scattered across the road to unlock the prize machine."
+      "Listen for Train Bells: Flashing red lights and bell chimes warn you an express train is arriving in under one second.",
+      "Hop Sideways to Wait: If a lane is blocked, hop sideways rather than staying stationary to avoid eagle strikes."
     ],
     "faq": [
       {
-        "q": "Does Crossy Road work on school Chromebook keyboards?",
-        "a": "Yes! Responsive Arrow and WASD keyboard controls provide instant response times."
+        "q": "Can you unlock new voxel characters?",
+        "a": "Yes! Collect gold coins to spin the prize machine for ducks, dogs, robots, and secret characters."
       }
     ]
   },
   {
-    "slug": "bitlife",
-    "name": "BitLife Unblocked",
+    "slug": "getaway-shootout",
+    "name": "Getaway Shootout",
     "isHero": false,
-    "category": "Simulation",
-    "tagline": "Text-based interactive sandbox life simulator",
-    "seoTitle": "BitLife Unblocked - Play Life Simulator | Unblocked Games Lab",
-    "seoDescription": "Play BitLife unblocked in your browser. Make career, relationship, financial, and life choices from birth to retirement in this sandbox life simulator.",
-    "h1": "BitLife Unblocked",
-    "rating": 4.87,
-    "plays": "195,000+",
-    "iframeUrl": "https://mac-web.github.io/macvg/projects/bitlife/game.html",
-    "icon": "🧬",
-    "gradient": "from-rose-500 to-red-600",
+    "category": "Action",
+    "tagline": "Chaotic ragdoll race to the getaway helicopter using guns & power-ups",
+    "seoTitle": "Getaway Shootout Unblocked - Play 2 Player Gun Race | Unblocked Games Lab",
+    "seoDescription": "Play Getaway Shootout unblocked for 1 or 2 players. Jump, flop, pick up rocket launchers, and race to the getaway vehicle in funny physics battles.",
+    "h1": "Getaway Shootout Unblocked",
+    "rating": 4.91,
+    "plays": "210,000+",
+    "iframeUrl": "/hosted-games/getawayshootout/index.html",
+    "icon": "🚁",
+    "gradient": "from-red-500 to-slate-800",
     "controls": [
       {
-        "key": "Mouse / Touch",
-        "action": "Select Life Choices & Age Up Button"
+        "key": "W, E (Player 1)",
+        "action": "Jump Left / Jump Right"
+      },
+      {
+        "key": "R (Player 1)",
+        "action": "Shoot Weapon"
+      },
+      {
+        "key": "I, O (Player 2)",
+        "action": "Jump Left / Jump Right"
+      },
+      {
+        "key": "P (Player 2)",
+        "action": "Shoot Weapon"
       }
     ],
-    "overview": "BitLife is an interactive text simulation game where you guide a randomized character through every stage of life. From early childhood to school, college, career, dating, marriage, crime, and investments, every choice impacts your character's Happiness, Health, Smarts, and Looks stats.",
-    "howToPlay": "Tap the Age button each year. Choose your study habits, career paths, medical treatments, real estate investments, and relationships.",
+    "overview": "Getaway Shootout is a hilarious 2-player ragdoll physics racing brawl by New Eich Games. Four criminals race across rooftops, underground subways, and truck convoys to reach the getaway helicopter, blasting rivals with sniper rifles and bazookas along the way.",
+    "howToPlay": "Hold your left or right jump key to lean, then release to launch forward. Grab weapon crates and blast opponents backward to be first inside the helicopter.",
     "tips": [
-      "Study hard in school and visit the library regularly to boost your Smarts stat to 100%.",
-      "Go to the gym and take walks every year to maintain 100% Health.",
-      "High smarts unlocks high-paying medical and law careers."
+      "Master the Double Leap: Quick sequential jumps keep your ragdoll upright and gliding smoothly over gaps.",
+      "Use Weapon Recoil: Firing heavy shotguns pushes your character forward for extra momentum toward the finish line."
     ],
     "faq": [
       {
-        "q": "Can I play multiple generations of lives?",
-        "a": "Yes, you can write wills and pass down your accumulated wealth to your children."
+        "q": "Can you play with 4 players?",
+        "a": "The game features 4 simultaneous racers controlled by combinations of human players and AI bots."
+      }
+    ]
+  },
+  {
+    "slug": "fireboy-and-watergirl",
+    "name": "Fireboy and Watergirl",
+    "isHero": false,
+    "category": "Puzzle",
+    "tagline": "Team up in the Forest Temple to solve cooperative elemental puzzles",
+    "seoTitle": "Fireboy and Watergirl Unblocked - Play Forest Temple | Unblocked Games Lab",
+    "seoDescription": "Play Fireboy and Watergirl in the Forest Temple unblocked for 2 players. Solve elemental puzzles, collect gems, and escape temple chambers.",
+    "h1": "Fireboy and Watergirl: Forest Temple",
+    "rating": 4.95,
+    "plays": "410,000+",
+    "iframeUrl": "/hosted-games/fireboywatergirl/index.html",
+    "icon": "🔥",
+    "gradient": "from-blue-500 to-red-500",
+    "controls": [
+      {
+        "key": "W, A, D (Watergirl)",
+        "action": "Move Left, Right & Jump"
+      },
+      {
+        "key": "Arrow Keys (Fireboy)",
+        "action": "Move Left, Right & Jump"
+      }
+    ],
+    "overview": "Fireboy and Watergirl: Forest Temple is the iconic cooperative puzzle platformer created by Oslo Albet. Control both elemental heroes—Fireboy (immune to lava) and Watergirl (immune to water)—to push levers, activate elevators, and escape temples together.",
+    "howToPlay": "Guide both characters to their respective exit doors. Fireboy must avoid blue water pools, Watergirl must avoid red lava pools, and both must avoid deadly green slime pools.",
+    "tips": [
+      "Work in Harmony: One character can stand on a pressure plate while the second character runs through opened doors.",
+      "Collect Matching Diamonds: Collect red gems with Fireboy and blue gems with Watergirl for perfect rank ratings."
+    ],
+    "faq": [
+      {
+        "q": "Can one person play alone?",
+        "a": "Yes! One player can control both characters simultaneously using WASD and Arrow keys."
       }
     ]
   },
@@ -822,21 +1123,16 @@
         "action": "Switch Shotgun / Nailgun / Grenade Launcher"
       }
     ],
-    "overview": "Q1K3 is an incredible 3D first-person shooter homage to Quake 1 created entirely in pure WebGL by Dominic Szablewski. Featuring fluid strafe-jumping mechanics, retro gothic architecture, procedural textures, and intense combat against hostile grunts, ogres, and zombies, Q1K3 brings authentic 90s FPS arena combat directly to your browser with zero loading delays.",
-    "howToPlay": "Navigate through dark gothic corridors, pick up weapons and ammo caches, eliminate all hostile monsters, and find keys to open exit portals. Keep strafing to avoid incoming projectile attacks.",
+    "overview": "Q1K3 is an incredible 3D first-person shooter homage to Quake 1 created entirely in pure WebGL by Dominic Szablewski. Featuring fluid strafe-jumping mechanics, retro gothic architecture, procedural textures, and intense combat against hostile grunts, ogres, and zombies.",
+    "howToPlay": "Navigate through dark gothic corridors, pick up weapons and ammo caches, eliminate all hostile monsters, and find keys to open exit portals.",
     "tips": [
-      "Master Circle Strafing: Run sideways in circles around heavy enemies like Ogres to dodge grenades while keeping fire on target.",
-      "Listen for Enemy Cues: Audio cues tell you when a monster is charging or firing before they round corners.",
-      "Conserve Heavy Ammo: Use the standard shotgun on weaker grunts and save explosive nailguns for high-health bosses."
+      "Master Circle Strafing: Run sideways in circles around heavy enemies to dodge grenades while keeping fire on target.",
+      "Conserve Heavy Ammo: Use the standard shotgun on weaker grunts and save explosive nailguns for bosses."
     ],
     "faq": [
       {
         "q": "Does Q1K3 require downloading Quake 1 files?",
-        "a": "No! Q1K3 is 100% self-contained in lightweight HTML5/WebGL and generates its procedural textures and audio entirely in browser memory."
-      },
-      {
-        "q": "How do I capture mouse pointer lock?",
-        "a": "Click anywhere inside the game screen to lock the mouse cursor for full 3D FPS looking."
+        "a": "No! Q1K3 is 100% self-contained in lightweight WebGL."
       }
     ]
   },
@@ -872,17 +1168,49 @@
         "action": "Interact / Hack Terminals"
       }
     ],
-    "overview": "UNDERRUN is a cyberpunk twin-stick survival shooter set in a subterranean computer mainframe overrun by malfunctioning defense automata. Featuring software-rendered 3D raycasting, dynamic lighting, atmospheric ambient synth audio, and brutal twin-stick combat, players must purge contaminated nodes and reboot central terminals.",
-    "howToPlay": "Move through dark technological sectors, eliminate security drones, and locate offline terminals. Interact with computer nodes to reboot system power and unlock the blast doors to deeper levels.",
+    "overview": "UNDERRUN is a cyberpunk twin-stick survival shooter set in a subterranean computer mainframe overrun by malfunctioning defense automata with software-rendered 3D raycasting and dynamic lighting.",
+    "howToPlay": "Move through dark sectors, eliminate security drones, and locate offline terminals to reboot system power.",
     "tips": [
       "Keep Distance from Spiders: Exploding crawler units rush quickly—kite them backwards while firing.",
-      "Utilize Corner Cover: Shoot from around corners to avoid incoming defense turret fire.",
-      "Check Terminal Logs: Hacking terminals restores shields and illuminates unexplored map sectors."
+      "Utilize Corner Cover: Shoot from around corners to avoid incoming defense turret fire."
     ],
     "faq": [
       {
         "q": "Can I play UNDERRUN offline or on Chromebooks?",
-        "a": "Yes! UNDERRUN is extremely lightweight and runs on pure Canvas 2D without needing dedicated GPU drivers."
+        "a": "Yes! UNDERRUN is extremely lightweight and runs on pure Canvas 2D."
+      }
+    ]
+  },
+  {
+    "slug": "2048",
+    "name": "2048",
+    "isHero": false,
+    "category": "Puzzle",
+    "tagline": "The original viral number sliding puzzle game",
+    "seoTitle": "2048 Unblocked - Play The Classic Puzzle Game Online | Unblocked Games Lab",
+    "seoDescription": "Play 2048 unblocked in your browser. Join numbered tiles, strategize movements, and reach the legendary 2048 tile with smooth animations.",
+    "h1": "2048 Unblocked Game",
+    "rating": 4.96,
+    "plays": "340,000+",
+    "iframeUrl": "/hosted-games/2048/index.html",
+    "icon": "🔢",
+    "gradient": "from-yellow-400 to-orange-500",
+    "controls": [
+      {
+        "key": "Arrow Keys / W A S D / Swipe",
+        "action": "Slide All Tiles Up, Down, Left, Right"
+      }
+    ],
+    "overview": "2048 is an addictive sliding tile puzzle game created by Gabriele Cirulli. Played on a 4x4 grid, slide numbered tiles in four directions to merge identical numbers until reaching the 2048 tile.",
+    "howToPlay": "Combine matching numbers (2+2=4, 4+4=8... 1024+1024=2048). Plan every move to keep your highest value tile in one corner of the grid.",
+    "tips": [
+      "Corner Strategy: Keep your highest tile permanently parked in one corner.",
+      "Never swipe Up if your highest tile is parked on the bottom row."
+    ],
+    "faq": [
+      {
+        "q": "Can I continue playing after reaching 2048?",
+        "a": "Yes! You can continue past 2048 to reach 4096, 8192, and higher scores."
       }
     ]
   },
@@ -902,29 +1230,24 @@
     "gradient": "from-fuchsia-600 to-pink-600",
     "controls": [
       {
-        "key": "Left / Right Arrow / A / D",
+        "key": "Left / Right Arrow / A, D",
         "action": "Rotate Hexagon Left / Right"
       },
       {
         "key": "Down Arrow / S",
         "action": "Fast Drop Block"
-      },
-      {
-        "key": "Touch / Click Sides",
-        "action": "Rotate on Mobile"
       }
     ],
-    "overview": "Hextris is a fast-paced, addictive puzzle game inspired by Tetris, reimagined onto a 6-sided hexagonal playing field. Colored blocks fall from the outer edges toward the central gray hexagon. Rotate the hexagon to catch blocks on corresponding edges and match three or more blocks of the same color to clear lines and rack up massive combo multipliers.",
-    "howToPlay": "Rotate your central hexagon to guide incoming colored wedges. Connect 3+ blocks of identical color along any face to disintegrate them. Don’t let blocks stack past the outer perimeter line!",
+    "overview": "Hextris is a fast-paced puzzle game inspired by Tetris, reimagined onto a 6-sided hexagonal playing field. Rotate the central hexagon to catch falling blocks and match 3+ same-colored blocks to clear lines.",
+    "howToPlay": "Rotate your central hexagon to guide incoming colored wedges. Connect 3+ blocks of identical color along any face to disintegrate them.",
     "tips": [
-      "Balance All 6 Faces: Avoid piling too many layers onto one face; distribute blocks evenly.",
-      "Build Multi-Color Combos: Setting up chain reactions clears multiple faces simultaneously for bonus multipliers.",
-      "Anticipate Incoming Angles: Look at outer incoming waves before they reach center to position your face early."
+      "Balance All 6 Faces: Avoid piling too many layers onto one face.",
+      "Build Multi-Color Combos: Setting up chain reactions clears multiple faces simultaneously for bonus multipliers."
     ],
     "faq": [
       {
         "q": "How are combos calculated in Hextris?",
-        "a": "Clearing consecutive color matches within short time windows triggers increasing combo multipliers up to 5x+."
+        "a": "Clearing consecutive matches within short time windows triggers multipliers up to 5x+."
       }
     ]
   },
@@ -948,16 +1271,16 @@
         "action": "Flap Wings & Gain Altitude"
       }
     ],
-    "overview": "Clumsy Bird is an open-source recreation of the legendary mobile hit Flappy Bird built on MelonJS. Guide your lovable clumsy bird through endless narrow pipe gaps, managing gravity and flap timing to survive as long as possible and set new high score records.",
-    "howToPlay": "Tap Space or click the screen to flap your bird’s wings. Gravity pulls you down constantly, so maintain a steady rhythm to glide cleanly through the openings between pipes.",
+    "overview": "Clumsy Bird is an open-source recreation of Flappy Bird built on MelonJS. Guide your bird through endless narrow pipe gaps, managing gravity and flap timing to survive as long as possible.",
+    "howToPlay": "Tap Space or click to flap upward. Maintain a steady rhythm to glide cleanly through openings between pipes.",
     "tips": [
-      "Focus on the Bottom Pipes: Most players crash by misjudging the lower pipe clearance. Clear the lower pipe with a margin.",
-      "Keep a Short Tapping Rhythm: Light, frequent taps give you far better vertical control than infrequent panic taps."
+      "Focus on the Bottom Pipes: Most crashes happen by misjudging lower clearance.",
+      "Short Tapping Rhythm: Light, frequent taps give you far better vertical control."
     ],
     "faq": [
       {
         "q": "Does Clumsy Bird save high scores locally?",
-        "a": "Yes, your best distance and score are automatically saved in local storage."
+        "a": "Yes, your best distance is saved in local storage."
       }
     ]
   },
@@ -981,17 +1304,16 @@
         "action": "Navigate Pac-Man (Up, Down, Left, Right)"
       }
     ],
-    "overview": "Pac-Man HTML5 is a faithful browser recreation of Namco’s iconic 1980 arcade classic. Navigate through the neon maze, gobble up every yellow dot, and avoid the colorful ghost squad (Blinky, Pinky, Inky, and Clyde). Chomp large Power Pellets to turn the tables and feast on vulnerable blue ghosts for huge bonus points.",
-    "howToPlay": "Direct Pac-Man around the maze to eat all pellets. Avoid touching ghosts in their normal state. When you eat an energizer pellet in the corners, ghosts turn blue and become edible for a brief time.",
+    "overview": "Pac-Man HTML5 is a faithful browser recreation of Namco’s iconic arcade classic. Navigate the neon maze, gobble up pellets, avoid the ghost squad, and chomp Power Pellets to feast on vulnerable blue ghosts.",
+    "howToPlay": "Direct Pac-Man to eat all pellets while avoiding ghosts. Power Pellets make ghosts edible for bonus points.",
     "tips": [
-      "Know Ghost Personalities: Blinky (Red) chases your tail directly, Pinky targets ahead of you, Inky flanks, and Clyde roams unpredictably.",
-      "Use Side Warp Tunnels: Ghosts move at half speed through the side escape tunnels, giving you an easy getaway.",
-      "Time Power Pellets: Wait until multiple ghosts are in your vicinity before eating a power pellet to chain multiple ghost bonuses."
+      "Use Side Warp Tunnels: Ghosts move at half speed through side tunnels.",
+      "Time Power Pellets: Wait until multiple ghosts are close before eating a power pellet."
     ],
     "faq": [
       {
         "q": "Are authentic sound effects included?",
-        "a": "Yes! Authentic retro arcade waka-waka sounds, siren loops, and ghost eating audio are fully reproduced."
+        "a": "Yes! Authentic retro waka-waka sounds and ghost siren loops are included."
       }
     ]
   },
@@ -1016,24 +1338,23 @@
       },
       {
         "key": "Up Arrow",
-        "action": "Engage Rocket Thruster"
+        "action": "Engage Thruster"
       },
       {
         "key": "Spacebar",
-        "action": "Fire Laser Blaster"
+        "action": "Fire Laser"
       }
     ],
-    "overview": "Asteroids HTML5 brings Atari’s legendary vector arcade shooter into modern web browsers with authentic inertia flight physics, particle explosions, and retro sound effects. Command a triangular spacecraft in a hazardous asteroid field, blasting giant space rocks into smaller fragments while avoiding deadly collisions.",
-    "howToPlay": "Rotate your ship, pulse thrusters for forward momentum, and fire lasers at floating asteroids. Large asteroids break into two medium ones, which fragment into two small fast-moving chunks before being destroyed.",
+    "overview": "Asteroids HTML5 brings Atari’s legendary vector arcade shooter into web browsers with authentic inertia flight physics, particle explosions, and retro sound effects.",
+    "howToPlay": "Rotate your ship, pulse thrusters for momentum, and blast floating asteroids into smaller fragments before destroying them completely.",
     "tips": [
-      "Do Not Over-Thrust: Space has no friction! Tapping thrusters lightly keeps you in control without flying off-screen at uncontrollable speeds.",
-      "Shoot From Center: Staying near the center gives you 360-degree reaction time against incoming fragments.",
-      "Eliminate Small Chunks First: Small asteroid shards move the fastest and pose the highest collision threat."
+      "Do Not Over-Thrust: Space has no friction; tap thrusters lightly to stay in control.",
+      "Eliminate Small Chunks First: Small fragments move the fastest."
     ],
     "faq": [
       {
         "q": "Does the ship wrap around screen edges?",
-        "a": "Yes, passing through any border immediately wraps your ship to the opposite side of the screen."
+        "a": "Yes, passing through borders wraps you to the opposite side."
       }
     ]
   },
@@ -1061,16 +1382,15 @@
         "action": "Pause / Resume"
       }
     ],
-    "overview": "Retro Snake is the classic arcade game that defined mobile gaming history. Guide your hungry pixel snake across the grid, swallowing apples to grow longer with each bite. As your snake extends, maneuvering through tight corridors without crashing into walls or biting your own tail becomes a thrilling test of spatial planning.",
-    "howToPlay": "Navigate the snake to eat the food. Each meal increases your score and adds one segment to your body. Avoid colliding with grid boundaries and your own tail.",
+    "overview": "Retro Snake is the classic arcade game that defined mobile gaming history. Guide your hungry snake across the grid, eating food to grow longer while avoiding collisions with walls and your own tail.",
+    "howToPlay": "Eat food to increase score and length. Avoid colliding with boundaries and body segments.",
     "tips": [
-      "Follow the Perimeter: When your snake gets very long, circle the outer perimeter in a zigzag pattern to keep open space in the middle.",
-      "Never Double Back: Avoid pressing the opposite direction key to prevent instant head-to-body collisions."
+      "Follow the Perimeter: When very long, circle the outer edge in a zigzag pattern to keep open space in the middle."
     ],
     "faq": [
       {
-        "q": "Can I play Retro Snake on touchscreens?",
-        "a": "Yes, swipe gestures or on-screen directional controls allow full mobile support."
+        "q": "Can I play Retro Snake on mobile?",
+        "a": "Yes, touch and swipe gestures are fully supported."
       }
     ]
   },
@@ -1094,16 +1414,15 @@
         "action": "Flap Upward"
       }
     ],
-    "overview": "Flappy 2048 combines the physics-based tap flight of Flappy Bird with the mathematical merging logic of 2048! Control a flying number tile, glide between towering numerical gates, and merge with identical values to upgrade your tile from 2 to 4, 8, 16... all the way to 2048 while dodging non-matching barriers.",
-    "howToPlay": "Tap space or click to flap upward. Fly into gate openings that match your current tile number to merge and level up. Crashing into mismatching tiles or the floor resets your run.",
+    "overview": "Flappy 2048 combines the physics-based tap flight of Flappy Bird with the mathematical merging logic of 2048. Control a flying number tile, glide between barriers, and merge with identical values to upgrade your tile to 2048.",
+    "howToPlay": "Tap space to flap upward. Fly into gate openings matching your current tile number to merge and level up.",
     "tips": [
-      "Read Gates Early: Identify the matching number slot well in advance before approaching the barrier.",
-      "Maintain Mid-Level Altitude: Hovering near middle height gives you the easiest angle to adjust up or down quickly."
+      "Read Gates Early: Identify the matching number slot well in advance before approaching the barrier."
     ],
     "faq": [
       {
         "q": "What happens when you hit the 2048 tile?",
-        "a": "Reaching 2048 awards a massive victory score and unlocks endless master mode!"
+        "a": "Reaching 2048 awards a massive victory score and unlocks endless mode."
       }
     ]
   }

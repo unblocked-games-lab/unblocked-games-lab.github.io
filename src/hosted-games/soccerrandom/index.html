@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <title>Soccer Random</title>
+    
+    
+
+    <meta charset="UTF-8">
+
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="#0275d8" name="theme-color">
+    <meta content="#0275d8" name="msapplication-navbutton-color">
+    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
+    <meta content="/" name="msapplication-starturl">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
+
+    <link href="style.css" rel="stylesheet">
+
+    <script>
+        window.addEventListener("keydown", function (e) {
+            // space and arrow keys
+            if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+                e.preventDefault();
+            }
+        }, false);
+    </script>
+
+</head>
+<body>
+<div id="fb-root"></div>
+<script src="box2d.wasm.js"></script>
+<noscript>
+    <div id="notSupportedWrap">
+        <h2 id="notSupportedTitle">This content requires JavaScript</h2>
+        <p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+        <p class="notSupportedMessage">This content was created in Construct 3. <a href="https://www.construct.net/en">Create games online</a></p>
+    </div>
+</noscript>
+<script src="scripts/supportcheck.js"></script>
+<script src="scripts/offlineclient.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/register-sw.js"></script>
+</body>
+</html>
