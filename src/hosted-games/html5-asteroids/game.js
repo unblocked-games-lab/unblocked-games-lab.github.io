@@ -832,9 +832,13 @@ Text = {
     return width;
   },
 
-  renderCenteredText: function(text, size, y) {
+  renderCenteredText: function(text, size, targetCenterY) {
     var width = this.measureText(text, size);
     var x = (Game.canvasWidth - width) / 2;
+    var pixels = size * 72 / (this.face.resolution * 100);
+    var fontHeight = 1300 * pixels;
+    var centerY = (typeof targetCenterY === 'number') ? targetCenterY : (Game.canvasHeight / 2);
+    var y = centerY + (fontHeight / 2);
     this.renderText(text, size, x, y);
   },
 
@@ -952,7 +956,7 @@ Game = {
       this.state = 'waiting';
     },
     waiting: function () {
-      Text.renderCenteredText(window.ipad ? 'TOUCH SCREEN TO START' : 'PRESS SPACE TO START', 26, Game.canvasHeight / 2 + 12);
+      Text.renderCenteredText(window.ipad ? 'TOUCH SCREEN TO START' : 'PRESS SPACE TO START', 26, Game.canvasHeight / 2);
       if (KEY_STATUS.space || window.gameStart) {
         KEY_STATUS.space = false; // hack so we don't shoot right away
         window.gameStart = false;
