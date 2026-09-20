@@ -843,26 +843,35 @@ SFX = {
   explosion: new Audio('51467__smcameron__missile_explosion.wav')
 };
 
-// preload audio
+// preload audio safely
 for (var sfx in SFX) {
   (function () {
     var audio = SFX[sfx];
     audio.muted = true;
-    audio.play();
+    try {
+      var p = audio.play();
+      if (p && p.catch) p.catch(function(){});
+    } catch(e) {}
 
     SFX[sfx] = function () {
       if (!this.muted) {
         if (audio.duration == 0) {
-          // somehow dropped out
           audio.load();
-          audio.play();
+          try {
+            var p2 = audio.play();
+            if (p2 && p2.catch) p2.catch(function(){});
+          } catch(e) {}
         } else {
           audio.muted = false;
           audio.currentTime = 0;
+          try {
+            var p3 = audio.play();
+            if (p3 && p3.catch) p3.catch(function(){});
+          } catch(e) {}
         }
       }
       return audio;
-    }
+    };
   })();
 }
 // pre-mute audio
@@ -1125,7 +1134,10 @@ $(function () {
   })();
 
   var mainLoop = function () {
-    context.clearRect(0, 0, Game.canvasWidth, Game.canvasHeight);
+    context.fillStyle = '#070b14';
+    context.fillRect(0, 0, Game.canvasWidth, Game.canvasHeight);
+    context.fillStyle = '#ffffff';
+    context.strokeStyle = '#ffffff';
 
     Game.FSM.execute();
 
