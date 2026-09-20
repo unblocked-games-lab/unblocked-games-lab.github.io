@@ -50,7 +50,14 @@
         var gameInstance = UnityLoader.instantiate("gameContainer", "build.json", {
             onProgress: UnityProgress, Module: {
                 onRuntimeInitialized: function () {
-                    UnityProgress(gameInstance, "complete")
+                    UnityProgress(gameInstance, "complete");
+                    const dismissModal = () => {
+                        try { gameInstance.SendMessage('', 'CloseLoginRegisterGui'); } catch(e) {}
+                        try { gameInstance.SendMessage('', 'CloseGui'); } catch(e) {}
+                        try { gameInstance.SendMessage('', 'CloseAutoLoginGui'); } catch(e) {}
+                    };
+                    setTimeout(dismissModal, 500);
+                    setTimeout(dismissModal, 1500);
                 }
             }
         });
