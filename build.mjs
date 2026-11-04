@@ -75,6 +75,7 @@ function renderHeader(activeNav = '') {
           <a href="${SITE_URL}/category/sports/" class="px-3 py-1.5 rounded-lg transition-all ${activeNav === 'sports' ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30' : 'text-slate-300 hover:text-white hover:bg-slate-900'}">Sports</a>
           <a href="${SITE_URL}/category/skill/" class="px-3 py-1.5 rounded-lg transition-all ${activeNav === 'skill' ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30' : 'text-slate-300 hover:text-white hover:bg-slate-900'}">Skill</a>
           <a href="${SITE_URL}/category/2-player/" class="px-3 py-1.5 rounded-lg transition-all ${activeNav === '2-player' ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30' : 'text-slate-300 hover:text-white hover:bg-slate-900'}">2 Player</a>
+          <a href="https://playgesturesynth.com" target="_blank" rel="noopener" class="px-2.5 py-1 text-xs font-semibold rounded-lg bg-pink-500/15 text-pink-400 border border-pink-500/30 hover:bg-pink-500/25 transition-all">✨ Audio Synth</a>
           <a href="${SITE_URL}/about/" class="px-3 py-1.5 rounded-lg transition-all ${activeNav === 'about' ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30' : 'text-slate-300 hover:text-white hover:bg-slate-900'}">About</a>
         </nav>
       </div>
@@ -134,13 +135,14 @@ function renderFooter() {
 
         <!-- Legal & Info -->
         <div>
-          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Information</h4>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Information & Labs</h4>
           <ul class="space-y-2.5">
             <li><a href="${SITE_URL}/about/" class="hover:text-cyan-400 transition-colors">About Our Mission</a></li>
+            <li><a href="https://playgesturesynth.com" target="_blank" rel="noopener" class="hover:text-pink-400 transition-colors">✨ Gesture Synth Lab</a></li>
+            <li><a href="https://probablystolengameguide.com" target="_blank" rel="noopener" class="hover:text-cyan-400 transition-colors">🎮 Probably Stolen Guide</a></li>
+            <li><a href="https://burncdonline.com" target="_blank" rel="noopener" class="hover:text-purple-400 transition-colors">💿 Burn CD Online 98</a></li>
             <li><a href="${SITE_URL}/privacy/" class="hover:text-cyan-400 transition-colors">Privacy Policy</a></li>
             <li><a href="${SITE_URL}/terms/" class="hover:text-cyan-400 transition-colors">Terms of Service</a></li>
-            <li><a href="${SITE_URL}/dmca/" class="hover:text-cyan-400 transition-colors">DMCA Notice</a></li>
-            <li><a href="${SITE_URL}/contact/" class="hover:text-cyan-400 transition-colors">Contact & Requests</a></li>
           </ul>
         </div>
       </div>
