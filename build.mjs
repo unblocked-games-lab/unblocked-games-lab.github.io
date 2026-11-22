@@ -257,6 +257,7 @@ function renderPage({
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="naver-site-verification" content="5610e6ed0371d6c344ef3b5d6f23bbf5040484d2">
   <title>${title}</title>
   <meta name="description" content="${description}">
   <link rel="canonical" href="${canonicalUrl}">
